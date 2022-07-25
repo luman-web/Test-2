@@ -1,0 +1,27 @@
+[
+  {
+    "filePath": "tables/grid1.json",
+    "savePath": "models/grid1",
+    "isModel": true,
+    "modelKey": "grid1"
+  },
+  {
+    "filePath": "tables/pages.json",
+    "savePath": "models/pages",
+    "isModel": true,
+    "modelKey": "pages"
+  },
+  {
+    "filePath": "pages/-Mc8nESgZuCUfKXJafUi.json",
+    "savePath": "tabs/-Mc8nESgZuCUfKXJafUi"
+  },
+  {
+    "filePath": "widgets/-Mc9J-oI3NomzWNrmaqa/widget.json",
+    "savePath": "widgets/-Mc9J-oI3NomzWNrmaqa"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/grid1.json",
+    "savePath": "widgetsData/dataGrid/grid1",
+    "conversion": "dataGrid"
+  }
+]
