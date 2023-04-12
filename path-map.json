@@ -1,0 +1,50 @@
+[
+  {
+    "filePath": "tables/pages.json",
+    "savePath": "models/pages",
+    "isModel": true,
+    "modelKey": "pages"
+  },
+  {
+    "filePath": "tables/roles.json",
+    "savePath": "models/roles",
+    "isModel": true,
+    "modelKey": "roles"
+  },
+  {
+    "filePath": "tables/workflows.json",
+    "savePath": "models/workflows",
+    "isModel": true,
+    "modelKey": "workflows"
+  },
+  {
+    "filePath": "pages/-Mc8nESgZuCUfKXJafUi.json",
+    "savePath": "tabs/-Mc8nESgZuCUfKXJafUi"
+  },
+  {
+    "filePath": "widgets/-NOPDEbElwvCm_GVoiOU/widget.json",
+    "savePath": "widgets/-NOPDEbElwvCm_GVoiOU"
+  },
+  {
+    "filePath": "widgets/-NOPDEbElwvCm_GVoiOU/template.html",
+    "savePath": "widgets/-NOPDEbElwvCm_GVoiOU/template"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/users.json",
+    "savePath": "widgetsData/dataGrid/users",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Workflow 1/Script Task (node1681304254920).js",
+    "savePath": "workflow/-NAtDvp4E_hLcL3-oT-c",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-NAtDvp4E_hLcL3-oT-c",
+    "workflowFile": "workflow/Workflow 1 (-NAtDvp4E_hLcL3-oT-c).json",
+    "nodeId": "node1681304254920"
+  },
+  {
+    "filePath": "workflow/Workflow 1 (-NAtDvp4E_hLcL3-oT-c).json",
+    "savePath": "workflow/-NAtDvp4E_hLcL3-oT-c",
+    "conversion": "workflow"
+  }
+]

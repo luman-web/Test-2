@@ -1,0 +1,17 @@
+{
+  "-NAtDvp4E_hLcL3-oT-c": {
+    "lastEditDate": 1677723471652,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Workflow 1",
+    "rootEndpoint": "/workflow1",
+    "rowKey": "-NAtDvp4E_hLcL3-oT-c",
+    "scheduled": false,
+    "workflowKey": "-NAtDvp4E_hLcL3-oT-c"
+  },
+  "-NNMJg9wBhbQ9YIlwrtI": {
+    "_id": 1,
+    "name": "Empty Workflow",
+    "rowKey": "-NNMJg9wBhbQ9YIlwrtI",
+    "workflowKey": "-NNMJg9wBhbQ9YIlwrtI"
+  }
+}

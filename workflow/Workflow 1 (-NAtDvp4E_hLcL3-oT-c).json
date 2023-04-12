@@ -1,0 +1,92 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NAtDvp4E_hLcL3-oT-c",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1681304253720",
+        "x": 275.7142857142857,
+        "y": 164.72098214285714,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1681304254920",
+        "x": 275.71,
+        "y": 327.58,
+        "width": "auto",
+        "height": 40,
+        "attachment": {
+          "script": ""
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1681304260303",
+        "x": 275.71,
+        "y": 493.3,
+        "width": "auto",
+        "height": 40,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1681304253720-bottom",
+        "target": "node1681304254920",
+        "endSocket": "right",
+        "id": "line-1681304268996",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1681304254920-bottom",
+        "target": "node1681304260303",
+        "endSocket": "right",
+        "id": "line-1681304272854",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Workflow 1",
+  "rootEndpoint": "/workflow1",
+  "scheduled": false
+}
