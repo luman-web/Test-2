@@ -87,6 +87,5 @@
     ]
   },
   "name": "Workflow 1",
-  "rootEndpoint": "/workflow1",
-  "scheduled": false
+  "rootEndpoint": "/workflow1"
 }
