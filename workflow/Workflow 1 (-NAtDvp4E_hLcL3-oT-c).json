@@ -26,9 +26,7 @@
         "y": 327.58,
         "width": "auto",
         "height": 40,
-        "attachment": {
-          "script": ""
-        },
+        "attachment": {},
         "name": "script-task",
         "clazz": "scriptTask",
         "label": "Script Task",

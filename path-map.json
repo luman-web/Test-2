@@ -12,6 +12,17 @@
     "modelKey": "roles"
   },
   {
+    "filePath": "tables/workflowFunctions.json",
+    "savePath": "models/workflowFunctions",
+    "isModel": true,
+    "modelKey": "workflowFunctions"
+  },
+  {
+    "filePath": "tables/workflowFunctions/foo(-NSpwcYflVvYk0NaAn1V).js",
+    "savePath": "models/workflowFunctions/-NSpwcYflVvYk0NaAn1V/function",
+    "isWorkflowFunction": true
+  },
+  {
     "filePath": "tables/workflows.json",
     "savePath": "models/workflows",
     "isModel": true,
