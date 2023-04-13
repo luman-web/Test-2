@@ -2,7 +2,7 @@
   "-NSpwcYflVvYk0NaAn1V": {
     "_id": 1,
     "createdDate": 1681311041772,
-    "function": "function foo() {\n  return 654;\n}\n",
+    "function": "function foo() {\n  return 100;\n}\n",
     "lastEditDate": 1681311059105,
     "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
     "name": "foo",
