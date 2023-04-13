@@ -1,3 +1,3 @@
 function foo() {
-  return 100;
+  return 200;
 }
