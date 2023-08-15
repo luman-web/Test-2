@@ -1,0 +1,27 @@
+{
+  "last-read": {
+    "xuTSVRW20mS00HV0ANw51A2ts862": {
+      "lastRead": 1692085709490
+    }
+  },
+  "messages": {
+    "-Nbs7a4EVJlauvdBGhhI": {
+      "author": "lumanweb1@gmail.com",
+      "data": {
+        "text": "Test message here"
+      },
+      "date": 1692085149100,
+      "type": "text",
+      "user": "xuTSVRW20mS00HV0ANw51A2ts862"
+    },
+    "-Nbs8De2wMEKGPoTFfdQ": {
+      "author": "lumanweb1@gmail.com",
+      "data": {
+        "text": "Another message"
+      },
+      "date": 1692085315296,
+      "type": "text",
+      "user": "xuTSVRW20mS00HV0ANw51A2ts862"
+    }
+  }
+}

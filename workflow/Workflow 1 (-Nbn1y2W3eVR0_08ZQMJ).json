@@ -1,14 +1,14 @@
 {
   "data": {
     "metaData": {
-      "id": "-NAtDvp4E_hLcL3-oT-c",
+      "id": "-Nbn1y2W3eVR0_08ZQMJ",
       "statusField": ""
     },
     "nodes": [
       {
-        "id": "node1681304253720",
-        "x": 275.7142857142857,
-        "y": 164.72098214285714,
+        "id": "node1691999800851",
+        "x": 130.57143075125558,
+        "y": 118.1428555079869,
         "width": "auto",
         "height": 40,
         "attachment": {},
@@ -21,9 +21,9 @@
         }
       },
       {
-        "id": "node1681304254920",
-        "x": 275.71,
-        "y": 327.58,
+        "id": "node1691999801962",
+        "x": 131,
+        "y": 279.57,
         "width": "auto",
         "height": 40,
         "attachment": {},
@@ -36,9 +36,9 @@
         }
       },
       {
-        "id": "node1681304260303",
-        "x": 275.71,
-        "y": 493.3,
+        "id": "node1691999823360",
+        "x": 131,
+        "y": 438.14,
         "width": "auto",
         "height": 40,
         "attachment": {},
@@ -53,10 +53,10 @@
     ],
     "edges": [
       {
-        "source": "node1681304253720-bottom",
-        "target": "node1681304254920",
-        "endSocket": "right",
-        "id": "line-1681304268996",
+        "source": "node1691999800851-bottom",
+        "target": "node1691999801962",
+        "endSocket": "top",
+        "id": "line-1691999807259",
         "label": "Start Event",
         "targetLabel": "Script Task",
         "type": {
@@ -68,10 +68,10 @@
         }
       },
       {
-        "source": "node1681304254920-bottom",
-        "target": "node1681304260303",
-        "endSocket": "right",
-        "id": "line-1681304272854",
+        "source": "node1691999801962-bottom",
+        "target": "node1691999823360",
+        "endSocket": "top",
+        "id": "line-1691999827423",
         "label": "Script Task",
         "targetLabel": "End Event",
         "type": {
@@ -84,6 +84,6 @@
       }
     ]
   },
-  "name": "Workflow 1",
-  "rootEndpoint": "/workflow1"
+  "handleAsSingleScript": true,
+  "name": "Workflow 1"
 }

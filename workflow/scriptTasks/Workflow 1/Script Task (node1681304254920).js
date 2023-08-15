@@ -1,3 +1,0 @@
-context.data = {
-    foo: foo()
-}
