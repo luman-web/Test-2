@@ -1,0 +1,18 @@
+{
+  "-Nbhof3_DhU4zYiuuStN": {
+    "_id": 1,
+    "createdDate": 1691912154915,
+    "expression": "$sum('sumTestItems.value', 'sumTest', rowData.sumTest) ",
+    "groupBy": "sumTest",
+    "lastEditDate": 1691912154915,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "control_2f50d6f0-a83a-11ed-bf61-c756c05c7273",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-Nbhof3_DhU4zYiuuStN",
+    "sourceField": "value",
+    "sourceTable": "sumTestItems",
+    "targetField": "sum",
+    "targetTable": "sumTest",
+    "type": "sum"
+  }
+}

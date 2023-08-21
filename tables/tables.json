@@ -1,14 +1,14 @@
 {
-  "-NQoWey9mTTcj9BUPN3G": {
+  "-NZf__JInl7LaAjYLA-h": {
     "_id": 1,
-    "key": "grid1",
-    "name": "Grid 1",
-    "rowKey": "-NQoWey9mTTcj9BUPN3G"
+    "key": "products",
+    "name": "Products",
+    "rowKey": "-NZf__JInl7LaAjYLA-h"
   },
-  "-Nbrdgm0ETKIUdj-jX6F": {
+  "-NZjIIPxVLeEugsbcJ9f": {
     "_id": 2,
-    "key": "grid1",
-    "name": "Grid 1",
-    "rowKey": "-Nbrdgm0ETKIUdj-jX6F"
+    "key": "shops",
+    "name": "Shops",
+    "rowKey": "-NZjIIPxVLeEugsbcJ9f"
   }
 }

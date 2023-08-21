@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/sumTestItems",
+  "gsOptions": {
+    "h": 3,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "sumTestItems"
+  },
+  "tab": "-NNoijztkJHnQmwnnpBJ",
+  "type": "DataGrid"
+}

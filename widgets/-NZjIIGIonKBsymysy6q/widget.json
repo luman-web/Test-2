@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/shops",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "shops"
+  },
+  "tab": "-NZjIIDWiUt9AVy_sgWF",
+  "type": "DataGrid"
+}

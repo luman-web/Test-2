@@ -1,0 +1,102 @@
+{
+  "-NZf__ivCPMZ0dCFAAhC": {
+    "_id": 1,
+    "category": "1",
+    "createdDate": 1688653422368,
+    "lastEditDate": 1688843511601,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Apple",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 10,
+    "rowKey": "-NZf__ivCPMZ0dCFAAhC",
+    "shop": "-NZjIInUvvyzjXgZeQY3",
+    "stock": true
+  },
+  "-NZf_a64ZstcL8wk_xQu": {
+    "_id": 2,
+    "category": "1",
+    "createdDate": 1688653423915,
+    "lastEditDate": 1688843512407,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Orange",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 15,
+    "rowKey": "-NZf_a64ZstcL8wk_xQu",
+    "shop": "-NZjIInUvvyzjXgZeQY3",
+    "stock": true
+  },
+  "-NZf_aJvPGYrZ7B6s-YE": {
+    "_id": 3,
+    "category": "1",
+    "createdDate": 1688653424800,
+    "lastEditDate": 1688843516914,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Banana",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 15,
+    "rowKey": "-NZf_aJvPGYrZ7B6s-YE",
+    "shop": "-NZjIInUvvyzjXgZeQY3",
+    "stock": true
+  },
+  "-NZf_aUucID13i8y35Sm": {
+    "_id": 4,
+    "category": "1",
+    "createdDate": 1688653425503,
+    "lastEditDate": 1688843517509,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Kiwi",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 18,
+    "rowKey": "-NZf_aUucID13i8y35Sm",
+    "shop": "-NZjIInUvvyzjXgZeQY3",
+    "stock": true
+  },
+  "-NZjHrt_-7-sk-jN39fe": {
+    "_id": 5,
+    "createdDate": 1688715623874,
+    "lastEditDate": 1688844232649,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Apple",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 12,
+    "rowKey": "-NZjHrt_-7-sk-jN39fe",
+    "shop": "-NZjIK0cuZZ0v1CgjHu-",
+    "stock": false
+  },
+  "-NZjHs6gyK5oSl-z7kim": {
+    "_id": 6,
+    "createdDate": 1688715624776,
+    "lastEditDate": 1688843519022,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Orange",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 14,
+    "rowKey": "-NZjHs6gyK5oSl-z7kim",
+    "shop": "-NZjIK0cuZZ0v1CgjHu-",
+    "stock": true
+  },
+  "-NZjHsHIUzVCcBmBK2XP": {
+    "_id": 7,
+    "createdDate": 1688715625455,
+    "lastEditDate": 1688843519486,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Banana",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 16,
+    "rowKey": "-NZjHsHIUzVCcBmBK2XP",
+    "shop": "-NZjIK0cuZZ0v1CgjHu-",
+    "stock": true
+  },
+  "-NZjHsetTxn0ftVO7k1d": {
+    "_id": 8,
+    "createdDate": 1688715627029,
+    "lastEditDate": 1688843520705,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Kiwi",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "price": 17,
+    "rowKey": "-NZjHsetTxn0ftVO7k1d",
+    "shop": "-NZjIK0cuZZ0v1CgjHu-",
+    "stock": true
+  }
+}

@@ -1,9 +1,9 @@
 {
   "cardBackgroundColor": "white",
-  "cardOutlineTheme": "boxShadow",
-  "dataGridTheme": "striped",
+  "cardOutlineTheme": "border",
+  "dataGridTheme": "white",
   "leftNavBarTheme": "white",
-  "mainBackgroundColor": "white",
-  "navBarTheme": "light",
+  "mainBackgroundColor": "none",
+  "navBarTheme": "dark",
   "navPlacement": "sidebar"
 }

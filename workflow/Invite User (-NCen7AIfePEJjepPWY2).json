@@ -1,0 +1,95 @@
+{
+  "authRequired": "bearer",
+  "authRequiredRole": "-NCfiV5vf3Sded6inJUL",
+  "data": {
+    "metaData": {
+      "id": "-NCen7AIfePEJjepPWY2",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1663944135344",
+        "x": 268.5714285714286,
+        "y": 303.28571319580084,
+        "width": 191,
+        "height": 64,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1663944136857",
+        "x": 269.06,
+        "y": 536.83,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      },
+      {
+        "id": "node1663944137903",
+        "x": 269.51,
+        "y": 419.01,
+        "width": 191,
+        "height": 64,
+        "attachment": {},
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1663944135344-bottom",
+        "target": "node1663944137903",
+        "endSocket": "top",
+        "id": "line-1663944155367",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1663944137903-bottom",
+        "target": "node1663944136857",
+        "endSocket": "top",
+        "id": "line-1663944167266",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -211.73437559186067,
+      "y": -216.93260198082464,
+      "scale": 1.2699959098036915
+    }
+  },
+  "name": "Invite User"
+}

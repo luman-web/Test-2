@@ -1,0 +1,158 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NYrgsGjWSrNvl0R8nRU",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1687782971869",
+        "x": 1124.4863814874095,
+        "y": 425.00613214844293,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1687782977149",
+        "x": 1125.12,
+        "y": 770.79,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      },
+      {
+        "id": "node1687782992905",
+        "x": 1125.44,
+        "y": 587.96,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1687782971869-bottom",
+        "target": "node1687782992905",
+        "endSocket": "top",
+        "id": "line-1687783003190",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1687782992905-bottom",
+        "target": "node1687782977149",
+        "endSocket": "top",
+        "id": "line-1687783006464",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -644.1408267522727,
+      "y": -177.9973393762466,
+      "scale": 0.6363636363636368
+    },
+    "workflowId": "-NYrgsGjWSrNvl0R8nRU",
+    "defaultScale": 1,
+    "compactScale": 0.7,
+    "workflowMinScale": 0.2,
+    "workflowMaxScale": 3,
+    "workflowTransform": {
+      "x": -644.1408267522727,
+      "y": -177.9973393762466,
+      "scale": 0.6363636363636368
+    },
+    "compact": true,
+    "loaded": true,
+    "currentNode": null,
+    "lines": [
+      {
+        "source": "node1687782971869-bottom",
+        "target": "node1687782992905",
+        "endSocket": "top",
+        "id": "line-1687783003190",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1687782992905-bottom",
+        "target": "node1687782977149",
+        "endSocket": "top",
+        "id": "line-1687783006464",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "currentLine": null,
+    "authRequired": null,
+    "authRequiredRole": null,
+    "lastRun": "",
+    "scheduled": false,
+    "interval": "5",
+    "rootEndpoint": "/test/1",
+    "createEvent": false,
+    "logLevels": [
+      "error"
+    ],
+    "editors": [],
+    "functions": [],
+    "workflowScale": 0.7
+  },
+  "interval": "5",
+  "logLevels": [
+    "error"
+  ],
+  "name": "Test 1",
+  "rootEndpoint": "/test/1",
+  "scheduled": false
+}

@@ -1,0 +1,19 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/grid2",
+  "gsOptions": {
+    "h": 6,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "grid2"
+  },
+  "styles": "",
+  "tab": "-Mq-TRKvGiJt_z4xlifv",
+  "title": "",
+  "type": "DataGrid"
+}

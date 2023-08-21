@@ -1,0 +1,15 @@
+{
+  "dependency": "tpivottables/-NW78X0z_-U7skuOogVa",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "props": {
+    "dataKey": "-NW78X0z_-U7skuOogVa"
+  },
+  "tab": "-NW78RSUS5hG3YOPStCR",
+  "type": "tPivotTable"
+}

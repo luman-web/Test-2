@@ -1,0 +1,35 @@
+{
+  "-MyNeD-q3TXUUgEOOO4n": {
+    "_id": 1,
+    "createdDate": 1647533679006,
+    "lastEditDate": 1647533700319,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "uid",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-MyNeD-q3TXUUgEOOO4n",
+    "type": "string",
+    "workflow": "-MwcIEtsCSRtdthXrKBE"
+  },
+  "-NFipm3s_TUVovyf_VbZ": {
+    "_id": 2,
+    "createdDate": 1667233161553,
+    "lastEditDate": 1667233172066,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "resAsBoolean",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-NFipm3s_TUVovyf_VbZ",
+    "type": "boolean",
+    "workflow": "-NFioxBBvtYUvdXqDsIm"
+  },
+  "-NFippAntGEACIUJg5n0": {
+    "_id": 3,
+    "createdDate": 1667233174285,
+    "lastEditDate": 1667233180750,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "resAsString",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-NFippAntGEACIUJg5n0",
+    "type": "string",
+    "workflow": "-NFioxBBvtYUvdXqDsIm"
+  }
+}

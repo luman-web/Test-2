@@ -1,0 +1,1 @@
+return 'computed result: ' + (1 + 1)
