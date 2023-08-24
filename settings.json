@@ -1,10 +1,7 @@
 {
-  "doNotExposeHelpersInWindow": false,
-  "isLoadingNavbarHidden": false,
   "regional": {
-    "currency": "$",
+    "currency": "₽",
     "date": "DD/MM/YYYY",
-    "time": "DD/MM/YYYY HH:mm"
-  },
-  "userListOnlyForAdmins": false
+    "time": "DD/MM/YYYY, HH:mm"
+  }
 }
