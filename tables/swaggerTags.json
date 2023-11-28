@@ -1,0 +1,22 @@
+{
+  "-NFDm21YZoNNbfXX8QHM": {
+    "_id": 1,
+    "createdDate": 1666695311535,
+    "description": "Authorization Endpoint",
+    "lastEditDate": 1666695334400,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "auth",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-NFDm21YZoNNbfXX8QHM"
+  },
+  "-NFEMs0Cbtl7LH_joTJG": {
+    "_id": 2,
+    "createdDate": 1666705227867,
+    "description": "Users Endpoints",
+    "lastEditDate": 1666705263651,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "users",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-NFEMs0Cbtl7LH_joTJG"
+  }
+}

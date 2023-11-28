@@ -1,0 +1,22 @@
+{
+  "-NPNE9YF7muPunHwFvXF": {
+    "_id": 1,
+    "createdDate": 1677591357718,
+    "lastEditDate": 1682671148159,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Alex",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-NPNE9YF7muPunHwFvXF",
+    "surname": "Smith"
+  },
+  "-NPNECxstSDe1nrwPbfY": {
+    "_id": 2,
+    "createdDate": 1677591371711,
+    "lastEditDate": 1682671157906,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "John",
+    "owner": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "rowKey": "-NPNECxstSDe1nrwPbfY",
+    "surname": "Whick"
+  }
+}

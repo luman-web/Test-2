@@ -1,0 +1,128 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NUL_LfCLZkA2Df2jBkU",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1682932333808",
+        "x": 357.14285714285717,
+        "y": 184.72098214285714,
+        "width": 191,
+        "height": 65,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1682932335115",
+        "x": 301.42857142857144,
+        "y": 333.2924107142858,
+        "width": 191,
+        "height": 65,
+        "attachment": {
+          "script": ""
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1682934500614",
+        "x": 305.2777220567209,
+        "y": 462.8387838180001,
+        "width": 191,
+        "height": 65,
+        "attachment": {
+          "script": ""
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1682934503879",
+        "x": 305.73,
+        "y": 587.63,
+        "width": 191,
+        "height": 65,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1682932333808-bottom",
+        "target": "node1682932335115",
+        "endSocket": "top",
+        "id": "line-1682932361469",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1682932335115-bottom",
+        "target": "node1682934500614",
+        "endSocket": "top",
+        "id": "line-1682934508224",
+        "label": "Script Task",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1682934500614-bottom",
+        "target": "node1682934503879",
+        "endSocket": "top",
+        "id": "line-1682934511635",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -89.37889222823011,
+      "y": -18.655728515636326,
+      "scale": 0.689139350142695
+    }
+  },
+  "name": "User 1",
+  "scheduled": false
+}

@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/stages",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "stages"
+  },
+  "tab": "-NeC5q7pP4YtZ8dyLO76",
+  "type": "DataGrid"
+}

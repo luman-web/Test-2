@@ -1,5 +1,0 @@
-{
-  "lazy": true,
-  "shouldUpdate": "return true",
-  "value": "return 321"
-}

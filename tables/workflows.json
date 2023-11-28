@@ -1,17 +1,56 @@
 {
-  "-Nbn1y2W3eVR0_08ZQMJ": {
-    "_id": 1,
-    "name": "Workflow 1",
-    "rowKey": "-Nbn1y2W3eVR0_08ZQMJ",
-    "workflowKey": "-Nbn1y2W3eVR0_08ZQMJ"
-  },
-  "-Nbn1z_HKIEr4koSgJaN": {
-    "_id": 2,
-    "lastEditDate": 1691999977354,
+  "-NF8iiMee4WI6fEVY_Ih": {
+    "description": "Workflow description 1",
+    "doc": "-NFDlz697GHNBLjiCB2t",
+    "lastEditDate": 1666893588720,
     "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
-    "name": "Workflow 2",
-    "rowKey": "-Nbn1z_HKIEr4koSgJaN",
-    "scheduled": true,
-    "workflowKey": "-Nbn1z_HKIEr4koSgJaN"
+    "name": "Login Workflow",
+    "rootEndpoint": "/login",
+    "rowKey": "-NF8iiMee4WI6fEVY_Ih",
+    "scheduled": false,
+    "tags": "-NFDm21YZoNNbfXX8QHM",
+    "workflowKey": "-NF8iiMee4WI6fEVY_Ih"
+  },
+  "-NF8ijST1ZH64DmWb87O": {
+    "description": "Workflow description 2",
+    "doc": "-NFDlz697GHNBLjiCB2t",
+    "lastEditDate": 1666893590558,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Logout Workflow",
+    "rootEndpoint": "/logout",
+    "rowKey": "-NF8ijST1ZH64DmWb87O",
+    "scheduled": false,
+    "tags": "-NFDm21YZoNNbfXX8QHM",
+    "workflowKey": "-NF8ijST1ZH64DmWb87O"
+  },
+  "-NFEN4T5qPa4EK4Ihb3I": {
+    "description": "Workflow description 3",
+    "doc": "-NFDlz697GHNBLjiCB2t",
+    "lastEditDate": 1666893592547,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "method": "get",
+    "name": "Get User List",
+    "rootEndpoint": "/users/read",
+    "rowKey": "-NFEN4T5qPa4EK4Ihb3I",
+    "scheduled": false,
+    "tags": "-NFEMs0Cbtl7LH_joTJG",
+    "workflowKey": "-NFEN4T5qPa4EK4Ihb3I"
+  },
+  "-NUL_LfCLZkA2Df2jBkU": {
+    "_id": 1,
+    "lastEditDate": 1690371214898,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "User 1",
+    "rowKey": "-NUL_LfCLZkA2Df2jBkU",
+    "workflowKey": "-NUL_LfCLZkA2Df2jBkU"
+  },
+  "-Nd_YuNYEfBhbXI-F7B1": {
+    "_id": 2,
+    "lastEditDate": 1693921265181,
+    "lastEditedBy": "xuTSVRW20mS00HV0ANw51A2ts862",
+    "name": "Gen Auth Link",
+    "rootEndpoint": "/gen-auth-link",
+    "rowKey": "-Nd_YuNYEfBhbXI-F7B1",
+    "workflowKey": "-Nd_YuNYEfBhbXI-F7B1"
   }
 }

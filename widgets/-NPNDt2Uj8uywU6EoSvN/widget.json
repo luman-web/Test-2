@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/products",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "products",
+    "view": "productsAsCards"
+  },
+  "tab": "-NPNDt-CGJ7jpXzlDOlm",
+  "type": "DataGrid"
+}

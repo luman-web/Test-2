@@ -1,0 +1,10 @@
+{
+  "descriptionCol": "description",
+  "itemsStorage": "items",
+  "laneCol": "name",
+  "lanesStorage": "lanes",
+  "sortIndexCol": "order",
+  "statusCol": "state",
+  "template": "",
+  "titleCol": "name"
+}
