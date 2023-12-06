@@ -353,11 +353,6 @@
     "conversion": "dataGrid"
   },
   {
-    "filePath": "widgetsData/dataGrid/undefined.json",
-    "savePath": "widgetsData/dataGrid/undefined",
-    "conversion": "dataGrid"
-  },
-  {
     "filePath": "widgetsData/dataGrid/users.json",
     "savePath": "widgetsData/dataGrid/users",
     "conversion": "dataGrid"
