@@ -633,7 +633,7 @@
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 2,
-                "expression": "(rowData.city && rowData.$city.population) || 0 + 2",
+                "expression": "(rowData.city && rowData.$city.population) || 0 + 3",
                 "oneDriveFileId": null,
                 "isTodayValue": false,
                 "isTodayValueCreated": true,
