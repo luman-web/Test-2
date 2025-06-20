@@ -1,8 +1,16 @@
 {
-  "doNotExposeHelpersInWindow": true,
+  "allowToDisableTablesInRoles": false,
+  "cachingForUsers": "SdwrS6nOLjWcZ2M6KqU0wDMaeUk2,xuTSVRW20mS00HV0ANw51A2ts862",
+  "dgRemoveFromPath": true,
+  "enableLogsBenchmark": false,
+  "globalSearchEnabled": false,
+  "isDataGridUpdateFlashEnabled": true,
+  "modelsCachingEnabled": false,
   "regional": {
     "currency": "$",
-    "date": "DD/MM/YYYY",
-    "time": "DD/MM/YYYY HH:mm"
-  }
+    "date": "MM/DD/YYYY",
+    "time": "MM/DD/YYYY, HH:mm"
+  },
+  "showDataGridRecordsHistory": false,
+  "useDataGridGrouping": false
 }

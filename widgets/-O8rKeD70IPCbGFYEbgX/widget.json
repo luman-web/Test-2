@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/cities",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "cities"
+  },
+  "tab": "-O8rKeACDiDbUT3N8L6f",
+  "type": "DataGrid"
+}

@@ -1,0 +1,19 @@
+{
+  "sqlQueryBuilderSchema": {
+    "nodes": [
+      {
+        "gridId": "cities",
+        "id": "node-03b330e0-f05b-11ef-95c0-93e4c9668e64",
+        "left": 228,
+        "selectedFields": [
+          {
+            "key": "name",
+            "visible": true
+          }
+        ],
+        "top": 54
+      }
+    ]
+  },
+  "value": "\n          const filterQuery = true && $getGlobalModel('computed-for-chart-cities')\n          const primaryData = filterQuery\n            ? alasql(filterQuery, [$getGrid('cities')])\n            : $getGrid('cities')\n\n          return alasql(\n\t'SELECT `cities`.`name` \\\n\t FROM ? AS `cities` \\\n\t',\n\t[primaryData]\n)"
+}

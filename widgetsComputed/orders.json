@@ -1,0 +1,19 @@
+{
+  "sqlQueryBuilderSchema": {
+    "nodes": [
+      {
+        "gridId": "orders",
+        "id": "node-fe663a10-f05a-11ef-95c0-93e4c9668e64",
+        "left": 131,
+        "selectedFields": [
+          {
+            "key": "name",
+            "visible": true
+          }
+        ],
+        "top": 36
+      }
+    ]
+  },
+  "value": "\n          const filterQuery = true && $getGlobalModel('computed-for-chart-orders')\n          const primaryData = filterQuery\n            ? alasql(filterQuery, [$getGrid('orders')])\n            : $getGrid('orders')\n\n          return alasql(\n\t'SELECT `orders`.`name` \\\n\t FROM ? AS `orders` \\\n\t',\n\t[primaryData]\n)"
+}

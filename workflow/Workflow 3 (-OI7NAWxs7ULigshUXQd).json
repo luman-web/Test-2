@@ -1,0 +1,95 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-OI7NAWxs7ULigshUXQd",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1738528574192",
+        "x": 243,
+        "y": 125,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1738528575629",
+        "x": 504,
+        "y": 324,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1738528577611",
+        "x": 954.2857142857143,
+        "y": 94.01785714285715,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "7d8b4908-593a-4e12-8abc-c530140294ee",
+        "source": "node1738528574192",
+        "target": "node1738528575629",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "style": {}
+      },
+      {
+        "id": "92530b32-0a0b-4899-bd12-ee153d2c46ab",
+        "source": "node1738528575629",
+        "target": "node1738528577611",
+        "startSocket": "top",
+        "endSocket": "bottom",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": 10.408269841338019,
+      "y": 1.5881024603072547,
+      "scale": 0.4248155152286715,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": true,
+  "name": "Workflow 3",
+  "schema": "{\"swagger\":\"2.0\",\"info\":{\"title\":\"Workflow 3\"},\"host\":\"us-central1-tangledev00.cloudfunctions.net\",\"basePath\":\"/webhook/undefined\",\"schemes\":[\"https\"],\"consumes\":[\"application/json\"],\"produces\":[\"application/json\"],\"paths\":{\"undefined\":{\"post\":{\"tags\":[],\"description\":\"\",\"produces\":[\"application/json\"],\"parameters\":[],\"responses\":{\"200\":{\"description\":\"response\",\"schema\":{\"type\":\"object\",\"properties\":{}}}}}}}}"
+}

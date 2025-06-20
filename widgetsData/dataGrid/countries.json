@@ -1,15 +1,20 @@
 {
-  "dataGroup": "byUser",
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}",
+  "downloadModelInSeparateRequest": false,
+  "initialLoadMaxRecords": "",
   "isReactive": true,
   "meta": {
     "city": {
+      "dataGrid": "cities",
       "displayName": "City",
-      "indexed": true,
-      "lookUpTable": "cities",
+      "filterColumn": "country",
+      "order": 9,
+      "type": "datagrid"
+    },
+    "code": {
+      "displayName": "Code",
       "order": 8,
-      "type": "lookup"
+      "type": "string"
     },
     "createdDate": {
       "displayName": "Created Date",
@@ -37,6 +42,7 @@
     },
     "name": {
       "displayName": "Name",
+      "indexed": true,
       "order": 0,
       "type": "string"
     },
@@ -62,20 +68,20 @@
   "rowEditorFieldsForm": {
     "sections": [
       {
-        "name": "section_822717",
+        "name": "section_242022",
         "label": "",
-        "clientKey": "section_822717",
+        "clientKey": "section_242022",
         "order": 0,
         "rows": [
           {
-            "name": "section_822717_row_867185",
+            "name": "section_242022_row_386001",
             "label": "",
             "order": 0,
             "controls": [
               {
                 "type": "text",
-                "name": "control_a7ee8dc0-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_a7ee8dc0-d32e-11ef-b033-85935b8db997",
+                "name": "control_c8244832-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c8244832-8727-11ef-a539-351fccbf4c21",
                 "label": "Name",
                 "order": 0,
                 "defaultValue": "",
@@ -136,10 +142,10 @@
                 "propName": "name"
               },
               {
-                "type": "lookup",
-                "name": "control_a3161180-d41c-11ef-a597-ed11583d323b",
-                "fieldName": "control_a3161180-d41c-11ef-a597-ed11583d323b",
-                "label": "City",
+                "type": "text",
+                "name": "control_5efe9fa0-8730-11ef-a539-351fccbf4c21",
+                "fieldName": "control_5efe9fa0-8730-11ef-a539-351fccbf4c21",
+                "label": "Code",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -196,8 +202,71 @@
                 "dataGridAddRecordText": "",
                 "skipCrop": false,
                 "disableRoundedStyle": false,
+                "propName": "code"
+              },
+              {
+                "type": "datagrid",
+                "name": "control_60e52160-b3bb-11ef-9ba9-b71a3e9e4104",
+                "fieldName": "control_60e52160-b3bb-11ef-9ba9-b71a3e9e4104",
+                "label": "City",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 2,
+                "expression": "",
+                "oneDriveFileId": null,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "selectedDataGrid": null,
+                "printedFileName": null,
+                "buttonLabel": "",
+                "dataForTemplate": null,
+                "selectedOutputDataGrid": null,
+                "templateRowKey": null,
+                "isForDownload": false,
+                "isOneDriveTemplate": false,
+                "selectedOneDriveFile": null,
+                "openInNewTab": false,
+                "attachRecord": false,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "lookUpSearch": null,
+                "editorMode": "javascript",
+                "dataGridAvailableViews": [],
+                "dataGridView": "relatedList",
+                "dataGridAddRecordsText": "",
+                "dataGridAddRecordText": "",
+                "skipCrop": false,
+                "disableRoundedStyle": false,
                 "propName": "city",
-                "ableToAddLookUpVal": true
+                "gridId": "countries"
               }
             ]
           }
@@ -209,21 +278,21 @@
         "instances": []
       },
       {
-        "cleintKey": "hidden_section_a7ee66b0-d32e-11ef-b033-85935b8db997",
+        "cleintKey": "hidden_section_c8244830-8727-11ef-a539-351fccbf4c21",
         "instances": [],
         "isDynamic": false,
         "label": "Hidden Section",
         "vif": "false",
-        "name": "hidden_section_a7ee66b0-d32e-11ef-b033-85935b8db997",
+        "name": "hidden_section_c8244830-8727-11ef-a539-351fccbf4c21",
         "order": 1,
         "rows": [
           {
-            "name": "hidden_section_a7ee66b0-d32e-11ef-b033-85935b8db997_row_a7ee66b1-d32e-11ef-b033-85935b8db997",
+            "name": "hidden_section_c8244830-8727-11ef-a539-351fccbf4c21_row_c8244831-8727-11ef-a539-351fccbf4c21",
             "controls": [
               {
                 "type": "select",
-                "name": "control_a834e590-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_a834e590-d32e-11ef-b033-85935b8db997",
+                "name": "control_c8682f00-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c8682f00-8727-11ef-a539-351fccbf4c21",
                 "label": "Layout",
                 "order": 0,
                 "defaultValue": "",
@@ -285,8 +354,8 @@
               },
               {
                 "type": "user",
-                "name": "control_a887e790-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_a887e790-d32e-11ef-b033-85935b8db997",
+                "name": "control_c8c60670-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c8c60670-8727-11ef-a539-351fccbf4c21",
                 "label": "Owner",
                 "order": 0,
                 "defaultValue": "",
@@ -348,8 +417,8 @@
               },
               {
                 "type": "datepicker",
-                "name": "control_a8e1a050-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_a8e1a050-d32e-11ef-b033-85935b8db997",
+                "name": "control_c90b73e0-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c90b73e0-8727-11ef-a539-351fccbf4c21",
                 "label": "Created Date",
                 "order": 0,
                 "defaultValue": "",
@@ -411,8 +480,8 @@
               },
               {
                 "type": "text",
-                "name": "control_a941e8c0-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_a941e8c0-d32e-11ef-b033-85935b8db997",
+                "name": "control_c9506c20-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c9506c20-8727-11ef-a539-351fccbf4c21",
                 "label": "State",
                 "order": 0,
                 "defaultValue": "",
@@ -474,8 +543,8 @@
               },
               {
                 "type": "text",
-                "name": "control_a9b0fe40-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_a9b0fe40-d32e-11ef-b033-85935b8db997",
+                "name": "control_c9978740-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c9978740-8727-11ef-a539-351fccbf4c21",
                 "label": "Next Events",
                 "order": 0,
                 "defaultValue": "",
@@ -537,8 +606,8 @@
               },
               {
                 "type": "user",
-                "name": "control_aa8bcde0-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_aa8bcde0-d32e-11ef-b033-85935b8db997",
+                "name": "control_c9ed9680-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_c9ed9680-8727-11ef-a539-351fccbf4c21",
                 "label": "Last edited by",
                 "order": 0,
                 "defaultValue": "",
@@ -600,8 +669,8 @@
               },
               {
                 "type": "datepicker",
-                "name": "control_ab067c20-d32e-11ef-b033-85935b8db997",
-                "fieldName": "control_ab067c20-d32e-11ef-b033-85935b8db997",
+                "name": "control_ca450550-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_ca450550-8727-11ef-a539-351fccbf4c21",
                 "label": "Last edit date",
                 "order": 0,
                 "defaultValue": "",
@@ -668,16 +737,16 @@
     ],
     "layout": "collapse"
   },
-  "source": "customers",
+  "source": "countries",
   "storageType": "dashboard",
-  "title": "All Customers",
+  "title": "Countries",
   "views": {
     "default": {
       "displayAsExcel": false,
       "displayCompact": false,
       "displayInTab": false,
       "displayTotalValue": false,
-      "nestedDataGrid": "",
+      "nestedDataGrid": "{\n    gridId: \"cities\",\n    parentGridId: \"countries\",\n    fbField: \"country\",\n    fbFieldFilterValue: rowData.rowKey,\n}",
       "readOnly": false,
       "recordCustomCode": "",
       "title": "Default"

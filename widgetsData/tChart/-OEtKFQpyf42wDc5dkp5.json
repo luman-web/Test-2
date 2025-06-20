@@ -1,0 +1,22 @@
+{
+  "chartName": "Cities",
+  "chartType": "bar",
+  "groupBy": [
+    {
+      "column": "$createdDate$YearWeek",
+      "key": "-OF2-XIJXMvP_iYbomzr"
+    }
+  ],
+  "maxResult": "20",
+  "metrics": [
+    {
+      "chartType": "bar",
+      "column": "population",
+      "key": "-OEtKJe1VOhU3U_Lce4n",
+      "operator": "sum"
+    }
+  ],
+  "metricsSort": "ASC",
+  "sortAxis": "y",
+  "sortDirectionAxis": "DESC"
+}

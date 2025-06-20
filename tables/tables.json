@@ -1,0 +1,50 @@
+{
+  "-O8rKeNYpyIlQAi5WaB-": {
+    "_id": 1,
+    "key": "cities",
+    "name": "Cities",
+    "rowKey": "-O8rKeNYpyIlQAi5WaB-"
+  },
+  "-O8rKjBrwFKLLcM8L3Vo": {
+    "_id": 2,
+    "key": "countries",
+    "name": "Countries",
+    "rowKey": "-O8rKjBrwFKLLcM8L3Vo"
+  },
+  "-O8rM4H8Uu406RIRCSsU": {
+    "_id": 3,
+    "key": "orders",
+    "name": "Orders",
+    "rowKey": "-O8rM4H8Uu406RIRCSsU"
+  },
+  "-OGd_hTBW7Gfi_Y3Rldm": {
+    "_id": 4,
+    "key": "customers",
+    "name": "All Customers",
+    "rowKey": "-OGd_hTBW7Gfi_Y3Rldm"
+  },
+  "-ONzcQNzKp3Xb8glbdJ6": {
+    "_id": 5,
+    "key": "parent",
+    "name": "Parent",
+    "rowKey": "-ONzcQNzKp3Xb8glbdJ6"
+  },
+  "-ONzcSVsPjELmZWo3OYD": {
+    "_id": 6,
+    "key": "child",
+    "name": "Child",
+    "rowKey": "-ONzcSVsPjELmZWo3OYD"
+  },
+  "-OSQHfxfnmC35NfXdk_5": {
+    "_id": 7,
+    "key": "events",
+    "name": "Events",
+    "rowKey": "-OSQHfxfnmC35NfXdk_5"
+  },
+  "-OT1AE4YViv35c-xOD0h": {
+    "_id": 8,
+    "key": "products",
+    "name": "Products",
+    "rowKey": "-OT1AE4YViv35c-xOD0h"
+  }
+}

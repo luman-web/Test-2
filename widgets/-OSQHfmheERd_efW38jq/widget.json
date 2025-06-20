@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/events",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "events"
+  },
+  "tab": "-OSQHfjfuJ5Pd4TrU11B",
+  "type": "DataGrid"
+}
