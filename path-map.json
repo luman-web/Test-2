@@ -70,6 +70,12 @@
     "modelKey": "pages"
   },
   {
+    "filePath": "tables/products.json",
+    "savePath": "models/products",
+    "isModel": true,
+    "modelKey": "products"
+  },
+  {
     "filePath": "tables/roles.json",
     "savePath": "models/roles",
     "isModel": true,
