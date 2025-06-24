@@ -134,6 +134,14 @@
     "savePath": "tabs/-OT1ADrQQPuXSZBGYHBO"
   },
   {
+    "filePath": "pages/-OTDO6PieUDLk8MZCrKY.json",
+    "savePath": "tabs/-OTDO6PieUDLk8MZCrKY"
+  },
+  {
+    "filePath": "pages/-OTDPTxCKXQJxGfaRTqY.json",
+    "savePath": "tabs/-OTDPTxCKXQJxGfaRTqY"
+  },
+  {
     "filePath": "themeSettings.json",
     "savePath": "themeSettings"
   },
@@ -198,6 +206,14 @@
     "savePath": "widgets/-OT1ADuVjQV6z6gC2O0G"
   },
   {
+    "filePath": "widgets/-OTDO6SYEYyo5sV90z3q/widget.json",
+    "savePath": "widgets/-OTDO6SYEYyo5sV90z3q"
+  },
+  {
+    "filePath": "widgets/-OTDPU-6d5b8hh_VMWUD/widget.json",
+    "savePath": "widgets/-OTDPU-6d5b8hh_VMWUD"
+  },
+  {
     "filePath": "widgetsComputed/cities.json",
     "savePath": "widgetsComputed/cities"
   },
@@ -236,6 +252,16 @@
   {
     "filePath": "widgetsData/dataGrid/events.json",
     "savePath": "widgetsData/dataGrid/events",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/grid1.json",
+    "savePath": "widgetsData/dataGrid/grid1",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/grid2.json",
+    "savePath": "widgetsData/dataGrid/grid2",
     "conversion": "dataGrid"
   },
   {
