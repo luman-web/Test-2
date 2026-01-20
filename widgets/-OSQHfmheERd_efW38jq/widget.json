@@ -1,14 +1,20 @@
 {
+  "classes": "",
   "dependency": "dataGrid/events",
   "gsOptions": {
     "h": 6,
     "w": 24
   },
   "layout": "b-card",
+  "options": {
+    "hideTopAddRecord": true
+  },
   "overflow": "height: auto",
   "props": {
     "gridId": "events"
   },
+  "styles": "",
   "tab": "-OSQHfjfuJ5Pd4TrU11B",
+  "title": "",
   "type": "DataGrid"
 }

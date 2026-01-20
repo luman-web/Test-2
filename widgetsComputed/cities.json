@@ -3,17 +3,22 @@
     "nodes": [
       {
         "gridId": "cities",
-        "id": "node-03b330e0-f05b-11ef-95c0-93e4c9668e64",
-        "left": 228,
+        "id": "node-f64c7770-ba28-11f0-8081-e9f32d72e0c0",
+        "left": 503,
         "selectedFields": [
           {
             "key": "name",
+            "name": "name1",
+            "visible": true
+          },
+          {
+            "key": "populationRename",
             "visible": true
           }
         ],
-        "top": 54
+        "top": 126
       }
     ]
   },
-  "value": "\n          const filterQuery = true && $getGlobalModel('computed-for-chart-cities')\n          const primaryData = filterQuery\n            ? alasql(filterQuery, [$getGrid('cities')])\n            : $getGrid('cities')\n\n          return alasql(\n\t'SELECT `cities`.`name` \\\n\t FROM ? AS `cities` \\\n\t',\n\t[primaryData]\n)"
+  "value": "\n          const filterQuery = true && $getGlobalModel('computed-for-chart-cities')\n          const primaryData = filterQuery\n            ? alasql(filterQuery, [$getGrid('cities')])\n            : $getGrid('cities')\n\n          return alasql(\n\t'SELECT `cities`.`name` AS `name1`, `cities`.`populationRename` \\\n\t FROM ? AS `cities` \\\n\t',\n\t[primaryData]\n)"
 }

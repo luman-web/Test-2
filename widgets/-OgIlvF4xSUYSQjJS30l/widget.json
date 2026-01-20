@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/itemsParent",
+  "gsOptions": {
+    "h": 5,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "itemsParent"
+  },
+  "tab": "-OgIlvCNxYAW1YdWM6dQ",
+  "type": "DataGrid"
+}

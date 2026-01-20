@@ -2,7 +2,7 @@
   "classes": "",
   "dependency": "dataGrid/orders",
   "gsOptions": {
-    "h": 4,
+    "h": 20,
     "w": 24,
     "x": 0,
     "y": 0
@@ -10,7 +10,8 @@
   "layout": "b-card",
   "options": {
     "availableViews": [
-      "view1"
+      "view1",
+      "default"
     ],
     "view": "view1"
   },

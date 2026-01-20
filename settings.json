@@ -1,16 +1,19 @@
 {
-  "allowToDisableTablesInRoles": false,
-  "cachingForUsers": "SdwrS6nOLjWcZ2M6KqU0wDMaeUk2,xuTSVRW20mS00HV0ANw51A2ts862",
+  "allowToDisableTablesInRoles": true,
+  "cachingInFrontend": true,
+  "dgInputPriceFormatting": false,
   "dgRemoveFromPath": true,
   "enableLogsBenchmark": false,
   "globalSearchEnabled": false,
-  "isDataGridUpdateFlashEnabled": true,
+  "isDataGridUpdateFlashEnabled": false,
   "modelsCachingEnabled": false,
+  "parseUserRecord": true,
   "regional": {
     "currency": "$",
     "date": "MM/DD/YYYY",
-    "time": "MM/DD/YYYY, HH:mm"
+    "time": "MM/DD/Y HH:mm"
   },
   "showDataGridRecordsHistory": false,
+  "storeCacheLocally": true,
   "useDataGridGrouping": false
 }

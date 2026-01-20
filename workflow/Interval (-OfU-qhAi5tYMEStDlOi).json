@@ -1,0 +1,95 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-OfU-qhAi5tYMEStDlOi",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1764678140493",
+        "x": -51,
+        "y": 79,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1764678141592",
+        "x": -51,
+        "y": 207,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1764678143735",
+        "x": -51,
+        "y": 342,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "b880d3b1-0c4e-4bf2-9521-967dbf04908e",
+        "source": "node1764678140493",
+        "target": "node1764678141592",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "style": {}
+      },
+      {
+        "id": "6b0477d9-d664-4263-b1bf-7cacb54bcdd2",
+        "source": "node1764678141592",
+        "target": "node1764678143735",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": 81.81928472788148,
+      "y": 27.37071544126603,
+      "scale": 0.6102286213959812,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": true,
+  "name": "Interval",
+  "scheduled": true
+}

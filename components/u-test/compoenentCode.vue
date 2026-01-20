@@ -1,27 +1,15 @@
 <template>
   <div>
-    test component
+    <b-button @click="submit">Send E-Mail</b-button>
   </div>
 </template>
 
 <script>
 module.exports = {
-  props: {},
-  data() {
-    return {}
-  },
-  beforeCreate() {},
-  created() {
-    console.log('test component created')
-  },
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {},
+  methods: {
+    submit() {
+      alert('submitted!')
+    }
+  }
 }
 </script>
-
-<style>
-</style>

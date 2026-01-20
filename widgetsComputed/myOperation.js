@@ -5,5 +5,5 @@ return async (rowData) => {
 
     console.log(rowData)
 
-    throw new Error('test it')
+    throw new Error('test it 123')
 }

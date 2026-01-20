@@ -28,80 +28,37 @@
     "savePath": "components/-OPGmaJz3pqMXdx_MPl_/code"
   },
   {
-    "filePath": "tables/calculatedFieldRules.json",
-    "savePath": "models/calculatedFieldRules",
-    "isModel": true,
-    "modelKey": "calculatedFieldRules"
+    "filePath": "components/u-map/index.json",
+    "savePath": "components/-Oin75M6JlbgIc-WRjSg"
   },
   {
-    "filePath": "tables/cities.json",
-    "savePath": "models/cities",
-    "isModel": true,
-    "modelKey": "cities"
+    "filePath": "components/u-map/compoenentCode.vue",
+    "savePath": "components/-Oin75M6JlbgIc-WRjSg/code"
   },
   {
-    "filePath": "tables/countries.json",
-    "savePath": "models/countries",
-    "isModel": true,
-    "modelKey": "countries"
+    "filePath": "components/u-wallet-card/index.json",
+    "savePath": "components/u-wallet-card"
   },
   {
-    "filePath": "tables/customers.json",
-    "savePath": "models/customers",
-    "isModel": true,
-    "modelKey": "customers"
+    "filePath": "components/u-wallet-card/compoenentCode.vue",
+    "savePath": "components/u-wallet-card/code"
   },
   {
-    "filePath": "tables/events.json",
-    "savePath": "models/events",
-    "isModel": true,
-    "modelKey": "events"
-  },
-  {
-    "filePath": "tables/orders.json",
-    "savePath": "models/orders",
-    "isModel": true,
-    "modelKey": "orders"
-  },
-  {
-    "filePath": "tables/pages.json",
-    "savePath": "models/pages",
-    "isModel": true,
-    "modelKey": "pages"
-  },
-  {
-    "filePath": "tables/products.json",
-    "savePath": "models/products",
-    "isModel": true,
-    "modelKey": "products"
-  },
-  {
-    "filePath": "tables/roles.json",
-    "savePath": "models/roles",
-    "isModel": true,
-    "modelKey": "roles"
-  },
-  {
-    "filePath": "tables/tables.json",
-    "savePath": "models/tables",
-    "isModel": true,
-    "modelKey": "tables"
-  },
-  {
-    "filePath": "tables/tablesFields.json",
-    "savePath": "models/tablesFields",
-    "isModel": true,
-    "modelKey": "tablesFields"
-  },
-  {
-    "filePath": "tables/workflows.json",
-    "savePath": "models/workflows",
-    "isModel": true,
-    "modelKey": "workflows"
+    "filePath": "customCode/js/test.js",
+    "savePath": "customCode/js/-OVNESDGmOArV-S8JoLN/code",
+    "customCodeName": "test"
   },
   {
     "filePath": "settings.json",
     "savePath": "settings"
+  },
+  {
+    "filePath": "subPages/-OWlZnzXJQ0UfJp05ZVM/-OWlZpdLEr-qEiNOKLPv.json",
+    "savePath": "subTabs/-OWlZnzXJQ0UfJp05ZVM/-OWlZpdLEr-qEiNOKLPv"
+  },
+  {
+    "filePath": "subPages/-OWlZnzXJQ0UfJp05ZVM/-OWlZrqjPB_-YTUzn6J3.json",
+    "savePath": "subTabs/-OWlZnzXJQ0UfJp05ZVM/-OWlZrqjPB_-YTUzn6J3"
   },
   {
     "filePath": "pages/-O8rKeACDiDbUT3N8L6f.json",
@@ -146,6 +103,26 @@
   {
     "filePath": "pages/-OTDPTxCKXQJxGfaRTqY.json",
     "savePath": "tabs/-OTDPTxCKXQJxGfaRTqY"
+  },
+  {
+    "filePath": "pages/-OVlpD2HUN7ABFOao9ba.json",
+    "savePath": "tabs/-OVlpD2HUN7ABFOao9ba"
+  },
+  {
+    "filePath": "pages/-OWlZnzXJQ0UfJp05ZVM.json",
+    "savePath": "tabs/-OWlZnzXJQ0UfJp05ZVM"
+  },
+  {
+    "filePath": "pages/-OXDeliveries001.json",
+    "savePath": "tabs/-OXDeliveries001"
+  },
+  {
+    "filePath": "pages/-OgIlvCNxYAW1YdWM6dQ.json",
+    "savePath": "tabs/-OgIlvCNxYAW1YdWM6dQ"
+  },
+  {
+    "filePath": "pages/-Oin71NW9OMHZV2aP8G1.json",
+    "savePath": "tabs/-Oin71NW9OMHZV2aP8G1"
   },
   {
     "filePath": "themeSettings.json",
@@ -212,6 +189,54 @@
     "savePath": "widgets/-OTDPU-6d5b8hh_VMWUD"
   },
   {
+    "filePath": "widgets/-OWlZvsWwemnM3bIUs2j/widget.json",
+    "savePath": "widgets/-OWlZvsWwemnM3bIUs2j"
+  },
+  {
+    "filePath": "widgets/-OWlZvsWwemnM3bIUs2j/template.html",
+    "savePath": "widgets/-OWlZvsWwemnM3bIUs2j/template"
+  },
+  {
+    "filePath": "widgets/-OXDelivWidget01/widget.json",
+    "savePath": "widgets/-OXDelivWidget01"
+  },
+  {
+    "filePath": "widgets/-OY6iy6MX_dVSJN3XJBg/widget.json",
+    "savePath": "widgets/-OY6iy6MX_dVSJN3XJBg"
+  },
+  {
+    "filePath": "widgets/-Oa_nkUrABHospWqVWcW/widget.json",
+    "savePath": "widgets/-Oa_nkUrABHospWqVWcW"
+  },
+  {
+    "filePath": "widgets/-ObDaCfih7VPlvUpcEPn/widget.json",
+    "savePath": "widgets/-ObDaCfih7VPlvUpcEPn"
+  },
+  {
+    "filePath": "widgets/-OdIK-POPlQdxMAcsmva/widget.json",
+    "savePath": "widgets/-OdIK-POPlQdxMAcsmva"
+  },
+  {
+    "filePath": "widgets/-OdIK-POPlQdxMAcsmva/detailTemplate.html",
+    "savePath": "widgets/-OdIK-POPlQdxMAcsmva/detailTemplate"
+  },
+  {
+    "filePath": "widgets/-OdIK-POPlQdxMAcsmva/template.html",
+    "savePath": "widgets/-OdIK-POPlQdxMAcsmva/template"
+  },
+  {
+    "filePath": "widgets/-OgIlvF4xSUYSQjJS30l/widget.json",
+    "savePath": "widgets/-OgIlvF4xSUYSQjJS30l"
+  },
+  {
+    "filePath": "widgets/-OgIlymA5BQaKIPn7Czp/widget.json",
+    "savePath": "widgets/-OgIlymA5BQaKIPn7Czp"
+  },
+  {
+    "filePath": "widgets/-Oin78ppXO0F2_Dm73wt/widget.json",
+    "savePath": "widgets/-Oin78ppXO0F2_Dm73wt"
+  },
+  {
     "filePath": "widgetsComputed/cities.json",
     "savePath": "widgetsComputed/cities"
   },
@@ -248,6 +273,16 @@
     "conversion": "dataGrid"
   },
   {
+    "filePath": "widgetsData/dataGrid/dateFilters.json",
+    "savePath": "widgetsData/dataGrid/dateFilters",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/deliveries.json",
+    "savePath": "widgetsData/dataGrid/deliveries",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/events.json",
     "savePath": "widgetsData/dataGrid/events",
     "conversion": "dataGrid"
@@ -263,6 +298,16 @@
     "conversion": "dataGrid"
   },
   {
+    "filePath": "widgetsData/dataGrid/itemsChildren.json",
+    "savePath": "widgetsData/dataGrid/itemsChildren",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/itemsParent.json",
+    "savePath": "widgetsData/dataGrid/itemsParent",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/orders.json",
     "savePath": "widgetsData/dataGrid/orders",
     "conversion": "dataGrid"
@@ -275,6 +320,11 @@
   {
     "filePath": "widgetsData/dataGrid/products.json",
     "savePath": "widgetsData/dataGrid/products",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/users.json",
+    "savePath": "widgetsData/dataGrid/users",
     "conversion": "dataGrid"
   },
   {
@@ -331,6 +381,45 @@
   {
     "filePath": "workflow/Test Postgres (-OMYPNc5A-4loQB888cE).json",
     "savePath": "workflow/-OMYPNc5A-4loQB888cE",
+    "conversion": "workflow"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Test Parse Record/Script Task (node1761903816955).js",
+    "savePath": "workflow/-OctdcyVxYPpr-A1OB4T",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-OctdcyVxYPpr-A1OB4T",
+    "workflowFile": "workflow/Test Parse Record (-OctdcyVxYPpr-A1OB4T).json",
+    "nodeId": "node1761903816955"
+  },
+  {
+    "filePath": "workflow/Test Parse Record (-OctdcyVxYPpr-A1OB4T).json",
+    "savePath": "workflow/-OctdcyVxYPpr-A1OB4T",
+    "conversion": "workflow"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Scheduled At/Script Task (node1764602196138).js",
+    "savePath": "workflow/-OfPQEK1K67qYgcUihiP",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-OfPQEK1K67qYgcUihiP",
+    "workflowFile": "workflow/Scheduled At (-OfPQEK1K67qYgcUihiP).json",
+    "nodeId": "node1764602196138"
+  },
+  {
+    "filePath": "workflow/Scheduled At (-OfPQEK1K67qYgcUihiP).json",
+    "savePath": "workflow/-OfPQEK1K67qYgcUihiP",
+    "conversion": "workflow"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Interval/Script Task (node1764678141592).js",
+    "savePath": "workflow/-OfU-qhAi5tYMEStDlOi",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-OfU-qhAi5tYMEStDlOi",
+    "workflowFile": "workflow/Interval (-OfU-qhAi5tYMEStDlOi).json",
+    "nodeId": "node1764678141592"
+  },
+  {
+    "filePath": "workflow/Interval (-OfU-qhAi5tYMEStDlOi).json",
+    "savePath": "workflow/-OfU-qhAi5tYMEStDlOi",
     "conversion": "workflow"
   }
 ]

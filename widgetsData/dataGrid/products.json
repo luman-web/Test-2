@@ -1,52 +1,175 @@
 {
   "displayColumn": "name",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"amount\",\"operator\":\"=\",\"value\":null,\"name\":\"Amount\",\"expression\":false,\"hidden\":false}]}",
+  "initialLoadMaxRecords": "",
   "isReactive": true,
   "meta": {
+    "amount": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "fieldName": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
+        "label": "Amount",
+        "name": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
+        "propName": "amount",
+        "type": "number"
+      },
+      "displayName": "Amount",
+      "invisible": false,
+      "order": 2,
+      "tabIndex": "3",
+      "type": "number"
+    },
     "createdDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "Created Date",
+        "name": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "createdDate",
+        "type": "datepicker"
+      },
       "displayName": "Created Date",
-      "invisible": true,
-      "order": 3,
+      "invisible": false,
       "type": "date"
     },
+    "files": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_18eecb00-626f-11f0-9bab-99cbeb41bfab",
+        "gridId": "products",
+        "label": "Files",
+        "name": "control_18eecb00-626f-11f0-9bab-99cbeb41bfab",
+        "propName": "files",
+        "type": "files"
+      },
+      "displayName": "Files",
+      "invisible": false,
+      "order": 4,
+      "type": "files"
+    },
+    "image": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_ba2393e0-6268-11f0-8db7-edf5491798e6",
+        "gridId": "products",
+        "label": "Image",
+        "name": "control_ba2393e0-6268-11f0-8db7-edf5491798e6",
+        "propName": "image",
+        "skipCrop": true,
+        "type": "profile_image"
+      },
+      "displayName": "Image",
+      "invisible": false,
+      "order": 3,
+      "type": "profile_image"
+    },
     "lastEditDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "Last edit date",
+        "name": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "lastEditDate",
+        "readonly": true,
+        "type": "datepicker"
+      },
       "displayName": "Last edit date",
-      "invisible": true,
-      "order": 7,
+      "invisible": false,
       "type": "date"
     },
     "lastEditedBy": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_10e7cfd0-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "Last edited by",
+        "name": "control_10e7cfd0-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "lastEditedBy",
+        "readonly": true,
+        "type": "user"
+      },
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 6,
       "type": "user"
     },
     "layout": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_0f861cf0-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "Layout",
+        "name": "control_0f861cf0-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "layout",
+        "type": "select"
+      },
       "displayName": "Layout",
       "invisible": true,
-      "order": 1,
       "type": "select"
     },
     "name": {
+      "Width": "416px",
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_0f406162-4c1f-11f0-95e5-39c01c74ead7",
+        "gridId": "products",
+        "label": "Name",
+        "name": "control_0f406162-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "name",
+        "tooltip": "tooltip value",
+        "type": "text"
+      },
       "displayName": "Name",
+      "invisible": false,
       "order": 0,
+      "tabIndex": "1",
       "type": "string"
     },
     "nextEvents": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_109ff160-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "Next Events",
+        "name": "control_109ff160-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "nextEvents",
+        "type": "text"
+      },
       "displayName": "Next Events",
       "invisible": true,
-      "order": 5,
       "type": "string"
     },
     "owner": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_0fccc2e0-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "Owner",
+        "name": "control_0fccc2e0-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "owner",
+        "type": "user"
+      },
       "displayName": "Owner",
       "invisible": true,
-      "order": 2,
       "type": "user"
     },
     "state": {
+      "Width": "134px",
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
+        "invisible": true,
+        "label": "State",
+        "name": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
+        "propName": "state",
+        "type": "text"
+      },
       "displayName": "State",
-      "invisible": true,
-      "order": 4,
+      "invisible": false,
+      "order": 1,
+      "tabIndex": "2",
       "type": "string"
     }
   },
@@ -73,6 +196,60 @@
                 "gridId": "products",
                 "decimalPlace": null,
                 "tooltip": "tooltip value"
+              },
+              {
+                "name": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
+                "fieldName": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
+                "label": "Amount",
+                "type": "number",
+                "propName": "amount",
+                "className": "col-md-6",
+                "decimalPlace": 0,
+                "gridId": "products",
+                "numberRightAligned": false
+              },
+              {
+                "name": "control_ba2393e0-6268-11f0-8db7-edf5491798e6",
+                "fieldName": "control_ba2393e0-6268-11f0-8db7-edf5491798e6",
+                "label": "Image",
+                "type": "profile_image",
+                "propName": "image",
+                "className": "col-md-6",
+                "skipCrop": true,
+                "gridId": "products"
+              },
+              {
+                "name": "control_18eecb00-626f-11f0-9bab-99cbeb41bfab",
+                "fieldName": "control_18eecb00-626f-11f0-9bab-99cbeb41bfab",
+                "label": "Files",
+                "type": "files",
+                "propName": "files",
+                "className": "col-md-6",
+                "gridId": "products",
+                "decimalPlace": null
+              },
+              {
+                "name": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
+                "fieldName": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
+                "label": "Created Date",
+                "type": "datepicker",
+                "propName": "createdDate",
+                "className": "col-md-6",
+                "invisible": false,
+                "gridId": "products",
+                "decimalPlace": null
+              },
+              {
+                "name": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
+                "fieldName": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
+                "label": "Last edit date",
+                "type": "datepicker",
+                "propName": "lastEditDate",
+                "className": "col-md-6",
+                "invisible": false,
+                "readonly": true,
+                "gridId": "products",
+                "decimalPlace": null
               }
             ]
           }
@@ -115,15 +292,6 @@
                 "invisible": true
               },
               {
-                "name": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "Created Date",
-                "type": "datepicker",
-                "propName": "createdDate",
-                "className": "col-md-6",
-                "invisible": true
-              },
-              {
                 "name": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
                 "fieldName": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
                 "label": "State",
@@ -150,16 +318,6 @@
                 "className": "col-md-6",
                 "invisible": true,
                 "readonly": true
-              },
-              {
-                "name": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "Last edit date",
-                "type": "datepicker",
-                "propName": "lastEditDate",
-                "className": "col-md-6",
-                "invisible": true,
-                "readonly": true
               }
             ]
           }
@@ -170,5 +328,17 @@
   },
   "source": "products",
   "storageType": "dashboard",
-  "title": "Products"
+  "title": "Products",
+  "views": {
+    "default": {
+      "displayAsExcel": false,
+      "displayCompact": false,
+      "displayInTab": false,
+      "displayTotalValue": false,
+      "nestedDataGrid": "",
+      "readOnly": false,
+      "recordCustomCode": "",
+      "title": "Default"
+    }
+  }
 }

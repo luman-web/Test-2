@@ -1,0 +1,527 @@
+{
+  "_idIndexed": true,
+  "asRelatedListAlwaysFetchRecords": false,
+  "displayColumn": "name",
+  "doNotWatchModelUpdates": false,
+  "downloadModelInSeparateRequest": false,
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"createdDate\",\"operator\":-1,\"value\":null,\"name\":\"Created Date\",\"expression\":false,\"hidden\":false}]}",
+  "formLayouts": {
+    "-OXDelivLayout01": {
+      "layout": {
+        "layout": "collapse",
+        "sections": [
+          {
+            "clientKey": "section_main",
+            "isDynamic": false,
+            "label": "Main Information",
+            "labelPosition": "top",
+            "maxInstance": 0,
+            "minInstance": 1,
+            "name": "section_main",
+            "order": 0,
+            "rows": [
+              {
+                "controls": [
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_name_deliveries",
+                    "gridId": "deliveries",
+                    "isForDownload": false,
+                    "label": "Name",
+                    "name": "control_name_deliveries",
+                    "openInNewTab": false,
+                    "propName": "name",
+                    "readonly": false,
+                    "type": "text"
+                  },
+                  {
+                    "ableToAddLookUpVal": true,
+                    "className": "col-md-6",
+                    "fieldName": "control_orders_deliveries",
+                    "gridId": "deliveries",
+                    "isForDownload": false,
+                    "label": "Orders",
+                    "name": "control_orders_deliveries",
+                    "openInNewTab": false,
+                    "propName": "orders",
+                    "type": "multi_lookup"
+                  }
+                ],
+                "label": "",
+                "name": "section_main_row_1",
+                "order": 0
+              }
+            ],
+            "vif": ""
+          },
+          {
+            "cleintKey": "hidden_section_deliveries",
+            "isDynamic": false,
+            "label": "Hidden Section",
+            "name": "hidden_section_deliveries",
+            "order": 1,
+            "rows": [
+              {
+                "controls": [
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_layout_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "Layout",
+                    "name": "control_layout_deliveries",
+                    "openInNewTab": false,
+                    "propName": "layout",
+                    "type": "select"
+                  },
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_owner_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "Owner",
+                    "name": "control_owner_deliveries",
+                    "openInNewTab": false,
+                    "propName": "owner",
+                    "type": "user"
+                  },
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_createdDate_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "Created Date",
+                    "name": "control_createdDate_deliveries",
+                    "openInNewTab": false,
+                    "propName": "createdDate",
+                    "type": "datepicker"
+                  },
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_state_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "State",
+                    "name": "control_state_deliveries",
+                    "openInNewTab": false,
+                    "propName": "state",
+                    "type": "text"
+                  },
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_nextEvents_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "Next Events",
+                    "name": "control_nextEvents_deliveries",
+                    "openInNewTab": false,
+                    "propName": "nextEvents",
+                    "type": "text"
+                  },
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_lastEditedBy_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "Last edited by",
+                    "name": "control_lastEditedBy_deliveries",
+                    "openInNewTab": false,
+                    "propName": "lastEditedBy",
+                    "readonly": true,
+                    "type": "user"
+                  },
+                  {
+                    "className": "col-md-6",
+                    "fieldName": "control_lastEditDate_deliveries",
+                    "invisible": true,
+                    "isForDownload": false,
+                    "label": "Last edit date",
+                    "name": "control_lastEditDate_deliveries",
+                    "openInNewTab": false,
+                    "propName": "lastEditDate",
+                    "readonly": true,
+                    "type": "datepicker"
+                  }
+                ],
+                "name": "hidden_section_deliveries_row_1"
+              }
+            ],
+            "vif": "false"
+          }
+        ]
+      },
+      "name": "Default Layout"
+    }
+  },
+  "initialLoadMaxRecords": "",
+  "isReactive": true,
+  "itemsPerPage": 10,
+  "meta": {
+    "createdDate": {
+      "Width": 292,
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_createdDate_deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "Created Date",
+        "name": "control_createdDate_deliveries",
+        "openInNewTab": false,
+        "propName": "createdDate",
+        "type": "datepicker"
+      },
+      "displayName": "Created Date",
+      "invisible": false,
+      "order": 2,
+      "type": "date"
+    },
+    "lastEditDate": {
+      "Width": 249,
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_lastEditDate_deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "Last edit date",
+        "name": "control_lastEditDate_deliveries",
+        "openInNewTab": false,
+        "propName": "lastEditDate",
+        "readonly": true,
+        "type": "datepicker"
+      },
+      "displayName": "Last edit date",
+      "invisible": false,
+      "order": 3,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_lastEditedBy_deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "Last edited by",
+        "name": "control_lastEditedBy_deliveries",
+        "openInNewTab": false,
+        "propName": "lastEditedBy",
+        "readonly": true,
+        "type": "user"
+      },
+      "displayName": "Last edited by",
+      "invisible": true,
+      "order": 4,
+      "type": "user"
+    },
+    "layout": {
+      "Width": 170,
+      "controlInfo": {
+        "className": "col-md-6",
+        "dataOptions": [
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "fieldName": "control_layout_deliveries",
+        "gridId": "deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "Layout",
+        "name": "control_layout_deliveries",
+        "openInNewTab": false,
+        "propName": "layout",
+        "type": "select"
+      },
+      "displayName": "Layout",
+      "invisible": true,
+      "order": 5,
+      "type": "select"
+    },
+    "name": {
+      "Width": "300px",
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_name_deliveries",
+        "gridId": "deliveries",
+        "isForDownload": false,
+        "label": "Name",
+        "name": "control_name_deliveries",
+        "openInNewTab": false,
+        "propName": "name",
+        "readonly": false,
+        "type": "text"
+      },
+      "displayName": "Name",
+      "indexed": true,
+      "invisible": false,
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_nextEvents_deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "Next Events",
+        "name": "control_nextEvents_deliveries",
+        "openInNewTab": false,
+        "propName": "nextEvents",
+        "type": "text"
+      },
+      "displayName": "Next Events",
+      "invisible": true,
+      "order": 6,
+      "type": "string"
+    },
+    "orders": {
+      "controlInfo": {
+        "ableToAddLookUpVal": true,
+        "className": "col-md-6",
+        "fieldName": "control_orders_deliveries",
+        "gridId": "deliveries",
+        "isForDownload": false,
+        "label": "Orders",
+        "name": "control_orders_deliveries",
+        "openInNewTab": false,
+        "propName": "orders",
+        "type": "multi_lookup"
+      },
+      "displayName": "Orders",
+      "invisible": false,
+      "lookUpTable": "orders",
+      "order": 1,
+      "type": "multi_lookup"
+    },
+    "owner": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_owner_deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "Owner",
+        "name": "control_owner_deliveries",
+        "openInNewTab": false,
+        "propName": "owner",
+        "type": "user"
+      },
+      "displayName": "Owner",
+      "invisible": true,
+      "order": 7,
+      "type": "user"
+    },
+    "state": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_state_deliveries",
+        "invisible": true,
+        "isForDownload": false,
+        "label": "State",
+        "name": "control_state_deliveries",
+        "openInNewTab": false,
+        "propName": "state",
+        "type": "text"
+      },
+      "displayName": "State",
+      "invisible": true,
+      "order": 8,
+      "type": "string"
+    }
+  },
+  "readSortColumnEqualTo": "",
+  "rowEditorFieldsForm": {
+    "layout": "collapse",
+    "sections": [
+      {
+        "clientKey": "section_main",
+        "isDynamic": false,
+        "label": "Main Information",
+        "labelPosition": "top",
+        "maxInstance": 0,
+        "minInstance": 1,
+        "name": "section_main",
+        "order": 0,
+        "rows": [
+          {
+            "controls": [
+              {
+                "className": "col-md-6",
+                "fieldName": "control_name_deliveries",
+                "gridId": "deliveries",
+                "isForDownload": false,
+                "label": "Name",
+                "name": "control_name_deliveries",
+                "openInNewTab": false,
+                "propName": "name",
+                "readonly": false,
+                "type": "text"
+              },
+              {
+                "ableToAddLookUpVal": true,
+                "className": "col-md-6",
+                "fieldName": "control_orders_deliveries",
+                "gridId": "deliveries",
+                "isForDownload": false,
+                "label": "Orders",
+                "name": "control_orders_deliveries",
+                "openInNewTab": false,
+                "propName": "orders",
+                "type": "multi_lookup"
+              }
+            ],
+            "label": "",
+            "name": "section_main_row_1",
+            "order": 0
+          }
+        ],
+        "vif": ""
+      },
+      {
+        "cleintKey": "hidden_section_deliveries",
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "name": "hidden_section_deliveries",
+        "order": 1,
+        "rows": [
+          {
+            "controls": [
+              {
+                "className": "col-md-6",
+                "dataOptions": [
+                  {
+                    "id": "",
+                    "text": ""
+                  }
+                ],
+                "fieldName": "control_layout_deliveries",
+                "gridId": "deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "Layout",
+                "name": "control_layout_deliveries",
+                "openInNewTab": false,
+                "propName": "layout",
+                "type": "select"
+              },
+              {
+                "className": "col-md-6",
+                "fieldName": "control_owner_deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "Owner",
+                "name": "control_owner_deliveries",
+                "openInNewTab": false,
+                "propName": "owner",
+                "type": "user"
+              },
+              {
+                "className": "col-md-6",
+                "fieldName": "control_createdDate_deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "Created Date",
+                "name": "control_createdDate_deliveries",
+                "openInNewTab": false,
+                "propName": "createdDate",
+                "type": "datepicker"
+              },
+              {
+                "className": "col-md-6",
+                "fieldName": "control_state_deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "State",
+                "name": "control_state_deliveries",
+                "openInNewTab": false,
+                "propName": "state",
+                "type": "text"
+              },
+              {
+                "className": "col-md-6",
+                "fieldName": "control_nextEvents_deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "Next Events",
+                "name": "control_nextEvents_deliveries",
+                "openInNewTab": false,
+                "propName": "nextEvents",
+                "type": "text"
+              },
+              {
+                "className": "col-md-6",
+                "fieldName": "control_lastEditedBy_deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "Last edited by",
+                "name": "control_lastEditedBy_deliveries",
+                "openInNewTab": false,
+                "propName": "lastEditedBy",
+                "readonly": true,
+                "type": "user"
+              },
+              {
+                "className": "col-md-6",
+                "fieldName": "control_lastEditDate_deliveries",
+                "invisible": true,
+                "isForDownload": false,
+                "label": "Last edit date",
+                "name": "control_lastEditDate_deliveries",
+                "openInNewTab": false,
+                "propName": "lastEditDate",
+                "readonly": true,
+                "type": "datepicker"
+              }
+            ],
+            "name": "hidden_section_deliveries_row_1"
+          }
+        ],
+        "vif": "false"
+      }
+    ]
+  },
+  "showRowKey": false,
+  "skipModelWhenCloning": true,
+  "source": "deliveries",
+  "sqlFilteringEvaluateJs": false,
+  "storageType": "dashboard",
+  "title": "Deliveries",
+  "useElasticIndexing": true,
+  "useInGlobalSearch": true,
+  "views": {
+    "default": {
+      "displayAsExcel": false,
+      "displayCardStyle": false,
+      "displayCompact": false,
+      "displayInTab": false,
+      "displayTotalValue": false,
+      "filterInBackendLimit": "",
+      "meta": {
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": false,
+          "order": 2
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": false,
+          "order": 3
+        },
+        "name": {
+          "displayName": "Name",
+          "invisible": false,
+          "order": 0
+        },
+        "orders": {
+          "displayName": "Orders",
+          "invisible": false,
+          "order": 1
+        }
+      },
+      "nestedDataGrid": "",
+      "readOnly": false,
+      "recordCustomCode": "",
+      "title": "Default",
+      "useFilterInBackend": true
+    }
+  }
+}

@@ -4,15 +4,14 @@
   "groupBy": [
     {
       "column": "$createdDate$YearWeek",
-      "key": "-OF2-XIJXMvP_iYbomzr"
+      "key": "-OUdcKZTOAPX7BYtqgpy"
     }
   ],
   "maxResult": "20",
   "metrics": [
     {
-      "chartType": "bar",
       "column": "population",
-      "key": "-OEtKJe1VOhU3U_Lce4n",
+      "key": "-OUdcKZJWShSouGru7M8",
       "operator": "sum"
     }
   ],

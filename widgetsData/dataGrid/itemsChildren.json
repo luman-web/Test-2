@@ -1,0 +1,386 @@
+{
+  "displayColumn": "name",
+  "initialLoadMaxRecords": "",
+  "isReactive": true,
+  "meta": {
+    "createdDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Created Date",
+        "fieldName": "control_ca7d6390-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "isTodayValue": true,
+        "isTodayValueCreated": true,
+        "label": "Created Date",
+        "name": "control_ca7d6390-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "createdDate",
+        "propertyName": "createdDate",
+        "saveToHiddenSection": true,
+        "type": "datepicker"
+      },
+      "displayName": "Created Date",
+      "invisible": false,
+      "order": 3,
+      "type": "date"
+    },
+    "lastEditDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Last edit date",
+        "fieldName": "control_cb89a370-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "isTodayValue": true,
+        "isTodayValueCreated": true,
+        "label": "Last edit date",
+        "name": "control_cb89a370-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "lastEditDate",
+        "propertyName": "lastEditDate",
+        "readonly": true,
+        "saveToHiddenSection": true,
+        "type": "datepicker"
+      },
+      "displayName": "Last edit date",
+      "invisible": false,
+      "order": 4,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Last edited by",
+        "fieldName": "control_cb4631d0-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "label": "Last edited by",
+        "name": "control_cb4631d0-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "lastEditedBy",
+        "propertyName": "lastEditedBy",
+        "readonly": true,
+        "saveToHiddenSection": true,
+        "type": "user"
+      },
+      "displayName": "Last edited by",
+      "invisible": true,
+      "type": "user"
+    },
+    "layout": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Layout",
+        "fieldName": "control_c9f595f0-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "label": "Layout",
+        "name": "control_c9f595f0-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "layout",
+        "propertyName": "layout",
+        "saveToHiddenSection": true,
+        "type": "select"
+      },
+      "displayName": "Layout",
+      "invisible": true,
+      "type": "select"
+    },
+    "name": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Name",
+        "fieldName": "control_c9b30eb2-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "label": "Name",
+        "name": "control_c9b30eb2-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "name",
+        "propertyName": "name",
+        "type": "text"
+      },
+      "displayName": "Name",
+      "invisible": false,
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Next Events",
+        "fieldName": "control_cb030e50-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "label": "Next Events",
+        "name": "control_cb030e50-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "nextEvents",
+        "propertyName": "nextEvents",
+        "saveToHiddenSection": true,
+        "type": "text"
+      },
+      "displayName": "Next Events",
+      "invisible": true,
+      "type": "string"
+    },
+    "owner": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Owner",
+        "fieldName": "control_ca386b50-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "label": "Owner",
+        "name": "control_ca386b50-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "owner",
+        "propertyName": "owner",
+        "saveToHiddenSection": true,
+        "type": "user"
+      },
+      "displayName": "Owner",
+      "invisible": true,
+      "type": "user"
+    },
+    "parent": {
+      "controlInfo": {
+        "ableToAddLookUpVal": true,
+        "className": "col-md-6",
+        "displayName": "Parent",
+        "fieldName": "control_31604710-d789-11f0-b411-63643601a4d1",
+        "gridId": "itemsChildren",
+        "label": "Parent",
+        "lookUpIdColumn": "parentId",
+        "lookUpTable": "itemsParent",
+        "name": "control_31604710-d789-11f0-b411-63643601a4d1",
+        "propName": "parent",
+        "propertyName": "parent",
+        "type": "lookup"
+      },
+      "displayName": "Parent",
+      "indexed": true,
+      "invisible": false,
+      "lookUpTable": "itemsParent",
+      "order": 1,
+      "type": "lookup"
+    },
+    "parents": {
+      "controlInfo": {
+        "ableToAddLookUpVal": true,
+        "className": "col-md-6",
+        "displayName": "Parents",
+        "fieldName": "control_db1d8690-db4f-11f0-88a5-15c99ddb8ced",
+        "gridId": "itemsChildren",
+        "label": "Parents",
+        "lookUpTable": "itemsParent",
+        "name": "control_db1d8690-db4f-11f0-88a5-15c99ddb8ced",
+        "propName": "parents",
+        "propertyName": "parents",
+        "type": "multi_lookup"
+      },
+      "displayName": "Parents",
+      "indexed": true,
+      "invisible": false,
+      "lookUpTable": "itemsParent",
+      "order": 2,
+      "type": "multi_lookup"
+    },
+    "state": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "State",
+        "fieldName": "control_cac0d530-d786-11f0-8ea6-6f477a0223a8",
+        "gridId": "itemsChildren",
+        "invisible": true,
+        "label": "State",
+        "name": "control_cac0d530-d786-11f0-8ea6-6f477a0223a8",
+        "propName": "state",
+        "propertyName": "state",
+        "saveToHiddenSection": true,
+        "type": "text"
+      },
+      "displayName": "State",
+      "invisible": true,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_725382",
+        "label": "",
+        "clientKey": "section_725382",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_725382_row_959975",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_c9b30eb2-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_c9b30eb2-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Name",
+                "type": "text",
+                "propName": "name",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Name",
+                "propertyName": "name"
+              },
+              {
+                "name": "control_31604710-d789-11f0-b411-63643601a4d1",
+                "fieldName": "control_31604710-d789-11f0-b411-63643601a4d1",
+                "label": "Parent",
+                "type": "lookup",
+                "propName": "parent",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Parent",
+                "propertyName": "parent",
+                "lookUpTable": "itemsParent",
+                "ableToAddLookUpVal": true,
+                "decimalPlace": null,
+                "lookUpIdColumn": "parentId"
+              },
+              {
+                "name": "control_db1d8690-db4f-11f0-88a5-15c99ddb8ced",
+                "fieldName": "control_db1d8690-db4f-11f0-88a5-15c99ddb8ced",
+                "label": "Parents",
+                "type": "multi_lookup",
+                "propName": "parents",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Parents",
+                "propertyName": "parents",
+                "lookUpTable": "itemsParent",
+                "ableToAddLookUpVal": true,
+                "decimalPlace": null,
+                "lookUpIdColumn": "parentId"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "readonly": false
+      },
+      {
+        "clientKey": "hidden_section_c9b30eb0-d786-11f0-8ea6-6f477a0223a8",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_c9b30eb0-d786-11f0-8ea6-6f477a0223a8",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_c9b30eb0-d786-11f0-8ea6-6f477a0223a8_row_c9b30eb1-d786-11f0-8ea6-6f477a0223a8",
+            "controls": [
+              {
+                "name": "control_c9f595f0-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_c9f595f0-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Layout",
+                "type": "select",
+                "propName": "layout",
+                "className": "col-md-6",
+                "dataOptions": [],
+                "gridId": "itemsChildren",
+                "displayName": "Layout",
+                "propertyName": "layout",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_ca386b50-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_ca386b50-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Owner",
+                "type": "user",
+                "propName": "owner",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Owner",
+                "propertyName": "owner",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_ca7d6390-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_ca7d6390-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Created Date",
+                "type": "datepicker",
+                "propName": "createdDate",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Created Date",
+                "propertyName": "createdDate",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "isTodayValueCreated": true,
+                "isTodayValue": true
+              },
+              {
+                "name": "control_cac0d530-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_cac0d530-d786-11f0-8ea6-6f477a0223a8",
+                "label": "State",
+                "type": "text",
+                "propName": "state",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "State",
+                "propertyName": "state",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_cb030e50-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_cb030e50-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Next Events",
+                "type": "text",
+                "propName": "nextEvents",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Next Events",
+                "propertyName": "nextEvents",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_cb4631d0-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_cb4631d0-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Last edited by",
+                "type": "user",
+                "propName": "lastEditedBy",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Last edited by",
+                "propertyName": "lastEditedBy",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "readonly": true
+              },
+              {
+                "name": "control_cb89a370-d786-11f0-8ea6-6f477a0223a8",
+                "fieldName": "control_cb89a370-d786-11f0-8ea6-6f477a0223a8",
+                "label": "Last edit date",
+                "type": "datepicker",
+                "propName": "lastEditDate",
+                "className": "col-md-6",
+                "gridId": "itemsChildren",
+                "displayName": "Last edit date",
+                "propertyName": "lastEditDate",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "isTodayValueCreated": true,
+                "isTodayValue": true,
+                "readonly": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "collapse"
+  },
+  "showRowKey": true,
+  "source": "itemsChildren",
+  "storageType": "dashboard",
+  "title": "Items Children"
+}

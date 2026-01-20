@@ -1,0 +1,193 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "createdDate": {
+      "displayName": "Created Date",
+      "invisible": true,
+      "order": 3,
+      "type": "date"
+    },
+    "expression": {
+      "displayName": "Expression",
+      "order": 8,
+      "type": "string"
+    },
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "invisible": true,
+      "order": 7,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "displayName": "Last edited by",
+      "invisible": true,
+      "order": 6,
+      "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "invisible": true,
+      "order": 1,
+      "type": "select"
+    },
+    "name": {
+      "displayName": "Name",
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "invisible": true,
+      "order": 5,
+      "type": "string"
+    },
+    "owner": {
+      "displayName": "Owner",
+      "invisible": true,
+      "order": 2,
+      "type": "user"
+    },
+    "state": {
+      "displayName": "State",
+      "invisible": true,
+      "order": 4,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_448811",
+        "label": "",
+        "clientKey": "section_448811",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_448811_row_901120",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_32784ab2-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_32784ab2-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Name",
+                "type": "text",
+                "propName": "name",
+                "className": "col-md-6",
+                "dataFetchDepth": "related"
+              },
+              {
+                "name": "control_361d0fc0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_361d0fc0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Expression",
+                "type": "text",
+                "propName": "expression",
+                "className": "col-md-6",
+                "dataFetchDepth": "related"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "clientKey": "hidden_section_32784ab0-7dcc-11f0-9e6a-a9df1a64b3b8",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_32784ab0-7dcc-11f0-9e6a-a9df1a64b3b8",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_32784ab0-7dcc-11f0-9e6a-a9df1a64b3b8_row_32784ab1-7dcc-11f0-9e6a-a9df1a64b3b8",
+            "controls": [
+              {
+                "name": "control_32bb9540-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_32bb9540-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Layout",
+                "type": "select",
+                "propName": "layout",
+                "className": "col-md-6",
+                "dataOptions": [],
+                "dataFetchDepth": "related",
+                "invisible": true
+              },
+              {
+                "name": "control_32fedfd0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_32fedfd0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Owner",
+                "type": "user",
+                "propName": "owner",
+                "className": "col-md-6",
+                "dataFetchDepth": "related",
+                "invisible": true
+              },
+              {
+                "name": "control_334362e0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_334362e0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Created Date",
+                "type": "datepicker",
+                "propName": "createdDate",
+                "className": "col-md-6",
+                "dataFetchDepth": "related",
+                "invisible": true
+              },
+              {
+                "name": "control_33865f50-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_33865f50-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "State",
+                "type": "text",
+                "propName": "state",
+                "className": "col-md-6",
+                "dataFetchDepth": "related",
+                "invisible": true
+              },
+              {
+                "name": "control_33cf7640-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_33cf7640-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Next Events",
+                "type": "text",
+                "propName": "nextEvents",
+                "className": "col-md-6",
+                "dataFetchDepth": "related",
+                "invisible": true
+              },
+              {
+                "name": "control_341ea7b0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_341ea7b0-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Last edited by",
+                "type": "user",
+                "propName": "lastEditedBy",
+                "className": "col-md-6",
+                "readonly": true,
+                "dataFetchDepth": "related",
+                "invisible": true
+              },
+              {
+                "name": "control_34713480-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "fieldName": "control_34713480-7dcc-11f0-9e6a-a9df1a64b3b8",
+                "label": "Last edit date",
+                "type": "datepicker",
+                "propName": "lastEditDate",
+                "className": "col-md-6",
+                "readonly": true,
+                "dataFetchDepth": "related",
+                "invisible": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "collapse"
+  },
+  "source": "dateFilters",
+  "storageType": "dashboard",
+  "title": "Date Filters"
+}
