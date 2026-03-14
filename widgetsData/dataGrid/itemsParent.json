@@ -200,9 +200,7 @@
                 "displayName": "Created Date",
                 "propertyName": "createdDate",
                 "invisible": true,
-                "saveToHiddenSection": true,
-                "isTodayValueCreated": true,
-                "isTodayValue": true
+                "saveToHiddenSection": true
               },
               {
                 "name": "control_be34db90-d786-11f0-8ea6-6f477a0223a8",
@@ -256,8 +254,6 @@
                 "propertyName": "lastEditDate",
                 "invisible": true,
                 "saveToHiddenSection": true,
-                "isTodayValueCreated": true,
-                "isTodayValue": true,
                 "readonly": true
               }
             ]

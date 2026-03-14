@@ -45,7 +45,7 @@ module.exports = {
   data() {
     return {
       walletAddress: '0x1dded...ac633',
-      balance: '100',
+      balance: '500',
       additionalTokens: 8,
       percentageGain: '12.53'
     }

@@ -6,17 +6,19 @@
   "formLayouts": {
     "-OJxA5Q4Wxq1KGomM6SB": {
       "layout": {
+        "layout": "collapse",
         "sections": [
           {
-            "name": "section_719854",
-            "label": "",
             "clientKey": "section_719854",
+            "isDynamic": false,
+            "label": "",
+            "labelPosition": "top",
+            "maxInstance": 0,
+            "minInstance": 1,
+            "name": "section_719854",
             "order": 0,
             "rows": [
               {
-                "name": "section_719854_row_259272",
-                "label": "",
-                "order": 0,
                 "controls": [
                   {
                     "name": "control_bc6143e2-8727-11ef-a539-351fccbf4c21",
@@ -25,9 +27,9 @@
                     "type": "text",
                     "propName": "name",
                     "className": "col-md-6",
+                    "gridId": "cities",
                     "isForDownload": false,
                     "openInNewTab": false,
-                    "gridId": "cities",
                     "sum": false
                   },
                   {
@@ -37,10 +39,10 @@
                     "type": "lookup",
                     "propName": "country",
                     "className": "col-md-6",
-                    "isForDownload": false,
-                    "openInNewTab": false,
                     "ableToAddLookUpVal": true,
                     "gridId": "cities",
+                    "isForDownload": false,
+                    "openInNewTab": false,
                     "searchLookUpInDB": false
                   },
                   {
@@ -51,9 +53,9 @@
                     "propName": "populationRename",
                     "className": "col-md-6",
                     "decimalPlace": 2,
+                    "gridId": "cities",
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "gridId": "cities"
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_bd3bec70-8727-11ef-a539-351fccbf4c21",
@@ -62,9 +64,9 @@
                     "type": "datepicker",
                     "propName": "createdDate",
                     "className": "col-md-6",
+                    "gridId": "cities",
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "gridId": "cities"
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_6c272450-ca00-11ef-af72-3f13fa8624d2",
@@ -79,10 +81,10 @@
                     ],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": "",
-                    "isForDownload": false,
-                    "openInNewTab": false,
                     "dataGridView": "view1",
-                    "gridId": "cities"
+                    "gridId": "cities",
+                    "isForDownload": false,
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_29fb8a60-1516-11f0-8761-a3b6746a7ebc",
@@ -101,8 +103,8 @@
                     "propName": "operation",
                     "className": "col-md-6",
                     "buttonVariant": "success",
-                    "attachedFunction": "myOperation",
                     "buttonText": "Run Operation",
+                    "attachedFunction": "myOperation",
                     "gridId": "cities"
                   },
                   {
@@ -118,10 +120,10 @@
                         "text": ""
                       }
                     ],
-                    "isForDownload": false,
-                    "openInNewTab": false,
+                    "gridId": "cities",
                     "invisible": true,
-                    "gridId": "cities"
+                    "isForDownload": false,
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_9493bcd0-4630-11f0-b7b8-416f6ce04b1d",
@@ -130,7 +132,6 @@
                     "type": "datagrid",
                     "propName": "events",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": ""
                   },
@@ -141,7 +142,6 @@
                     "type": "datagrid",
                     "propName": "grid1",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": ""
                   },
@@ -152,7 +152,6 @@
                     "type": "datagrid",
                     "propName": "city",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": ""
                   },
@@ -192,26 +191,21 @@
                     "className": "col-md-6",
                     "decimalPlace": 2
                   }
-                ]
+                ],
+                "label": "",
+                "name": "section_719854_row_259272",
+                "order": 0
               }
-            ],
-            "labelPosition": "top",
-            "isDynamic": false,
-            "minInstance": 1,
-            "maxInstance": 0,
-            "instances": []
+            ]
           },
           {
             "cleintKey": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21",
-            "instances": [],
             "isDynamic": false,
             "label": "Hidden Section",
-            "vif": "false",
             "name": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21",
             "order": 1,
             "rows": [
               {
-                "name": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21_row_bc6143e1-8727-11ef-a539-351fccbf4c21",
                 "controls": [
                   {
                     "name": "control_bce763d0-8727-11ef-a539-351fccbf4c21",
@@ -220,9 +214,9 @@
                     "type": "user",
                     "propName": "owner",
                     "className": "col-md-6",
+                    "invisible": true,
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "invisible": true
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_bd915f70-8727-11ef-a539-351fccbf4c21",
@@ -231,9 +225,9 @@
                     "type": "text",
                     "propName": "state",
                     "className": "col-md-6",
+                    "invisible": true,
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "invisible": true
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_bdd7de50-8727-11ef-a539-351fccbf4c21",
@@ -242,9 +236,9 @@
                     "type": "text",
                     "propName": "nextEvents",
                     "className": "col-md-6",
+                    "invisible": true,
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "invisible": true
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_be2eb0e0-8727-11ef-a539-351fccbf4c21",
@@ -253,10 +247,10 @@
                     "type": "user",
                     "propName": "lastEditedBy",
                     "className": "col-md-6",
-                    "readonly": true,
+                    "invisible": true,
                     "isForDownload": false,
                     "openInNewTab": false,
-                    "invisible": true
+                    "readonly": true
                   },
                   {
                     "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
@@ -265,33 +259,36 @@
                     "type": "datepicker",
                     "propName": "lastEditDate",
                     "className": "col-md-6",
-                    "readonly": true,
+                    "invisible": true,
                     "isForDownload": false,
                     "openInNewTab": false,
-                    "invisible": true
+                    "readonly": true
                   }
-                ]
+                ],
+                "name": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21_row_bc6143e1-8727-11ef-a539-351fccbf4c21"
               }
-            ]
+            ],
+            "vif": "false"
           }
-        ],
-        "layout": "collapse"
+        ]
       },
       "name": "Layout 1"
     },
     "-OJxA7CHxBkHARc-nZrx": {
       "layout": {
+        "layout": "collapse",
         "sections": [
           {
-            "name": "section_719854",
-            "label": "",
             "clientKey": "section_719854",
+            "isDynamic": false,
+            "label": "",
+            "labelPosition": "top",
+            "maxInstance": 0,
+            "minInstance": 1,
+            "name": "section_719854",
             "order": 0,
             "rows": [
               {
-                "name": "section_719854_row_259272",
-                "label": "",
-                "order": 0,
                 "controls": [
                   {
                     "name": "control_bc6143e2-8727-11ef-a539-351fccbf4c21",
@@ -300,9 +297,9 @@
                     "type": "text",
                     "propName": "name",
                     "className": "col-md-6",
+                    "gridId": "cities",
                     "isForDownload": false,
                     "openInNewTab": false,
-                    "gridId": "cities",
                     "sum": false
                   },
                   {
@@ -312,10 +309,10 @@
                     "type": "lookup",
                     "propName": "country",
                     "className": "col-md-6",
-                    "isForDownload": false,
-                    "openInNewTab": false,
                     "ableToAddLookUpVal": true,
-                    "gridId": "cities"
+                    "gridId": "cities",
+                    "isForDownload": false,
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_7c3ef250-a75a-11ef-b2af-153b165a3892",
@@ -325,9 +322,9 @@
                     "propName": "populationRename",
                     "className": "col-md-6",
                     "decimalPlace": 2,
+                    "gridId": "cities",
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "gridId": "cities"
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_bd3bec70-8727-11ef-a539-351fccbf4c21",
@@ -336,9 +333,9 @@
                     "type": "datepicker",
                     "propName": "createdDate",
                     "className": "col-md-6",
+                    "gridId": "cities",
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "gridId": "cities"
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_6c272450-ca00-11ef-af72-3f13fa8624d2",
@@ -347,12 +344,11 @@
                     "type": "datagrid",
                     "propName": "orders",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": "",
+                    "gridId": "cities",
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "gridId": "cities"
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_29fdad40-1516-11f0-8761-a3b6746a7ebc",
@@ -371,8 +367,8 @@
                     "propName": "operation",
                     "className": "col-md-6",
                     "buttonVariant": "primary",
-                    "attachedFunction": "myOperation",
-                    "buttonText": "Run Operation"
+                    "buttonText": "Run Operation",
+                    "attachedFunction": "myOperation"
                   },
                   {
                     "name": "control_bca46760-8727-11ef-a539-351fccbf4c21",
@@ -387,10 +383,10 @@
                         "text": ""
                       }
                     ],
-                    "isForDownload": false,
-                    "openInNewTab": false,
+                    "gridId": "cities",
                     "invisible": true,
-                    "gridId": "cities"
+                    "isForDownload": false,
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_94959190-4630-11f0-b7b8-416f6ce04b1d",
@@ -399,7 +395,6 @@
                     "type": "datagrid",
                     "propName": "events",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": ""
                   },
@@ -410,7 +405,6 @@
                     "type": "datagrid",
                     "propName": "grid1",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": ""
                   },
@@ -421,7 +415,6 @@
                     "type": "datagrid",
                     "propName": "city",
                     "className": "col-md-12",
-                    "dataGridAvailableViews": [],
                     "dataGridAddRecordsText": "",
                     "dataGridAddRecordText": ""
                   },
@@ -461,26 +454,21 @@
                     "className": "col-md-6",
                     "decimalPlace": 2
                   }
-                ]
+                ],
+                "label": "",
+                "name": "section_719854_row_259272",
+                "order": 0
               }
-            ],
-            "labelPosition": "top",
-            "isDynamic": false,
-            "minInstance": 1,
-            "maxInstance": 0,
-            "instances": []
+            ]
           },
           {
             "cleintKey": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21",
-            "instances": [],
             "isDynamic": false,
             "label": "Hidden Section",
-            "vif": "false",
             "name": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21",
             "order": 1,
             "rows": [
               {
-                "name": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21_row_bc6143e1-8727-11ef-a539-351fccbf4c21",
                 "controls": [
                   {
                     "name": "control_bce763d0-8727-11ef-a539-351fccbf4c21",
@@ -489,9 +477,9 @@
                     "type": "user",
                     "propName": "owner",
                     "className": "col-md-6",
+                    "invisible": true,
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "invisible": true
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_bd915f70-8727-11ef-a539-351fccbf4c21",
@@ -500,9 +488,9 @@
                     "type": "text",
                     "propName": "state",
                     "className": "col-md-6",
+                    "invisible": true,
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "invisible": true
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_bdd7de50-8727-11ef-a539-351fccbf4c21",
@@ -511,9 +499,9 @@
                     "type": "text",
                     "propName": "nextEvents",
                     "className": "col-md-6",
+                    "invisible": true,
                     "isForDownload": false,
-                    "openInNewTab": false,
-                    "invisible": true
+                    "openInNewTab": false
                   },
                   {
                     "name": "control_be2eb0e0-8727-11ef-a539-351fccbf4c21",
@@ -522,10 +510,10 @@
                     "type": "user",
                     "propName": "lastEditedBy",
                     "className": "col-md-6",
-                    "readonly": true,
+                    "invisible": true,
                     "isForDownload": false,
                     "openInNewTab": false,
-                    "invisible": true
+                    "readonly": true
                   },
                   {
                     "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
@@ -534,22 +522,23 @@
                     "type": "datepicker",
                     "propName": "lastEditDate",
                     "className": "col-md-6",
-                    "readonly": true,
+                    "invisible": true,
                     "isForDownload": false,
                     "openInNewTab": false,
-                    "invisible": true
+                    "readonly": true
                   }
-                ]
+                ],
+                "name": "hidden_section_bc6143e0-8727-11ef-a539-351fccbf4c21_row_bc6143e1-8727-11ef-a539-351fccbf4c21"
               }
-            ]
+            ],
+            "vif": "false"
           }
-        ],
-        "layout": "collapse"
+        ]
       },
       "name": "Layout 2"
     }
   },
-  "initialLoadMaxRecords": "0",
+  "initialLoadMaxRecords": "",
   "isReactive": true,
   "meta": {
     "city": {
@@ -560,7 +549,6 @@
       "type": "datagrid"
     },
     "countries": {
-      "Width": 158,
       "controlInfo": {
         "ableToAddLookUpVal": true,
         "className": "col-md-6",
@@ -569,6 +557,7 @@
         "label": "Countries",
         "name": "control_28dd4920-1516-11f0-8761-a3b6746a7ebc",
         "propName": "countries",
+        "required": true,
         "searchLookUpInDB": true,
         "type": "multi_lookup"
       },
@@ -580,6 +569,7 @@
       "type": "multi_lookup"
     },
     "country": {
+      "Width": "164px",
       "controlInfo": {
         "ableToAddLookUpVal": true,
         "className": "col-md-6",
@@ -591,6 +581,7 @@
         "name": "control_080c4c40-8728-11ef-a539-351fccbf4c21",
         "openInNewTab": false,
         "propName": "country",
+        "required": true,
         "searchLookUpInDB": true,
         "tabIndex": "6",
         "type": "lookup"
@@ -612,23 +603,24 @@
         "name": "control_bd3bec70-8727-11ef-a539-351fccbf4c21",
         "openInNewTab": false,
         "propName": "createdDate",
+        "required": true,
         "tabIndex": "7",
         "type": "datepicker"
       },
       "displayName": "Created Date",
       "invisible": false,
-      "order": 5,
+      "order": 4,
       "type": "date"
     },
     "custom": {
       "displayName": "Custom",
       "invisible": false,
-      "order": 6
+      "order": 5
     },
     "customers": {
       "displayName": "Customers",
       "invisible": false,
-      "order": 7
+      "order": 6
     },
     "events": {
       "dataGrid": "events",
@@ -648,8 +640,10 @@
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
+        "gridId": "cities",
         "invisible": true,
         "isForDownload": false,
+        "isTodayValue": false,
         "label": "Last edit date",
         "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
         "openInNewTab": false,
@@ -659,13 +653,14 @@
       },
       "displayName": "Last edit date",
       "invisible": false,
-      "order": 8,
+      "order": 7,
       "type": "date"
     },
     "lastEditedBy": {
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_be2eb0e0-8727-11ef-a539-351fccbf4c21",
+        "gridId": "cities",
         "invisible": true,
         "isForDownload": false,
         "label": "Last edited by",
@@ -677,7 +672,7 @@
       },
       "displayName": "Last edited by",
       "invisible": false,
-      "order": 9,
+      "order": 8,
       "type": "user"
     },
     "layout": {
@@ -700,34 +695,80 @@
       },
       "displayName": "Layout",
       "invisible": false,
-      "order": 10,
+      "order": 9,
       "type": "select"
     },
     "myValue": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "expression": "rowData.myValueGrid1 + rowData.myValueGrid2",
+        "fieldName": "control_b52dbe90-ab76-11f0-97aa-f5c9aac30363",
+        "gridId": "cities",
+        "label": "myValue",
+        "name": "control_b52dbe90-ab76-11f0-97aa-f5c9aac30363",
+        "propName": "myValue",
+        "sum": true,
+        "type": "number"
+      },
       "displayName": "myValue",
-      "invisible": true,
-      "order": 20,
+      "invisible": false,
+      "order": 14,
       "type": "number"
     },
     "myValueGrid1": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "fieldName": "control_7af744b0-ab64-11f0-9dd1-1b708595d94a",
+        "groupBy": "city",
+        "label": "My Value Grid 1",
+        "name": "control_7af744b0-ab64-11f0-9dd1-1b708595d94a",
+        "propName": "myValueGrid1",
+        "sum": true,
+        "sumField": "grid1.myValue",
+        "type": "number"
+      },
       "displayName": "My Value Grid 1",
       "invisible": true,
-      "order": 18,
       "type": "number"
     },
     "myValueGrid2": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "fieldName": "control_829641d0-ab64-11f0-9dd1-1b708595d94a",
+        "groupBy": "city",
+        "label": "My Value Grid 2",
+        "name": "control_829641d0-ab64-11f0-9dd1-1b708595d94a",
+        "propName": "myValueGrid2",
+        "sum": true,
+        "sumField": "grid2.myValue",
+        "type": "number"
+      },
       "displayName": "My Value Grid 2",
       "invisible": true,
-      "order": 19,
       "type": "number"
     },
     "myValueRef": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "expression": "rowData.myValue + 1",
+        "fieldName": "control_29fefcc0-ab77-11f0-97aa-f5c9aac30363",
+        "label": "myValueRef",
+        "name": "control_29fefcc0-ab77-11f0-97aa-f5c9aac30363",
+        "propName": "myValueRef",
+        "sum": true,
+        "type": "number"
+      },
       "displayName": "myValueRef",
-      "invisible": true,
-      "order": 21,
+      "invisible": false,
+      "order": 15,
       "type": "number"
     },
     "name": {
+      "Width": "215px",
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_bc6143e2-8727-11ef-a539-351fccbf4c21",
@@ -738,6 +779,7 @@
         "name": "control_bc6143e2-8727-11ef-a539-351fccbf4c21",
         "openInNewTab": false,
         "propName": "name",
+        "required": true,
         "sum": false,
         "tabIndex": "1",
         "type": "text",
@@ -765,7 +807,7 @@
       },
       "displayName": "Next Events",
       "invisible": false,
-      "order": 11,
+      "order": 10,
       "type": "string"
     },
     "operation": {
@@ -783,7 +825,7 @@
       },
       "displayName": "Operation",
       "invisible": false,
-      "order": 12,
+      "order": 11,
       "type": "function_invoker"
     },
     "orders": {
@@ -797,6 +839,7 @@
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_bce763d0-8727-11ef-a539-351fccbf4c21",
+        "gridId": "cities",
         "invisible": true,
         "isForDownload": false,
         "label": "Owner",
@@ -807,10 +850,11 @@
       },
       "displayName": "Owner",
       "invisible": false,
-      "order": 13,
+      "order": 12,
       "type": "user"
     },
     "populationRename": {
+      "Width": "141px",
       "controlInfo": {
         "className": "col-md-6",
         "decimalPlace": 3,
@@ -819,15 +863,15 @@
         "isForDownload": false,
         "label": "Population",
         "name": "control_7c3ef250-a75a-11ef-b2af-153b165a3892",
-        "numeralFormat": "",
         "openInNewTab": false,
         "propName": "populationRename",
+        "required": true,
         "tabIndex": "2",
         "type": "number"
       },
       "displayName": "Population",
       "invisible": false,
-      "order": 4,
+      "order": 3,
       "type": "number"
     },
     "state": {
@@ -844,7 +888,7 @@
       },
       "displayName": "State",
       "invisible": false,
-      "order": 14,
+      "order": 13,
       "type": "string"
     }
   },
@@ -874,7 +918,9 @@
                 "sum": false,
                 "widthPercentages": "30",
                 "tabIndex": "1",
-                "fieldTemplate": ""
+                "fieldTemplate": "",
+                "decimalPlace": null,
+                "required": true
               },
               {
                 "name": "control_080c4c40-8728-11ef-a539-351fccbf4c21",
@@ -889,7 +935,9 @@
                 "gridId": "cities",
                 "lookUpAsyncSearch": true,
                 "searchLookUpInDB": true,
-                "tabIndex": "6"
+                "tabIndex": "6",
+                "decimalPlace": null,
+                "required": true
               },
               {
                 "name": "control_7c3ef250-a75a-11ef-b2af-153b165a3892",
@@ -902,8 +950,8 @@
                 "isForDownload": false,
                 "openInNewTab": false,
                 "gridId": "cities",
-                "numeralFormat": "",
-                "tabIndex": "2"
+                "tabIndex": "2",
+                "required": true
               },
               {
                 "name": "control_28dd4920-1516-11f0-8761-a3b6746a7ebc",
@@ -914,7 +962,9 @@
                 "className": "col-md-6",
                 "ableToAddLookUpVal": true,
                 "gridId": "cities",
-                "searchLookUpInDB": true
+                "searchLookUpInDB": true,
+                "decimalPlace": null,
+                "required": true
               },
               {
                 "name": "control_bd3bec70-8727-11ef-a539-351fccbf4c21",
@@ -926,7 +976,9 @@
                 "isForDownload": false,
                 "openInNewTab": false,
                 "gridId": "cities",
-                "tabIndex": "7"
+                "tabIndex": "7",
+                "decimalPlace": null,
+                "required": true
               },
               {
                 "name": "control_58da60d0-25cf-11f0-8cf3-17e56359e3e7",
@@ -936,8 +988,8 @@
                 "propName": "operation",
                 "className": "col-md-6",
                 "buttonVariant": "danger",
-                "attachedFunction": "myOperation",
                 "buttonText": "Run Operation 1",
+                "attachedFunction": "myOperation",
                 "gridId": "cities"
               },
               {
@@ -1018,12 +1070,12 @@
                 ],
                 "dataGridAddRecordsText": "",
                 "dataGridAddRecordText": "",
+                "hideTopAddRecord": false,
+                "hideBottomAddRecord": true,
                 "isForDownload": false,
                 "openInNewTab": false,
                 "dataGridView": "view1",
                 "gridId": "cities",
-                "hideTopAddRecord": false,
-                "hideBottomAddRecord": true,
                 "decimalPlace": null
               },
               {
@@ -1036,10 +1088,10 @@
                 "dataGridAvailableViews": [],
                 "dataGridAddRecordsText": "",
                 "dataGridAddRecordText": "",
-                "gridId": "cities",
-                "decimalPlace": null,
                 "hideAddRecord": false,
-                "hideBottomAddRecord": false
+                "hideBottomAddRecord": false,
+                "gridId": "cities",
+                "decimalPlace": null
               },
               {
                 "name": "control_f41982f0-ab63-11f0-9dd1-1b708595d94a",
@@ -1098,8 +1150,7 @@
                 "openInNewTab": false,
                 "invisible": true,
                 "gridId": "cities",
-                "decimalPlace": null,
-                "isCurrentUserOwner": true
+                "decimalPlace": null
               },
               {
                 "name": "control_bd915f70-8727-11ef-a539-351fccbf4c21",
@@ -1135,8 +1186,7 @@
                 "openInNewTab": false,
                 "invisible": true,
                 "gridId": "cities",
-                "decimalPlace": null,
-                "isCurrentUser": false
+                "decimalPlace": null
               },
               {
                 "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
@@ -1167,17 +1217,24 @@
   "storageType": "dashboard",
   "title": "Cities",
   "useInGlobalSearch": true,
-  "usePostgeSQLIndexing": true,
+  "usePostgeSQLIndexing": false,
   "views": {
     "default": {
       "displayAsExcel": false,
-      "displayCardStyle": true,
+      "displayAsSheetGrid": true,
+      "displayCardStyle": false,
       "displayCompact": false,
       "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
       "displayTotalValue": false,
       "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
       "readOnly": false,
       "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
       "title": "Default",
       "useFilterInBackend": true
     },

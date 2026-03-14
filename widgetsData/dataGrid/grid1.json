@@ -5,6 +5,7 @@
   },
   "displayColumn": "name",
   "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":\"relatedList\"},{\"andOr\":\"AND\",\"key\":\"cities\",\"operator\":\"in\",\"value\":null,\"name\":\"Cities\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"createdDate\",\"operator\":\"date\",\"value\":null,\"name\":\"Created Date\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"\",\"key\":\"amount\",\"operator\":\"=\",\"value\":null,\"name\":\"Amount\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null}]}",
+  "hideAddRecord": false,
   "initialLoadMaxRecords": "",
   "isReactive": true,
   "meta": {
@@ -148,6 +149,7 @@
       "type": "select"
     },
     "link": {
+      "Width": "50px",
       "controlInfo": {
         "className": "col-md-6",
         "displayName": "Link",
@@ -162,6 +164,7 @@
       },
       "displayName": "Link",
       "invisible": false,
+      "minWidth": "20px",
       "order": 1,
       "type": "string"
     },
@@ -206,7 +209,7 @@
         "type": "user"
       },
       "displayName": "Owner",
-      "invisible": true,
+      "invisible": false,
       "type": "user"
     },
     "state": {
@@ -224,7 +227,7 @@
       "type": "string"
     },
     "time": {
-      "Width": "295px",
+      "Width": "50px",
       "controlInfo": {
         "className": "col-md-6",
         "displayName": "Time",
@@ -262,8 +265,8 @@
                 "type": "text",
                 "propName": "name",
                 "className": "col-md-6",
-                "gridId": "grid1",
-                "decimalPlace": null
+                "decimalPlace": null,
+                "gridId": "grid1"
               },
               {
                 "name": "control_93124a20-68a4-11f0-8a02-61cc99fe0fe6",
@@ -287,12 +290,12 @@
                 "type": "multi_lookup",
                 "propName": "cities",
                 "className": "col-md-6",
+                "defaultValue": "-OGFUxbEFfBdGq6XT6at,-Ob37xi4itkdeGs2GFgM",
+                "lookUpSortDirection": "ASC",
                 "ableToAddLookUpVal": true,
                 "gridId": "grid1",
                 "decimalPlace": null,
-                "searchLookUpInDB": true,
-                "lookUpSortDirection": "ASC",
-                "defaultValue": "-OGFUxbEFfBdGq6XT6at,-Ob37xi4itkdeGs2GFgM"
+                "searchLookUpInDB": true
               },
               {
                 "name": "control_4d479550-7ce4-11f0-853e-7fd75e03ccd3",
@@ -302,7 +305,6 @@
                 "propName": "amount",
                 "className": "col-md-6",
                 "decimalPlace": 2,
-                "dataFetchDepth": "related",
                 "gridId": "grid1"
               },
               {
@@ -325,12 +327,11 @@
                 "type": "text",
                 "propName": "link",
                 "className": "col-md-6",
-                "gridId": "grid1",
-                "displayName": "Link",
-                "propertyName": "link",
                 "decimalPlace": null,
                 "isMarkdownLink": true,
-                "readonly": false
+                "gridId": "grid1",
+                "displayName": "Link",
+                "propertyName": "link"
               },
               {
                 "name": "control_6cb701e0-f3d2-11f0-8a18-53135cf32328",
@@ -339,15 +340,13 @@
                 "type": "multiline_text",
                 "propName": "description",
                 "className": "col-md-6",
+                "isMarkdownLink": true,
                 "gridId": "grid1",
                 "displayName": "Description",
                 "propertyName": "description",
                 "layoutKey": null,
                 "hideForTable": true,
-                "decimalPlace": null,
-                "isMarkdownLink": true,
-                "readonly": false,
-                "required": false
+                "decimalPlace": null
               }
             ]
           }
@@ -388,7 +387,9 @@
                 "type": "user",
                 "propName": "owner",
                 "className": "col-md-6",
-                "invisible": true
+                "invisible": true,
+                "gridId": "grid1",
+                "decimalPlace": null
               },
               {
                 "name": "control_495a2ff0-4dfc-11f0-b818-b7306eeffe81",

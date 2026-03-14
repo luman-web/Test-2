@@ -4,14 +4,16 @@
   "dgInputPriceFormatting": false,
   "dgRemoveFromPath": true,
   "enableLogsBenchmark": false,
+  "enableSumLogging": false,
   "globalSearchEnabled": false,
+  "isContextualChatAvailable": false,
   "isDataGridUpdateFlashEnabled": false,
   "modelsCachingEnabled": false,
   "parseUserRecord": true,
   "regional": {
     "currency": "$",
     "date": "MM/DD/YYYY",
-    "time": "MM/DD/Y HH:mm"
+    "time": "MM/DD/YYYY HH:mm"
   },
   "showDataGridRecordsHistory": false,
   "storeCacheLocally": true,

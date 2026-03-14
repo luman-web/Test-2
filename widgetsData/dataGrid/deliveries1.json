@@ -1,0 +1,223 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "createdDate": {
+      "displayName": "Created Date",
+      "invisible": true,
+      "order": 3,
+      "type": "date"
+    },
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "invisible": true,
+      "order": 7,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "displayName": "Last edited by",
+      "invisible": true,
+      "order": 6,
+      "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "invisible": true,
+      "order": 1,
+      "type": "select"
+    },
+    "name": {
+      "displayName": "Name",
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "invisible": true,
+      "order": 5,
+      "type": "string"
+    },
+    "owner": {
+      "displayName": "Owner",
+      "invisible": true,
+      "order": 2,
+      "type": "user"
+    },
+    "state": {
+      "displayName": "State",
+      "invisible": true,
+      "order": 4,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_598400",
+        "label": "",
+        "clientKey": "section_598400",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_598400_row_222533",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_0d482980-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0d482980-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Name",
+                "type": "text",
+                "propName": "name",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "deliveries1",
+                "displayName": "Name",
+                "propertyName": "name"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "clientKey": "hidden_section_0d47db60-013a-11f1-ba7b-cd6d8281fb7a",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_0d47db60-013a-11f1-ba7b-cd6d8281fb7a",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_0d47db60-013a-11f1-ba7b-cd6d8281fb7a_row_0d47db61-013a-11f1-ba7b-cd6d8281fb7a",
+            "controls": [
+              {
+                "name": "control_0d8d21c0-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0d8d21c0-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Layout",
+                "type": "select",
+                "propName": "layout",
+                "className": "col-md-6",
+                "dataOptions": [],
+                "isMultiple": false,
+                "gridId": "deliveries1",
+                "displayName": "Layout",
+                "propertyName": "layout",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_0dd2dd50-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0dd2dd50-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Owner",
+                "type": "user",
+                "propName": "owner",
+                "className": "col-md-6",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "gridId": "deliveries1",
+                "displayName": "Owner",
+                "propertyName": "owner",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_0e1871d0-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0e1871d0-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Created Date",
+                "type": "datepicker",
+                "propName": "createdDate",
+                "className": "col-md-6",
+                "gridId": "deliveries1",
+                "displayName": "Created Date",
+                "propertyName": "createdDate",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "isTodayValueCreated": true,
+                "isTodayValue": true
+              },
+              {
+                "name": "control_0e5d9120-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0e5d9120-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "State",
+                "type": "text",
+                "propName": "state",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "deliveries1",
+                "displayName": "State",
+                "propertyName": "state",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_0ea2d780-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0ea2d780-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Next Events",
+                "type": "text",
+                "propName": "nextEvents",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "deliveries1",
+                "displayName": "Next Events",
+                "propertyName": "nextEvents",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_0ee844f0-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0ee844f0-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Last edited by",
+                "type": "user",
+                "propName": "lastEditedBy",
+                "className": "col-md-6",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "gridId": "deliveries1",
+                "displayName": "Last edited by",
+                "propertyName": "lastEditedBy",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "readonly": true
+              },
+              {
+                "name": "control_0f2e0080-013a-11f1-ba7b-cd6d8281fb7a",
+                "fieldName": "control_0f2e0080-013a-11f1-ba7b-cd6d8281fb7a",
+                "label": "Last edit date",
+                "type": "datepicker",
+                "propName": "lastEditDate",
+                "className": "col-md-6",
+                "gridId": "deliveries1",
+                "displayName": "Last edit date",
+                "propertyName": "lastEditDate",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "isTodayValueCreated": true,
+                "isTodayValue": true,
+                "readonly": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "collapse"
+  },
+  "source": "deliveries1",
+  "storageType": "dashboard",
+  "title": "Deliveries 1"
+}

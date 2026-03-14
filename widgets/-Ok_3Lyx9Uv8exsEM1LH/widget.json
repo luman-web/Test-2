@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/deliveries1",
+  "gsOptions": {
+    "h": 18,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "deliveries1"
+  },
+  "tab": "-Ok_3Lve5Y2ZNmm7ziYA",
+  "type": "DataGrid"
+}

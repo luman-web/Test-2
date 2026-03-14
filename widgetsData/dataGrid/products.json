@@ -1,14 +1,15 @@
 {
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"amount\",\"operator\":\"=\",\"value\":null,\"name\":\"Amount\",\"expression\":false,\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"amount\",\"operator\":\"=\",\"value\":null,\"name\":\"Amount\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"date\",\"operator\":\"date\",\"value\":null,\"name\":\"Date\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null,\"itemWidth\":300},{\"andOr\":\"\",\"key\":\"time\",\"operator\":\"time\",\"value\":null,\"name\":\"Time\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null,\"itemWidth\":300}]}",
   "initialLoadMaxRecords": "",
   "isReactive": true,
   "meta": {
     "amount": {
       "controlInfo": {
         "className": "col-md-6",
-        "decimalPlace": 2,
+        "decimalPlace": 3,
         "fieldName": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
+        "gridId": "products",
         "label": "Amount",
         "name": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
         "propName": "amount",
@@ -16,7 +17,7 @@
       },
       "displayName": "Amount",
       "invisible": false,
-      "order": 2,
+      "order": 5,
       "tabIndex": "3",
       "type": "number"
     },
@@ -24,14 +25,32 @@
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
+        "gridId": "products",
         "label": "Created Date",
         "name": "control_10131ab0-4c1f-11f0-95e5-39c01c74ead7",
         "propName": "createdDate",
         "type": "datepicker"
       },
       "displayName": "Created Date",
+      "invisible": true,
+      "type": "date"
+    },
+    "date": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Date",
+        "fieldName": "control_cdb3e790-172e-11f1-8a88-dd97932d939f",
+        "gridId": "products",
+        "label": "Date",
+        "name": "control_cdb3e790-172e-11f1-8a88-dd97932d939f",
+        "propName": "date",
+        "propertyName": "date",
+        "type": "datepicker"
+      },
+      "displayName": "Date",
       "invisible": false,
+      "onChange": "",
+      "order": 1,
       "type": "date"
     },
     "files": {
@@ -45,8 +64,7 @@
         "type": "files"
       },
       "displayName": "Files",
-      "invisible": false,
-      "order": 4,
+      "invisible": true,
       "type": "files"
     },
     "image": {
@@ -57,7 +75,7 @@
         "label": "Image",
         "name": "control_ba2393e0-6268-11f0-8db7-edf5491798e6",
         "propName": "image",
-        "skipCrop": true,
+        "skipCrop": false,
         "type": "profile_image"
       },
       "displayName": "Image",
@@ -69,7 +87,7 @@
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
+        "gridId": "products",
         "label": "Last edit date",
         "name": "control_112eeaf0-4c1f-11f0-95e5-39c01c74ead7",
         "propName": "lastEditDate",
@@ -77,40 +95,21 @@
         "type": "datepicker"
       },
       "displayName": "Last edit date",
-      "invisible": false,
+      "invisible": true,
       "type": "date"
     },
     "lastEditedBy": {
-      "controlInfo": {
-        "className": "col-md-6",
-        "fieldName": "control_10e7cfd0-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
-        "label": "Last edited by",
-        "name": "control_10e7cfd0-4c1f-11f0-95e5-39c01c74ead7",
-        "propName": "lastEditedBy",
-        "readonly": true,
-        "type": "user"
-      },
       "displayName": "Last edited by",
       "invisible": true,
       "type": "user"
     },
     "layout": {
-      "controlInfo": {
-        "className": "col-md-6",
-        "fieldName": "control_0f861cf0-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
-        "label": "Layout",
-        "name": "control_0f861cf0-4c1f-11f0-95e5-39c01c74ead7",
-        "propName": "layout",
-        "type": "select"
-      },
       "displayName": "Layout",
       "invisible": true,
       "type": "select"
     },
     "name": {
-      "Width": "416px",
+      "Width": "149px",
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_0f406162-4c1f-11f0-95e5-39c01c74ead7",
@@ -128,49 +127,72 @@
       "type": "string"
     },
     "nextEvents": {
-      "controlInfo": {
-        "className": "col-md-6",
-        "fieldName": "control_109ff160-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
-        "label": "Next Events",
-        "name": "control_109ff160-4c1f-11f0-95e5-39c01c74ead7",
-        "propName": "nextEvents",
-        "type": "text"
-      },
       "displayName": "Next Events",
       "invisible": true,
       "type": "string"
     },
     "owner": {
-      "controlInfo": {
-        "className": "col-md-6",
-        "fieldName": "control_0fccc2e0-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
-        "label": "Owner",
-        "name": "control_0fccc2e0-4c1f-11f0-95e5-39c01c74ead7",
-        "propName": "owner",
-        "type": "user"
-      },
       "displayName": "Owner",
       "invisible": true,
       "type": "user"
     },
-    "state": {
-      "Width": "134px",
+    "price": {
       "controlInfo": {
         "className": "col-md-6",
-        "fieldName": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
-        "invisible": true,
-        "label": "State",
-        "name": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
-        "propName": "state",
-        "type": "text"
+        "decimalPlace": 2,
+        "fieldName": "control_5cce9f90-02b4-11f1-99ba-97952a0bb372_",
+        "gridId": "products",
+        "invisible": false,
+        "label": "Price",
+        "name": "control_5cce9f90-02b4-11f1-99ba-97952a0bb372_",
+        "propName": "price",
+        "type": "number"
       },
-      "displayName": "State",
+      "displayName": "Price",
       "invisible": false,
-      "order": 1,
+      "onChange": "console.log('price on change')",
+      "order": 4,
+      "type": "number"
+    },
+    "state": {
+      "Width": "134px",
+      "displayName": "State",
+      "invisible": true,
       "tabIndex": "2",
       "type": "string"
+    },
+    "store": {
+      "controlInfo": {
+        "className": "col-md-4",
+        "fieldName": "control_5ccf62e0-02b4-11f1-99ba-97952a0bb372_",
+        "invisible": false,
+        "label": "Store",
+        "name": "control_5ccf62e0-02b4-11f1-99ba-97952a0bb372_",
+        "propName": "store",
+        "type": "lookup"
+      },
+      "displayName": "Store",
+      "invisible": false,
+      "lookUpTable": "store",
+      "order": 6,
+      "type": "lookup"
+    },
+    "time": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Time",
+        "fieldName": "control_423d7190-1733-11f1-b32f-614d8d8037ec",
+        "gridId": "products",
+        "label": "Time",
+        "name": "control_423d7190-1733-11f1-b32f-614d8d8037ec",
+        "propName": "time",
+        "propertyName": "time",
+        "type": "timepicker"
+      },
+      "displayName": "Time",
+      "invisible": false,
+      "order": 2,
+      "type": "timepicker"
     }
   },
   "rowEditorFieldsForm": {
@@ -193,9 +215,21 @@
                 "type": "text",
                 "propName": "name",
                 "className": "col-md-6",
-                "gridId": "products",
                 "decimalPlace": null,
+                "gridId": "products",
                 "tooltip": "tooltip value"
+              },
+              {
+                "name": "control_5cce9f90-02b4-11f1-99ba-97952a0bb372_",
+                "fieldName": "control_5cce9f90-02b4-11f1-99ba-97952a0bb372_",
+                "label": "Price",
+                "type": "number",
+                "propName": "price",
+                "className": "col-md-6",
+                "invisible": false,
+                "decimalPlace": 2,
+                "gridId": "products",
+                "numberHighlight": []
               },
               {
                 "name": "control_9107e520-51f0-11f0-9071-01e3ef4685b3",
@@ -204,9 +238,9 @@
                 "type": "number",
                 "propName": "amount",
                 "className": "col-md-6",
-                "decimalPlace": 0,
+                "decimalPlace": 3,
                 "gridId": "products",
-                "numberRightAligned": false
+                "numberHighlight": []
               },
               {
                 "name": "control_ba2393e0-6268-11f0-8db7-edf5491798e6",
@@ -215,8 +249,9 @@
                 "type": "profile_image",
                 "propName": "image",
                 "className": "col-md-6",
-                "skipCrop": true,
-                "gridId": "products"
+                "skipCrop": false,
+                "gridId": "products",
+                "decimalPlace": null
               },
               {
                 "name": "control_18eecb00-626f-11f0-9bab-99cbeb41bfab",
@@ -235,7 +270,6 @@
                 "type": "datepicker",
                 "propName": "createdDate",
                 "className": "col-md-6",
-                "invisible": false,
                 "gridId": "products",
                 "decimalPlace": null
               },
@@ -246,10 +280,41 @@
                 "type": "datepicker",
                 "propName": "lastEditDate",
                 "className": "col-md-6",
-                "invisible": false,
                 "readonly": true,
                 "gridId": "products",
                 "decimalPlace": null
+              },
+              {
+                "name": "control_5ccf62e0-02b4-11f1-99ba-97952a0bb372_",
+                "fieldName": "control_5ccf62e0-02b4-11f1-99ba-97952a0bb372_",
+                "label": "Store",
+                "type": "lookup",
+                "propName": "store",
+                "className": "col-md-4",
+                "invisible": false
+              },
+              {
+                "name": "control_cdb3e790-172e-11f1-8a88-dd97932d939f",
+                "fieldName": "control_cdb3e790-172e-11f1-8a88-dd97932d939f",
+                "label": "Date",
+                "type": "datepicker",
+                "propName": "date",
+                "className": "col-md-6",
+                "gridId": "products",
+                "displayName": "Date",
+                "propertyName": "date",
+                "decimalPlace": null
+              },
+              {
+                "name": "control_423d7190-1733-11f1-b32f-614d8d8037ec",
+                "fieldName": "control_423d7190-1733-11f1-b32f-614d8d8037ec",
+                "label": "Time",
+                "type": "timepicker",
+                "propName": "time",
+                "className": "col-md-6",
+                "gridId": "products",
+                "displayName": "Time",
+                "propertyName": "time"
               }
             ]
           }
@@ -258,7 +323,8 @@
         "isDynamic": false,
         "minInstance": 1,
         "maxInstance": 0,
-        "instances": []
+        "instances": [],
+        "vif": "!fbUser.roles.includes('X')"
       },
       {
         "cleintKey": "hidden_section_0f406160-4c1f-11f0-95e5-39c01c74ead7",
@@ -271,55 +337,7 @@
         "rows": [
           {
             "name": "hidden_section_0f406160-4c1f-11f0-95e5-39c01c74ead7_row_0f406161-4c1f-11f0-95e5-39c01c74ead7",
-            "controls": [
-              {
-                "name": "control_0f861cf0-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_0f861cf0-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "Layout",
-                "type": "select",
-                "propName": "layout",
-                "className": "col-md-6",
-                "dataOptions": [],
-                "invisible": true
-              },
-              {
-                "name": "control_0fccc2e0-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_0fccc2e0-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "Owner",
-                "type": "user",
-                "propName": "owner",
-                "className": "col-md-6",
-                "invisible": true
-              },
-              {
-                "name": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_10597280-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "State",
-                "type": "text",
-                "propName": "state",
-                "className": "col-md-6",
-                "invisible": true
-              },
-              {
-                "name": "control_109ff160-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_109ff160-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "Next Events",
-                "type": "text",
-                "propName": "nextEvents",
-                "className": "col-md-6",
-                "invisible": true
-              },
-              {
-                "name": "control_10e7cfd0-4c1f-11f0-95e5-39c01c74ead7",
-                "fieldName": "control_10e7cfd0-4c1f-11f0-95e5-39c01c74ead7",
-                "label": "Last edited by",
-                "type": "user",
-                "propName": "lastEditedBy",
-                "className": "col-md-6",
-                "invisible": true,
-                "readonly": true
-              }
-            ]
+            "controls": []
           }
         ]
       }
@@ -332,13 +350,204 @@
   "views": {
     "default": {
       "displayAsExcel": false,
+      "displayCardStyle": false,
       "displayCompact": false,
       "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
       "displayTotalValue": false,
+      "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
+      "readOnly": false,
+      "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "title": "Default"
+    },
+    "view1": {
+      "displayAsExcel": true,
+      "displayCardStyle": false,
+      "displayCompact": false,
+      "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
+      "displayTotalValue": false,
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"amount\",\"operator\":\"=\",\"value\":null,\"name\":\"Amount\",\"expression\":false,\"hidden\":false}]}",
+      "meta": {
+        "amount": {
+          "displayName": "Amount",
+          "invisible": false,
+          "order": 4
+        },
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": false,
+          "order": 7
+        },
+        "date": {
+          "displayName": "Date",
+          "order": 13
+        },
+        "files": {
+          "displayName": "Files",
+          "invisible": false,
+          "order": 6
+        },
+        "image": {
+          "displayName": "Image",
+          "invisible": false,
+          "order": 5
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": false,
+          "order": 8
+        },
+        "lastEditedBy": {
+          "displayName": "Last edited by",
+          "invisible": true,
+          "order": 9
+        },
+        "layout": {
+          "displayName": "Layout",
+          "invisible": true,
+          "order": 10
+        },
+        "name": {
+          "displayName": "Name",
+          "invisible": false,
+          "order": 0
+        },
+        "nextEvents": {
+          "displayName": "Next Events",
+          "invisible": true,
+          "order": 12
+        },
+        "owner": {
+          "displayName": "Owner",
+          "invisible": false,
+          "order": 2
+        },
+        "price": {
+          "displayName": "Price",
+          "invisible": false,
+          "order": 1,
+          "type": "number"
+        },
+        "state": {
+          "displayName": "State",
+          "invisible": false,
+          "order": 3
+        },
+        "store": {
+          "displayName": "Store",
+          "invisible": false,
+          "lookUpTable": "store",
+          "order": 11,
+          "type": "lookup"
+        },
+        "time": {
+          "displayName": "Time",
+          "order": 14
+        }
+      },
       "nestedDataGrid": "",
       "readOnly": false,
       "recordCustomCode": "",
-      "title": "Default"
+      "rowStyleCode": "",
+      "title": "View 1"
+    },
+    "view2": {
+      "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
+      "displayTotalValue": false,
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"amount\",\"operator\":\"=\",\"value\":null,\"name\":\"Amount\",\"expression\":false,\"hidden\":false}]}",
+      "meta": {
+        "amount": {
+          "displayName": "Amount",
+          "invisible": false,
+          "order": 3
+        },
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": false,
+          "order": 6
+        },
+        "date": {
+          "displayName": "Date",
+          "order": 13
+        },
+        "files": {
+          "displayName": "Files",
+          "invisible": false,
+          "order": 5
+        },
+        "image": {
+          "displayName": "Image",
+          "invisible": false,
+          "order": 4
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": false,
+          "order": 7
+        },
+        "lastEditedBy": {
+          "displayName": "Last edited by",
+          "invisible": true,
+          "order": 8
+        },
+        "layout": {
+          "displayName": "Layout",
+          "invisible": true,
+          "order": 9
+        },
+        "name": {
+          "displayName": "Name",
+          "invisible": false,
+          "order": 0
+        },
+        "nextEvents": {
+          "displayName": "Next Events",
+          "invisible": true,
+          "order": 10
+        },
+        "owner": {
+          "displayName": "Owner",
+          "invisible": false,
+          "order": 1
+        },
+        "price": {
+          "displayName": "Price",
+          "invisible": false,
+          "order": 11,
+          "type": "number"
+        },
+        "state": {
+          "displayName": "State",
+          "invisible": false,
+          "order": 2
+        },
+        "store": {
+          "displayName": "Store",
+          "invisible": false,
+          "lookUpTable": "store",
+          "order": 12,
+          "type": "lookup"
+        },
+        "time": {
+          "displayName": "Time",
+          "order": 14
+        }
+      },
+      "readOnly": false,
+      "title": "View 2"
     }
-  }
+  },
+  "viewsOrder": [
+    "view1",
+    "view2"
+  ]
 }

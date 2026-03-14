@@ -244,11 +244,11 @@
                 "type": "multi_lookup",
                 "propName": "parents",
                 "className": "col-md-6",
+                "ableToAddLookUpVal": true,
                 "gridId": "itemsChildren",
                 "displayName": "Parents",
                 "propertyName": "parents",
                 "lookUpTable": "itemsParent",
-                "ableToAddLookUpVal": true,
                 "decimalPlace": null,
                 "lookUpIdColumn": "parentId"
               }
@@ -312,9 +312,7 @@
                 "displayName": "Created Date",
                 "propertyName": "createdDate",
                 "invisible": true,
-                "saveToHiddenSection": true,
-                "isTodayValueCreated": true,
-                "isTodayValue": true
+                "saveToHiddenSection": true
               },
               {
                 "name": "control_cac0d530-d786-11f0-8ea6-6f477a0223a8",
@@ -368,8 +366,6 @@
                 "propertyName": "lastEditDate",
                 "invisible": true,
                 "saveToHiddenSection": true,
-                "isTodayValueCreated": true,
-                "isTodayValue": true,
                 "readonly": true
               }
             ]

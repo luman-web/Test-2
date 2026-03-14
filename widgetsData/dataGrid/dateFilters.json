@@ -74,8 +74,7 @@
                 "label": "Name",
                 "type": "text",
                 "propName": "name",
-                "className": "col-md-6",
-                "dataFetchDepth": "related"
+                "className": "col-md-6"
               },
               {
                 "name": "control_361d0fc0-7dcc-11f0-9e6a-a9df1a64b3b8",
@@ -83,8 +82,7 @@
                 "label": "Expression",
                 "type": "text",
                 "propName": "expression",
-                "className": "col-md-6",
-                "dataFetchDepth": "related"
+                "className": "col-md-6"
               }
             ]
           }
@@ -115,7 +113,6 @@
                 "propName": "layout",
                 "className": "col-md-6",
                 "dataOptions": [],
-                "dataFetchDepth": "related",
                 "invisible": true
               },
               {
@@ -125,7 +122,6 @@
                 "type": "user",
                 "propName": "owner",
                 "className": "col-md-6",
-                "dataFetchDepth": "related",
                 "invisible": true
               },
               {
@@ -135,7 +131,6 @@
                 "type": "datepicker",
                 "propName": "createdDate",
                 "className": "col-md-6",
-                "dataFetchDepth": "related",
                 "invisible": true
               },
               {
@@ -145,7 +140,6 @@
                 "type": "text",
                 "propName": "state",
                 "className": "col-md-6",
-                "dataFetchDepth": "related",
                 "invisible": true
               },
               {
@@ -155,7 +149,6 @@
                 "type": "text",
                 "propName": "nextEvents",
                 "className": "col-md-6",
-                "dataFetchDepth": "related",
                 "invisible": true
               },
               {
@@ -166,7 +159,6 @@
                 "propName": "lastEditedBy",
                 "className": "col-md-6",
                 "readonly": true,
-                "dataFetchDepth": "related",
                 "invisible": true
               },
               {
@@ -177,7 +169,6 @@
                 "propName": "lastEditDate",
                 "className": "col-md-6",
                 "readonly": true,
-                "dataFetchDepth": "related",
                 "invisible": true
               }
             ]

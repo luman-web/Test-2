@@ -44,11 +44,6 @@
     "savePath": "components/u-wallet-card/code"
   },
   {
-    "filePath": "customCode/js/test.js",
-    "savePath": "customCode/js/-OVNESDGmOArV-S8JoLN/code",
-    "customCodeName": "test"
-  },
-  {
     "filePath": "settings.json",
     "savePath": "settings"
   },
@@ -93,14 +88,6 @@
     "savePath": "tabs/-OSQHfjfuJ5Pd4TrU11B"
   },
   {
-    "filePath": "pages/-OT1ADrQQPuXSZBGYHBO.json",
-    "savePath": "tabs/-OT1ADrQQPuXSZBGYHBO"
-  },
-  {
-    "filePath": "pages/-OTDO6PieUDLk8MZCrKY.json",
-    "savePath": "tabs/-OTDO6PieUDLk8MZCrKY"
-  },
-  {
     "filePath": "pages/-OTDPTxCKXQJxGfaRTqY.json",
     "savePath": "tabs/-OTDPTxCKXQJxGfaRTqY"
   },
@@ -123,6 +110,18 @@
   {
     "filePath": "pages/-Oin71NW9OMHZV2aP8G1.json",
     "savePath": "tabs/-Oin71NW9OMHZV2aP8G1"
+  },
+  {
+    "filePath": "pages/-Ok_3Lve5Y2ZNmm7ziYA.json",
+    "savePath": "tabs/-Ok_3Lve5Y2ZNmm7ziYA"
+  },
+  {
+    "filePath": "pages/-OkedJmC6JtUxbHNW0lo.json",
+    "savePath": "tabs/-OkedJmC6JtUxbHNW0lo"
+  },
+  {
+    "filePath": "pages/-OkikAxsqyjndeIjm-Xt.json",
+    "savePath": "tabs/-OkikAxsqyjndeIjm-Xt"
   },
   {
     "filePath": "themeSettings.json",
@@ -177,14 +176,6 @@
     "savePath": "widgets/-OSQHfmheERd_efW38jq"
   },
   {
-    "filePath": "widgets/-OT1ADuVjQV6z6gC2O0G/widget.json",
-    "savePath": "widgets/-OT1ADuVjQV6z6gC2O0G"
-  },
-  {
-    "filePath": "widgets/-OTDO6SYEYyo5sV90z3q/widget.json",
-    "savePath": "widgets/-OTDO6SYEYyo5sV90z3q"
-  },
-  {
     "filePath": "widgets/-OTDPU-6d5b8hh_VMWUD/widget.json",
     "savePath": "widgets/-OTDPU-6d5b8hh_VMWUD"
   },
@@ -237,6 +228,26 @@
     "savePath": "widgets/-Oin78ppXO0F2_Dm73wt"
   },
   {
+    "filePath": "widgets/-Ok_3Lyx9Uv8exsEM1LH/widget.json",
+    "savePath": "widgets/-Ok_3Lyx9Uv8exsEM1LH"
+  },
+  {
+    "filePath": "widgets/-OkedJpVeR_xooiZQU-r/widget.json",
+    "savePath": "widgets/-OkedJpVeR_xooiZQU-r"
+  },
+  {
+    "filePath": "widgets/-OkikAyC-NLgmV7vJjd_/widget.json",
+    "savePath": "widgets/-OkikAyC-NLgmV7vJjd_"
+  },
+  {
+    "filePath": "widgets/-OmFsGyeHUPk5K6kZKI4/widget.json",
+    "savePath": "widgets/-OmFsGyeHUPk5K6kZKI4"
+  },
+  {
+    "filePath": "widgets/-OmFsGyeHUPk5K6kZKI4/template.html",
+    "savePath": "widgets/-OmFsGyeHUPk5K6kZKI4/template"
+  },
+  {
     "filePath": "widgetsComputed/cities.json",
     "savePath": "widgetsComputed/cities"
   },
@@ -283,6 +294,11 @@
     "conversion": "dataGrid"
   },
   {
+    "filePath": "widgetsData/dataGrid/deliveries1.json",
+    "savePath": "widgetsData/dataGrid/deliveries1",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/events.json",
     "savePath": "widgetsData/dataGrid/events",
     "conversion": "dataGrid"
@@ -320,6 +336,11 @@
   {
     "filePath": "widgetsData/dataGrid/products.json",
     "savePath": "widgetsData/dataGrid/products",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/store.json",
+    "savePath": "widgetsData/dataGrid/store",
     "conversion": "dataGrid"
   },
   {

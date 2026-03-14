@@ -91,5 +91,6 @@
   },
   "handleAsSingleScript": true,
   "name": "Interval",
+  "rootEndpoint": "/interval/run",
   "scheduled": true
 }
