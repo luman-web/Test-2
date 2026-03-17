@@ -15,6 +15,9 @@
     "date": "MM/DD/YYYY",
     "time": "MM/DD/YYYY HH:mm"
   },
+  "sessionExpirationEnabled": false,
+  "sessionExpirationTime": 1,
+  "sessionTimeMeasure": "hours",
   "showDataGridRecordsHistory": false,
   "storeCacheLocally": true,
   "useDataGridGrouping": false

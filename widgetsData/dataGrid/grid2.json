@@ -7,7 +7,7 @@
     "city": {
       "displayName": "City",
       "indexed": true,
-      "invisible": true,
+      "invisible": false,
       "lookUpTable": "cities",
       "order": 8,
       "type": "lookup"
@@ -354,7 +354,210 @@
     ],
     "layout": "collapse"
   },
+  "showRowKey": true,
   "source": "grid2",
   "storageType": "dashboard",
-  "title": "Grid 2"
+  "title": "Grid 2",
+  "views": {
+    "default": {
+      "displayAsExcel": false,
+      "displayAsSheetGrid": true,
+      "displayCardStyle": false,
+      "displayCompact": false,
+      "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
+      "displayTotalValue": false,
+      "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
+      "readOnly": false,
+      "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "title": "Default"
+    },
+    "viewA": {
+      "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
+      "displayTotalValue": false,
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false}]}",
+      "meta": {
+        "city": {
+          "displayName": "City",
+          "invisible": false,
+          "order": 8
+        },
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": true,
+          "order": 3
+        },
+        "date": {
+          "displayName": "Date",
+          "invisible": true,
+          "order": 9
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": true,
+          "order": 7
+        },
+        "lastEditedBy": {
+          "displayName": "Last edited by",
+          "invisible": true,
+          "order": 6
+        },
+        "layout": {
+          "displayName": "Layout",
+          "invisible": true,
+          "order": 1
+        },
+        "multilineText": {
+          "displayName": "Multiline Text",
+          "invisible": true,
+          "order": 13
+        },
+        "name": {
+          "displayName": "Name",
+          "order": 0
+        },
+        "nextEvents": {
+          "displayName": "Next Events",
+          "invisible": true,
+          "order": 5
+        },
+        "numberstring": {
+          "displayName": "number string",
+          "invisible": false,
+          "order": 15
+        },
+        "numbertest": {
+          "displayName": "number test",
+          "order": 14
+        },
+        "owner": {
+          "displayName": "Owner",
+          "invisible": true,
+          "order": 2
+        },
+        "select": {
+          "displayName": "Select",
+          "invisible": true,
+          "order": 11
+        },
+        "state": {
+          "displayName": "State",
+          "invisible": true,
+          "order": 4
+        },
+        "time": {
+          "displayName": "Time",
+          "invisible": true,
+          "order": 10
+        },
+        "user": {
+          "displayName": "User",
+          "invisible": true,
+          "order": 12
+        }
+      },
+      "readOnly": false,
+      "title": "View A"
+    },
+    "viewB": {
+      "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
+      "displayTotalValue": false,
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false}]}",
+      "meta": {
+        "city": {
+          "displayName": "City",
+          "invisible": false,
+          "order": 8
+        },
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": true,
+          "order": 3
+        },
+        "date": {
+          "displayName": "Date",
+          "invisible": true,
+          "order": 9
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": true,
+          "order": 7
+        },
+        "lastEditedBy": {
+          "displayName": "Last edited by",
+          "invisible": true,
+          "order": 6
+        },
+        "layout": {
+          "displayName": "Layout",
+          "invisible": true,
+          "order": 1
+        },
+        "multilineText": {
+          "displayName": "Multiline Text",
+          "invisible": true,
+          "order": 13
+        },
+        "name": {
+          "displayName": "Name",
+          "order": 0
+        },
+        "nextEvents": {
+          "displayName": "Next Events",
+          "invisible": true,
+          "order": 5
+        },
+        "numberstring": {
+          "displayName": "number string",
+          "invisible": false,
+          "order": 15
+        },
+        "numbertest": {
+          "displayName": "number test",
+          "order": 14
+        },
+        "owner": {
+          "displayName": "Owner",
+          "invisible": true,
+          "order": 2
+        },
+        "select": {
+          "displayName": "Select",
+          "invisible": true,
+          "order": 11
+        },
+        "state": {
+          "displayName": "State",
+          "invisible": true,
+          "order": 4
+        },
+        "time": {
+          "displayName": "Time",
+          "invisible": true,
+          "order": 10
+        },
+        "user": {
+          "displayName": "User",
+          "invisible": true,
+          "order": 12
+        }
+      },
+      "readOnly": false,
+      "title": "View B"
+    }
+  },
+  "viewsOrder": [
+    "viewA",
+    "viewB"
+  ]
 }

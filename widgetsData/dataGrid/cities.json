@@ -2,7 +2,7 @@
   "displayColumn": "name",
   "doNotWatchModelUpdates": false,
   "downloadModelInSeparateRequest": false,
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"createdDate\",\"operator\":\"date\",\"value\":null,\"name\":\"Created Date\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"createdDate\",\"operator\":\"date\",\"value\":null,\"name\":\"Created Date\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"country\",\"operator\":\"in\",\"value\":null,\"name\":\"Country\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"countries\",\"operator\":\"in\",\"value\":null,\"name\":\"Countries\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"\",\"key\":\"populationRename\",\"operator\":\"=\",\"value\":null,\"name\":\"Population\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null}]}",
   "formLayouts": {
     "-OJxA5Q4Wxq1KGomM6SB": {
       "layout": {
@@ -190,6 +190,20 @@
                     "propName": "myValueRef",
                     "className": "col-md-6",
                     "decimalPlace": 2
+                  },
+                  {
+                    "name": "control_ca355220-2084-11f1-b516-e35b2bf9919c",
+                    "fieldName": "control_ca355220-2084-11f1-b516-e35b2bf9919c",
+                    "label": "Total",
+                    "type": "number",
+                    "propName": "total",
+                    "className": "col-md-6",
+                    "decimalPlace": 2,
+                    "numeralFormat": "",
+                    "numberRightAligned": false,
+                    "gridId": "cities",
+                    "displayName": "Total",
+                    "propertyName": "total"
                   }
                 ],
                 "label": "",
@@ -256,7 +270,7 @@
                     "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
                     "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
                     "label": "Last edit date",
-                    "type": "datepicker",
+                    "type": "timepicker",
                     "propName": "lastEditDate",
                     "className": "col-md-6",
                     "invisible": true,
@@ -453,6 +467,20 @@
                     "propName": "myValueRef",
                     "className": "col-md-6",
                     "decimalPlace": 2
+                  },
+                  {
+                    "name": "control_ca37ea30-2084-11f1-b516-e35b2bf9919c",
+                    "fieldName": "control_ca37ea30-2084-11f1-b516-e35b2bf9919c",
+                    "label": "Total",
+                    "type": "number",
+                    "propName": "total",
+                    "className": "col-md-6",
+                    "decimalPlace": 2,
+                    "numeralFormat": "",
+                    "numberRightAligned": false,
+                    "gridId": "cities",
+                    "displayName": "Total",
+                    "propertyName": "total"
                   }
                 ],
                 "label": "",
@@ -519,7 +547,7 @@
                     "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
                     "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
                     "label": "Last edit date",
-                    "type": "datepicker",
+                    "type": "timepicker",
                     "propName": "lastEditDate",
                     "className": "col-md-6",
                     "invisible": true,
@@ -565,7 +593,7 @@
       "indexed": true,
       "invisible": false,
       "lookUpTable": "countries",
-      "order": 1,
+      "order": 2,
       "type": "multi_lookup"
     },
     "country": {
@@ -590,7 +618,7 @@
       "indexed": true,
       "invisible": false,
       "lookUpTable": "countries",
-      "order": 2,
+      "order": 3,
       "type": "lookup"
     },
     "createdDate": {
@@ -609,18 +637,18 @@
       },
       "displayName": "Created Date",
       "invisible": false,
-      "order": 4,
+      "order": 5,
       "type": "date"
     },
     "custom": {
       "displayName": "Custom",
       "invisible": false,
-      "order": 5
+      "order": 6
     },
     "customers": {
       "displayName": "Customers",
       "invisible": false,
-      "order": 6
+      "order": 7
     },
     "events": {
       "dataGrid": "events",
@@ -649,12 +677,12 @@
         "openInNewTab": false,
         "propName": "lastEditDate",
         "readonly": true,
-        "type": "datepicker"
+        "type": "timepicker"
       },
       "displayName": "Last edit date",
       "invisible": false,
-      "order": 7,
-      "type": "date"
+      "order": 8,
+      "type": "timepicker"
     },
     "lastEditedBy": {
       "controlInfo": {
@@ -672,7 +700,7 @@
       },
       "displayName": "Last edited by",
       "invisible": false,
-      "order": 8,
+      "order": 9,
       "type": "user"
     },
     "layout": {
@@ -695,7 +723,7 @@
       },
       "displayName": "Layout",
       "invisible": false,
-      "order": 9,
+      "order": 10,
       "type": "select"
     },
     "myValue": {
@@ -713,7 +741,7 @@
       },
       "displayName": "myValue",
       "invisible": false,
-      "order": 14,
+      "order": 15,
       "type": "number"
     },
     "myValueGrid1": {
@@ -764,11 +792,11 @@
       },
       "displayName": "myValueRef",
       "invisible": false,
-      "order": 15,
+      "order": 16,
       "type": "number"
     },
     "name": {
-      "Width": "215px",
+      "Width": 180,
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_bc6143e2-8727-11ef-a539-351fccbf4c21",
@@ -790,7 +818,7 @@
       "indexed": true,
       "invisible": false,
       "onChange": "$dgSetFilterVals(\n    'orders',\n    [\n        { key: 'name', value: rowData.name }\n    ]\n)",
-      "order": 0,
+      "order": 1,
       "type": "string"
     },
     "nextEvents": {
@@ -807,7 +835,7 @@
       },
       "displayName": "Next Events",
       "invisible": false,
-      "order": 10,
+      "order": 11,
       "type": "string"
     },
     "operation": {
@@ -825,7 +853,7 @@
       },
       "displayName": "Operation",
       "invisible": false,
-      "order": 11,
+      "order": 12,
       "type": "function_invoker"
     },
     "orders": {
@@ -850,7 +878,7 @@
       },
       "displayName": "Owner",
       "invisible": false,
-      "order": 12,
+      "order": 13,
       "type": "user"
     },
     "populationRename": {
@@ -871,7 +899,8 @@
       },
       "displayName": "Population",
       "invisible": false,
-      "order": 3,
+      "order": 4,
+      "totalColumn": false,
       "type": "number"
     },
     "state": {
@@ -888,8 +917,29 @@
       },
       "displayName": "State",
       "invisible": false,
-      "order": 13,
+      "order": 14,
       "type": "string"
+    },
+    "total": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Total",
+        "fieldName": "control_ca19b3d0-2084-11f1-b516-e35b2bf9919c",
+        "gridId": "cities",
+        "label": "Total",
+        "name": "control_ca19b3d0-2084-11f1-b516-e35b2bf9919c",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "total",
+        "propertyName": "total",
+        "type": "number"
+      },
+      "displayName": "Total",
+      "invisible": false,
+      "order": 0,
+      "totalColumn": true,
+      "type": "number"
     }
   },
   "rowEditorFieldsForm": {
@@ -1116,6 +1166,20 @@
                 "dataGridAddRecordText": "",
                 "gridId": "cities",
                 "decimalPlace": null
+              },
+              {
+                "name": "control_ca19b3d0-2084-11f1-b516-e35b2bf9919c",
+                "fieldName": "control_ca19b3d0-2084-11f1-b516-e35b2bf9919c",
+                "label": "Total",
+                "type": "number",
+                "propName": "total",
+                "className": "col-md-6",
+                "decimalPlace": 2,
+                "numeralFormat": "",
+                "numberRightAligned": false,
+                "gridId": "cities",
+                "displayName": "Total",
+                "propertyName": "total"
               }
             ]
           }
@@ -1192,7 +1256,7 @@
                 "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
                 "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
                 "label": "Last edit date",
-                "type": "datepicker",
+                "type": "timepicker",
                 "propName": "lastEditDate",
                 "className": "col-md-6",
                 "readonly": true,
@@ -1217,7 +1281,7 @@
   "storageType": "dashboard",
   "title": "Cities",
   "useInGlobalSearch": true,
-  "usePostgeSQLIndexing": false,
+  "usePostgeSQLIndexing": true,
   "views": {
     "default": {
       "displayAsExcel": false,
@@ -1235,6 +1299,12 @@
       "recordCustomCode": "",
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
+      "sheetGridGroupBy": "country",
+      "sheetGridIsCompact": true,
+      "sheetGridPinnedColumns": {
+        "_id": "left",
+        "total": "left"
+      },
       "title": "Default",
       "useFilterInBackend": true
     },
@@ -1261,7 +1331,7 @@
         },
         "createdDate": {
           "displayName": "Created Date",
-          "invisible": true,
+          "invisible": false,
           "order": 4
         },
         "custom": {
@@ -1281,13 +1351,28 @@
           "order": 19
         },
         "lastEditDate": {
+          "controlInfo": {
+            "className": "col-md-6",
+            "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
+            "gridId": "cities",
+            "invisible": true,
+            "isForDownload": false,
+            "isTodayValue": false,
+            "label": "Last edit date",
+            "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
+            "openInNewTab": false,
+            "propName": "lastEditDate",
+            "readonly": true,
+            "type": "datepicker"
+          },
           "displayName": "Last edit date",
-          "invisible": true,
-          "order": 8
+          "invisible": false,
+          "order": 7,
+          "type": "timepicker"
         },
         "lastEditedBy": {
           "displayName": "Last edited by",
-          "invisible": true,
+          "invisible": false,
           "order": 7
         },
         "layout": {
@@ -1339,7 +1424,7 @@
         },
         "owner": {
           "displayName": "Owner",
-          "invisible": true,
+          "invisible": false,
           "order": 3
         },
         "populationRename": {
@@ -1369,6 +1454,10 @@
           "displayName": "test3",
           "invisible": true,
           "order": 13
+        },
+        "total": {
+          "displayName": "Total",
+          "order": 22
         }
       },
       "nestedDataGrid": "",
