@@ -1,14 +1,24 @@
 {
+  "classes": "",
   "dependency": "dataGrid/countries",
   "gsOptions": {
     "h": 6,
     "w": 24
   },
   "layout": "b-card",
+  "options": {
+    "hideAddRecord": false,
+    "hideAddRecordButton": false,
+    "hideAddRecordsButton": false,
+    "hideBottomAddRecord": false,
+    "hideTopAddRecord": false
+  },
   "overflow": "height: auto",
   "props": {
     "gridId": "countries"
   },
+  "styles": "",
   "tab": "-O8rKizZC6NUqJbA-i3D",
+  "title": "",
   "type": "DataGrid"
 }

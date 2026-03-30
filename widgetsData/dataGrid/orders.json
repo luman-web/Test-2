@@ -1356,7 +1356,8 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": [],
-        "vif": ""
+        "vif": "",
+        "readonly": true
       },
       {
         "name": "section_534886",
@@ -1382,7 +1383,8 @@
                 "lookUpSearch": "locations",
                 "ableToAddLookUpVal": true,
                 "gridId": "orders",
-                "preventModalShowUpWhenNewItemAdded": true
+                "preventModalShowUpWhenNewItemAdded": true,
+                "decimalPlace": null
               }
             ]
           }
@@ -1392,7 +1394,7 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": [],
-        "vif": "rowData.name",
+        "vif": "",
         "collapsedByDefault": false,
         "tab": "default"
       },
@@ -1517,6 +1519,7 @@
   "views": {
     "default": {
       "displayAsExcel": false,
+      "displayAsSheetGrid": false,
       "displayCardStyle": false,
       "displayCompact": false,
       "displayInTab": false,
@@ -1634,9 +1637,27 @@
         }
       },
       "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
       "readOnly": false,
       "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
       "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "grid",
+      "sheetGridIsCompact": false,
+      "sheetGridPivotDataBars": false,
+      "sheetGridPivotDiff": false,
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotPctOfTotal": false,
+      "sheetGridPivotPctParent": false,
+      "sheetGridPivotRank": false,
+      "sheetGridPivotRunning": false,
+      "sheetGridPivotSparklines": false,
+      "sheetGridPivotSubtotals": false,
+      "sheetGridPivotTopN": 0,
       "title": "Default",
       "useFilterInBackend": true
     },

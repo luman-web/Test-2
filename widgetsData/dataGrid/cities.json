@@ -204,6 +204,33 @@
                     "gridId": "cities",
                     "displayName": "Total",
                     "propertyName": "total"
+                  },
+                  {
+                    "name": "control_e6bf6c10-22d1-11f1-8b74-2178182d8b30",
+                    "fieldName": "control_e6bf6c10-22d1-11f1-8b74-2178182d8b30",
+                    "label": "Select",
+                    "type": "select",
+                    "propName": "select",
+                    "className": "col-md-6",
+                    "dataOptions": [],
+                    "isMultiple": false,
+                    "gridId": "cities",
+                    "displayName": "Select",
+                    "propertyName": "select"
+                  },
+                  {
+                    "name": "control_53b93090-287b-11f1-9249-cd607728895f",
+                    "fieldName": "control_53b93090-287b-11f1-9249-cd607728895f",
+                    "label": "Budget",
+                    "type": "number",
+                    "propName": "budget",
+                    "className": "col-md-6",
+                    "decimalPlace": 2,
+                    "numeralFormat": "",
+                    "numberRightAligned": false,
+                    "gridId": "cities",
+                    "displayName": "Budget",
+                    "propertyName": "budget"
                   }
                 ],
                 "label": "",
@@ -481,6 +508,33 @@
                     "gridId": "cities",
                     "displayName": "Total",
                     "propertyName": "total"
+                  },
+                  {
+                    "name": "control_e6c22b30-22d1-11f1-8b74-2178182d8b30",
+                    "fieldName": "control_e6c22b30-22d1-11f1-8b74-2178182d8b30",
+                    "label": "Select",
+                    "type": "select",
+                    "propName": "select",
+                    "className": "col-md-6",
+                    "dataOptions": [],
+                    "isMultiple": false,
+                    "gridId": "cities",
+                    "displayName": "Select",
+                    "propertyName": "select"
+                  },
+                  {
+                    "name": "control_53bbc8a0-287b-11f1-9249-cd607728895f",
+                    "fieldName": "control_53bbc8a0-287b-11f1-9249-cd607728895f",
+                    "label": "Budget",
+                    "type": "number",
+                    "propName": "budget",
+                    "className": "col-md-6",
+                    "decimalPlace": 2,
+                    "numeralFormat": "",
+                    "numberRightAligned": false,
+                    "gridId": "cities",
+                    "displayName": "Budget",
+                    "propertyName": "budget"
                   }
                 ],
                 "label": "",
@@ -569,6 +623,26 @@
   "initialLoadMaxRecords": "",
   "isReactive": true,
   "meta": {
+    "budget": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Budget",
+        "fieldName": "control_5395a300-287b-11f1-9249-cd607728895f",
+        "gridId": "cities",
+        "label": "Budget",
+        "name": "control_5395a300-287b-11f1-9249-cd607728895f",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "budget",
+        "propertyName": "budget",
+        "type": "number"
+      },
+      "displayName": "Budget",
+      "invisible": false,
+      "order": 5,
+      "type": "number"
+    },
     "city": {
       "dataGrid": "grid2",
       "displayName": "City",
@@ -637,18 +711,18 @@
       },
       "displayName": "Created Date",
       "invisible": false,
-      "order": 5,
+      "order": 6,
       "type": "date"
     },
     "custom": {
       "displayName": "Custom",
       "invisible": false,
-      "order": 6
+      "order": 7
     },
     "customers": {
       "displayName": "Customers",
       "invisible": false,
-      "order": 7
+      "order": 8
     },
     "events": {
       "dataGrid": "events",
@@ -669,19 +743,19 @@
         "className": "col-md-6",
         "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
         "gridId": "cities",
-        "invisible": true,
+        "invisible": false,
         "isForDownload": false,
         "isTodayValue": false,
         "label": "Last edit date",
         "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
         "openInNewTab": false,
         "propName": "lastEditDate",
-        "readonly": true,
+        "readonly": false,
         "type": "timepicker"
       },
       "displayName": "Last edit date",
       "invisible": false,
-      "order": 8,
+      "order": 9,
       "type": "timepicker"
     },
     "lastEditedBy": {
@@ -700,7 +774,7 @@
       },
       "displayName": "Last edited by",
       "invisible": false,
-      "order": 9,
+      "order": 10,
       "type": "user"
     },
     "layout": {
@@ -722,8 +796,8 @@
         "type": "select"
       },
       "displayName": "Layout",
-      "invisible": false,
-      "order": 10,
+      "invisible": true,
+      "order": 11,
       "type": "select"
     },
     "myValue": {
@@ -740,8 +814,8 @@
         "type": "number"
       },
       "displayName": "myValue",
-      "invisible": false,
-      "order": 15,
+      "invisible": true,
+      "order": 16,
       "type": "number"
     },
     "myValueGrid1": {
@@ -791,8 +865,8 @@
         "type": "number"
       },
       "displayName": "myValueRef",
-      "invisible": false,
-      "order": 16,
+      "invisible": true,
+      "order": 17,
       "type": "number"
     },
     "name": {
@@ -834,8 +908,8 @@
         "type": "text"
       },
       "displayName": "Next Events",
-      "invisible": false,
-      "order": 11,
+      "invisible": true,
+      "order": 12,
       "type": "string"
     },
     "operation": {
@@ -852,8 +926,8 @@
         "type": "function_invoker"
       },
       "displayName": "Operation",
-      "invisible": false,
-      "order": 12,
+      "invisible": true,
+      "order": 13,
       "type": "function_invoker"
     },
     "orders": {
@@ -877,8 +951,8 @@
         "type": "user"
       },
       "displayName": "Owner",
-      "invisible": false,
-      "order": 13,
+      "invisible": true,
+      "order": 14,
       "type": "user"
     },
     "populationRename": {
@@ -900,8 +974,41 @@
       "displayName": "Population",
       "invisible": false,
       "order": 4,
-      "totalColumn": false,
+      "totalColumn": true,
       "type": "number"
+    },
+    "select": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "dataOptions": [
+          {
+            "id": "item1",
+            "text": "Item 1"
+          },
+          {
+            "id": "item2",
+            "text": "Item 2"
+          },
+          {
+            "id": "item3",
+            "text": "Item 3"
+          }
+        ],
+        "displayName": "Select",
+        "fieldName": "control_e694b290-22d1-11f1-8b74-2178182d8b30",
+        "gridId": "cities",
+        "isDCheckbox": false,
+        "isDRadio": false,
+        "isMultiple": false,
+        "label": "Select",
+        "name": "control_e694b290-22d1-11f1-8b74-2178182d8b30",
+        "propName": "select",
+        "propertyName": "select",
+        "type": "select"
+      },
+      "displayName": "Select",
+      "invisible": true,
+      "type": "select"
     },
     "state": {
       "controlInfo": {
@@ -916,8 +1023,8 @@
         "type": "text"
       },
       "displayName": "State",
-      "invisible": false,
-      "order": 14,
+      "invisible": true,
+      "order": 15,
       "type": "string"
     },
     "total": {
@@ -938,7 +1045,7 @@
       "displayName": "Total",
       "invisible": false,
       "order": 0,
-      "totalColumn": true,
+      "totalColumn": false,
       "type": "number"
     }
   },
@@ -1031,6 +1138,21 @@
                 "required": true
               },
               {
+                "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
+                "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
+                "label": "Last edit date",
+                "type": "timepicker",
+                "propName": "lastEditDate",
+                "className": "col-md-6",
+                "readonly": false,
+                "isForDownload": false,
+                "openInNewTab": false,
+                "invisible": false,
+                "gridId": "cities",
+                "decimalPlace": null,
+                "isTodayValue": false
+              },
+              {
                 "name": "control_58da60d0-25cf-11f0-8cf3-17e56359e3e7",
                 "fieldName": "control_58da60d0-25cf-11f0-8cf3-17e56359e3e7",
                 "label": "Operation",
@@ -1108,6 +1230,35 @@
                 "expression": "rowData.myValue + 1"
               },
               {
+                "name": "control_e694b290-22d1-11f1-8b74-2178182d8b30",
+                "fieldName": "control_e694b290-22d1-11f1-8b74-2178182d8b30",
+                "label": "Select",
+                "type": "select",
+                "propName": "select",
+                "className": "col-md-6",
+                "dataOptions": [
+                  {
+                    "id": "item1",
+                    "text": "Item 1"
+                  },
+                  {
+                    "id": "item2",
+                    "text": "Item 2"
+                  },
+                  {
+                    "id": "item3",
+                    "text": "Item 3"
+                  }
+                ],
+                "isMultiple": false,
+                "gridId": "cities",
+                "displayName": "Select",
+                "propertyName": "select",
+                "decimalPlace": null,
+                "isDCheckbox": false,
+                "isDRadio": false
+              },
+              {
                 "name": "control_6c272450-ca00-11ef-af72-3f13fa8624d2",
                 "fieldName": "control_6c272450-ca00-11ef-af72-3f13fa8624d2",
                 "label": "Orders",
@@ -1180,6 +1331,20 @@
                 "gridId": "cities",
                 "displayName": "Total",
                 "propertyName": "total"
+              },
+              {
+                "name": "control_5395a300-287b-11f1-9249-cd607728895f",
+                "fieldName": "control_5395a300-287b-11f1-9249-cd607728895f",
+                "label": "Budget",
+                "type": "number",
+                "propName": "budget",
+                "className": "col-md-6",
+                "decimalPlace": 2,
+                "numeralFormat": "",
+                "numberRightAligned": false,
+                "gridId": "cities",
+                "displayName": "Budget",
+                "propertyName": "budget"
               }
             ]
           }
@@ -1251,21 +1416,6 @@
                 "invisible": true,
                 "gridId": "cities",
                 "decimalPlace": null
-              },
-              {
-                "name": "control_be85d190-8727-11ef-a539-351fccbf4c21",
-                "fieldName": "control_be85d190-8727-11ef-a539-351fccbf4c21",
-                "label": "Last edit date",
-                "type": "timepicker",
-                "propName": "lastEditDate",
-                "className": "col-md-6",
-                "readonly": true,
-                "isForDownload": false,
-                "openInNewTab": false,
-                "invisible": true,
-                "gridId": "cities",
-                "decimalPlace": null,
-                "isTodayValue": false
               }
             ]
           }
@@ -1299,48 +1449,79 @@
       "recordCustomCode": "",
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
-      "sheetGridGroupBy": "country",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "grid",
       "sheetGridIsCompact": true,
+      "sheetGridItemsPerPage": 40,
       "sheetGridPinnedColumns": {
         "_id": "left",
         "total": "left"
       },
+      "sheetGridPivotDataBars": false,
+      "sheetGridPivotDiff": false,
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotItemsPerPage": "",
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotPctOfTotal": false,
+      "sheetGridPivotPctParent": false,
+      "sheetGridPivotRank": true,
+      "sheetGridPivotRows": [
+        "country"
+      ],
+      "sheetGridPivotRunning": false,
+      "sheetGridPivotSparklines": false,
+      "sheetGridPivotSubtotals": false,
+      "sheetGridPivotTopN": 0,
+      "sheetGridPivotVals": [
+        {
+          "agg": "sum",
+          "field": "budget"
+        }
+      ],
       "title": "Default",
       "useFilterInBackend": true
     },
     "relatedList": {
       "displayAsExcel": false,
+      "displayAsSheetGrid": false,
       "displayCardStyle": false,
       "displayCompact": false,
       "displayInTab": false,
+      "displayNestedDataGridAboveRecord": false,
+      "displayRecordCustomCodeAboveRecord": false,
       "displayTotalValue": false,
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}",
       "meta": {
+        "budget": {
+          "displayName": "Budget",
+          "order": 2
+        },
         "city": {
           "displayName": "City",
           "order": 20
         },
         "countries": {
           "displayName": "Countries",
-          "order": 2
+          "order": 4
         },
         "country": {
           "displayName": "Country",
           "invisible": false,
-          "order": 1
+          "order": 3
         },
         "createdDate": {
           "displayName": "Created Date",
           "invisible": false,
-          "order": 4
+          "order": 8
         },
         "custom": {
           "displayName": "Custom",
-          "order": 6
+          "order": 10
         },
         "customers": {
           "displayName": "Customers",
-          "order": 5
+          "order": 9
         },
         "events": {
           "displayName": "Events",
@@ -1367,18 +1548,18 @@
           },
           "displayName": "Last edit date",
           "invisible": false,
-          "order": 7,
+          "order": 11,
           "type": "timepicker"
         },
         "lastEditedBy": {
           "displayName": "Last edited by",
           "invisible": false,
-          "order": 7
+          "order": 12
         },
         "layout": {
           "displayName": "Layout",
           "invisible": false,
-          "order": 3
+          "order": 5
         },
         "myValue": {
           "displayName": "myValue",
@@ -1412,11 +1593,11 @@
         },
         "operation": {
           "displayName": "Operation",
-          "order": 7
+          "order": 13
         },
         "operation1": {
           "displayName": "Operation 1",
-          "order": 8
+          "order": 14
         },
         "orders": {
           "displayName": "Orders",
@@ -1425,15 +1606,19 @@
         "owner": {
           "displayName": "Owner",
           "invisible": false,
-          "order": 3
+          "order": 6
         },
         "populationRename": {
           "displayName": "Population",
-          "order": 4
+          "order": 1
         },
         "runOperation": {
           "displayName": "Run Operation",
-          "order": 9
+          "order": 15
+        },
+        "select": {
+          "displayName": "Select",
+          "order": 7
         },
         "state": {
           "displayName": "State",
@@ -1457,12 +1642,18 @@
         },
         "total": {
           "displayName": "Total",
-          "order": 22
+          "order": 16
         }
       },
       "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
       "readOnly": false,
       "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridIsCompact": false,
       "title": "Related List"
     }
   },

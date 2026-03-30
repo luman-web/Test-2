@@ -113,7 +113,9 @@
                 "propName": "code",
                 "className": "col-md-6",
                 "isForDownload": false,
-                "openInNewTab": false
+                "openInNewTab": false,
+                "gridId": "countries",
+                "decimalPlace": null
               },
               {
                 "name": "control_60e52160-b3bb-11ef-9ba9-b71a3e9e4104",
@@ -129,7 +131,12 @@
                 "openInNewTab": false,
                 "dataGridView": "relatedList",
                 "gridId": "countries",
-                "decimalPlace": null
+                "decimalPlace": null,
+                "hideAddRecordsButton": false,
+                "hideAddRecordButton": false,
+                "hideAddRecord": false,
+                "hideTopAddRecord": false,
+                "hideBottomAddRecord": false
               },
               {
                 "name": "control_3d945bc0-7799-11f0-82dd-73c08734802a",
@@ -271,14 +278,14 @@
   "views": {
     "default": {
       "displayAsExcel": false,
-      "displayAsSheetGrid": false,
+      "displayAsSheetGrid": true,
       "displayCardStyle": false,
       "displayCompact": false,
       "displayInTab": false,
       "displayNestedDataGridAboveRecord": false,
       "displayRecordCustomCodeAboveRecord": true,
       "displayTotalValue": false,
-      "nestedDataGrid": "{\n  gridId: \"cities\",\n  parentGridId: \"countries\",\n  fbField: \"country\",\n  fbFieldFilterValue: rowData.rowKey,\n}",
+      "nestedDataGrid": "[\n  {\n    gridId: \"cities\",\n    parentGridId: \"countries\",\n    fbField: \"country\",\n    fbFieldFilterValue: rowData.rowKey,\n  },\n  {\n    gridId: \"orders\",\n    fbFieldFilterValue: rowData.rowKey,\n  }\n]",
       "nestedDataGridCondition": "",
       "nestedDataGridToggleText": "",
       "readOnly": false,
@@ -286,8 +293,21 @@
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
       "sheetGridGroupBy": "",
+      "sheetGridInternalView": "grid",
       "sheetGridIsCompact": false,
       "sheetGridItemsPerPage": 100,
+      "sheetGridPivotDataBars": false,
+      "sheetGridPivotDiff": false,
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotPctOfTotal": false,
+      "sheetGridPivotPctParent": false,
+      "sheetGridPivotRank": false,
+      "sheetGridPivotRunning": false,
+      "sheetGridPivotSparklines": false,
+      "sheetGridPivotSubtotals": false,
+      "sheetGridPivotTopN": 0,
       "title": "Default"
     }
   }
