@@ -12,6 +12,11 @@
       "order": 8,
       "type": "lookup"
     },
+    "color": {
+      "displayName": "Color",
+      "order": 19,
+      "type": "string"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
@@ -22,6 +27,11 @@
       "displayName": "Date",
       "invisible": true,
       "order": 9,
+      "type": "date"
+    },
+    "end": {
+      "displayName": "End",
+      "order": 17,
       "type": "date"
     },
     "lastEditDate": {
@@ -61,12 +71,13 @@
     },
     "numberstring": {
       "displayName": "number string",
-      "invisible": false,
+      "invisible": true,
       "order": 15,
       "type": "string"
     },
     "numbertest": {
       "displayName": "number test",
+      "invisible": true,
       "order": 14,
       "type": "number"
     },
@@ -76,11 +87,21 @@
       "order": 2,
       "type": "user"
     },
+    "price": {
+      "displayName": "Price",
+      "order": 18,
+      "type": "number"
+    },
     "select": {
       "displayName": "Select",
       "invisible": true,
       "order": 11,
       "type": "select"
+    },
+    "start": {
+      "displayName": "Start",
+      "order": 16,
+      "type": "date"
     },
     "state": {
       "displayName": "State",
@@ -148,6 +169,57 @@
                     "textColor": null
                   }
                 ]
+              },
+              {
+                "name": "control_5c0911f0-31a1-11f1-849f-f70b67e009c7",
+                "fieldName": "control_5c0911f0-31a1-11f1-849f-f70b67e009c7",
+                "label": "Start",
+                "type": "datepicker",
+                "propName": "start",
+                "className": "col-md-6",
+                "gridId": "grid2",
+                "displayName": "Start",
+                "propertyName": "start"
+              },
+              {
+                "name": "control_68a78220-31a1-11f1-849f-f70b67e009c7",
+                "fieldName": "control_68a78220-31a1-11f1-849f-f70b67e009c7",
+                "label": "End",
+                "type": "datepicker",
+                "propName": "end",
+                "className": "col-md-6",
+                "gridId": "grid2",
+                "displayName": "End",
+                "propertyName": "end"
+              },
+              {
+                "name": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
+                "fieldName": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
+                "label": "Price",
+                "type": "number",
+                "propName": "price",
+                "className": "col-md-6",
+                "decimalPlace": 2,
+                "numeralFormat": "",
+                "numberRightAligned": false,
+                "gridId": "grid2",
+                "displayName": "Price",
+                "propertyName": "price"
+              },
+              {
+                "name": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
+                "fieldName": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
+                "label": "Color",
+                "type": "text",
+                "propName": "color",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "grid2",
+                "displayName": "Color",
+                "propertyName": "color"
               }
             ]
           }
@@ -354,7 +426,7 @@
     ],
     "layout": "collapse"
   },
-  "showRowKey": true,
+  "showRowKey": false,
   "source": "grid2",
   "storageType": "dashboard",
   "title": "Grid 2",
@@ -368,13 +440,32 @@
       "displayNestedDataGridAboveRecord": false,
       "displayRecordCustomCodeAboveRecord": false,
       "displayTotalValue": false,
-      "nestedDataGrid": "",
       "nestedDataGridCondition": "",
       "nestedDataGridToggleText": "",
       "readOnly": false,
       "recordCustomCode": "",
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "timeline",
+      "sheetGridIsCompact": false,
+      "sheetGridPivotDataBars": false,
+      "sheetGridPivotDiff": false,
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotPctOfTotal": false,
+      "sheetGridPivotPctParent": false,
+      "sheetGridPivotRank": false,
+      "sheetGridPivotRunning": false,
+      "sheetGridPivotSparklines": false,
+      "sheetGridPivotSubtotals": false,
+      "sheetGridPivotTopN": 0,
+      "sheetGridTimelineColorBy": "color",
+      "sheetGridTimelineDateCol": "start",
+      "sheetGridTimelineDurationField": "end",
+      "sheetGridTimelineGroupBy": "city",
+      "sheetGridTimelineLabelBy": "name",
       "title": "Default"
     },
     "viewA": {
@@ -389,6 +480,10 @@
           "invisible": false,
           "order": 8
         },
+        "color": {
+          "displayName": "Color",
+          "order": 19
+        },
         "createdDate": {
           "displayName": "Created Date",
           "invisible": true,
@@ -398,6 +493,10 @@
           "displayName": "Date",
           "invisible": true,
           "order": 9
+        },
+        "end": {
+          "displayName": "End",
+          "order": 17
         },
         "lastEditDate": {
           "displayName": "Last edit date",
@@ -442,10 +541,18 @@
           "invisible": true,
           "order": 2
         },
+        "price": {
+          "displayName": "Price",
+          "order": 18
+        },
         "select": {
           "displayName": "Select",
           "invisible": true,
           "order": 11
+        },
+        "start": {
+          "displayName": "Start",
+          "order": 16
         },
         "state": {
           "displayName": "State",
@@ -478,6 +585,10 @@
           "invisible": false,
           "order": 8
         },
+        "color": {
+          "displayName": "Color",
+          "order": 19
+        },
         "createdDate": {
           "displayName": "Created Date",
           "invisible": true,
@@ -487,6 +598,10 @@
           "displayName": "Date",
           "invisible": true,
           "order": 9
+        },
+        "end": {
+          "displayName": "End",
+          "order": 17
         },
         "lastEditDate": {
           "displayName": "Last edit date",
@@ -531,10 +646,18 @@
           "invisible": true,
           "order": 2
         },
+        "price": {
+          "displayName": "Price",
+          "order": 18
+        },
         "select": {
           "displayName": "Select",
           "invisible": true,
           "order": 11
+        },
+        "start": {
+          "displayName": "Start",
+          "order": 16
         },
         "state": {
           "displayName": "State",

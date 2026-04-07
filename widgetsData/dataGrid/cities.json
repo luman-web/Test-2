@@ -641,6 +641,7 @@
       "displayName": "Budget",
       "invisible": false,
       "order": 5,
+      "totalColumn": false,
       "type": "number"
     },
     "city": {
@@ -1108,7 +1109,8 @@
                 "openInNewTab": false,
                 "gridId": "cities",
                 "tabIndex": "2",
-                "required": true
+                "required": true,
+                "numberHighlight": []
               },
               {
                 "name": "control_28dd4920-1516-11f0-8761-a3b6746a7ebc",
@@ -1330,7 +1332,8 @@
                 "numberRightAligned": false,
                 "gridId": "cities",
                 "displayName": "Total",
-                "propertyName": "total"
+                "propertyName": "total",
+                "numberHighlight": []
               },
               {
                 "name": "control_5395a300-287b-11f1-9249-cd607728895f",
@@ -1449,7 +1452,7 @@
       "recordCustomCode": "",
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
-      "sheetGridGroupBy": "",
+      "sheetGridGroupBy": "country",
       "sheetGridInternalView": "grid",
       "sheetGridIsCompact": true,
       "sheetGridItemsPerPage": 40,
@@ -1479,6 +1482,12 @@
           "field": "budget"
         }
       ],
+      "sheetGridTimelineColorBy": "name",
+      "sheetGridTimelineDateCol": "createdDate",
+      "sheetGridTimelineDurMode": "range",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "__timeline_month",
+      "sheetGridTimelineLabelBy": "",
       "title": "Default",
       "useFilterInBackend": true
     },

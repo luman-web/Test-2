@@ -308,6 +308,9 @@
       "sheetGridPivotSparklines": false,
       "sheetGridPivotSubtotals": false,
       "sheetGridPivotTopN": 0,
+      "sheetGridTimelineColorBy": "name",
+      "sheetGridTimelineDateCol": "createdDate",
+      "sheetGridTimelineGroupBy": "__timeline_month",
       "title": "Default"
     }
   }
