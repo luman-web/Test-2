@@ -1,0 +1,94 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-OpcO3Hajc7xiWcldQOV",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1775572898880",
+        "x": 231,
+        "y": 122,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1775572901741",
+        "x": 231,
+        "y": 278,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1775572910637",
+        "x": 225,
+        "y": 454,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "bedcf101-5d23-46c6-9fd6-0c989821793c",
+        "source": "node1775572898880",
+        "target": "node1775572901741",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "style": {}
+      },
+      {
+        "id": "46522a05-9ffc-4baf-ac19-1dc119227a04",
+        "source": "node1775572901741",
+        "target": "node1775572910637",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -38.24517337667615,
+      "y": -79.66709294605903,
+      "scale": 0.8060448621180978,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": true,
+  "name": "Test Workflow In Git"
+}

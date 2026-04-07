@@ -442,5 +442,18 @@
     "filePath": "workflow/Interval (-OfU-qhAi5tYMEStDlOi).json",
     "savePath": "workflow/-OfU-qhAi5tYMEStDlOi",
     "conversion": "workflow"
+  },
+  {
+    "filePath": "workflow/scriptTasks/Test Workflow In Git/Script Task (node1775572901741).js",
+    "savePath": "workflow/-OpcO3Hajc7xiWcldQOV",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-OpcO3Hajc7xiWcldQOV",
+    "workflowFile": "workflow/Test Workflow In Git (-OpcO3Hajc7xiWcldQOV).json",
+    "nodeId": "node1775572901741"
+  },
+  {
+    "filePath": "workflow/Test Workflow In Git (-OpcO3Hajc7xiWcldQOV).json",
+    "savePath": "workflow/-OpcO3Hajc7xiWcldQOV",
+    "conversion": "workflow"
   }
 ]
