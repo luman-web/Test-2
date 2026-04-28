@@ -10,6 +10,12 @@
     "availableViews": [
       "viewA"
     ],
+    "hideAddRecord": false,
+    "hideAddRecordButton": false,
+    "hideAddRecordsButton": false,
+    "hideBottomAddRecord": false,
+    "hideTopAddRecord": false,
+    "readonly": false,
     "view": "viewA"
   },
   "overflow": "height: auto",

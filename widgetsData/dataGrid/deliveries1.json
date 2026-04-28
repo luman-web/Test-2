@@ -48,6 +48,20 @@
       "invisible": true,
       "order": 4,
       "type": "string"
+    },
+    "storeMulti": {
+      "displayName": "Store Multi",
+      "indexed": true,
+      "lookUpTable": "store",
+      "order": 9,
+      "type": "multi_lookup"
+    },
+    "storeSingle": {
+      "displayName": "Store Single",
+      "indexed": true,
+      "lookUpTable": "store",
+      "order": 8,
+      "type": "lookup"
     }
   },
   "rowEditorFieldsForm": {
@@ -77,6 +91,36 @@
                 "gridId": "deliveries1",
                 "displayName": "Name",
                 "propertyName": "name"
+              },
+              {
+                "name": "control_92a8cbd0-3cbc-11f1-bc87-6f664f6cc22c",
+                "fieldName": "control_92a8cbd0-3cbc-11f1-bc87-6f664f6cc22c",
+                "label": "Store Single",
+                "type": "lookup",
+                "propName": "storeSingle",
+                "className": "col-md-6",
+                "gridId": "deliveries1",
+                "displayName": "Store Single",
+                "propertyName": "storeSingle",
+                "lookUpTable": "store",
+                "ableToAddLookUpVal": true,
+                "decimalPlace": null
+              },
+              {
+                "name": "control_9c0cf890-3cbc-11f1-bc87-6f664f6cc22c",
+                "fieldName": "control_9c0cf890-3cbc-11f1-bc87-6f664f6cc22c",
+                "label": "Store Multi",
+                "type": "multi_lookup",
+                "propName": "storeMulti",
+                "className": "col-md-6",
+                "defaultValue": "",
+                "ableToAddLookUpVal": true,
+                "lookupOpenInModalDisabled": false,
+                "gridId": "deliveries1",
+                "displayName": "Store Multi",
+                "propertyName": "storeMulti",
+                "lookUpTable": "store",
+                "decimalPlace": null
               }
             ]
           }
@@ -85,7 +129,8 @@
         "isDynamic": false,
         "minInstance": 1,
         "maxInstance": 0,
-        "instances": []
+        "instances": [],
+        "readonly": true
       },
       {
         "clientKey": "hidden_section_0d47db60-013a-11f1-ba7b-cd6d8281fb7a",

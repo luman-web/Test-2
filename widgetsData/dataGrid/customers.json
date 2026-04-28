@@ -82,7 +82,9 @@
                 "propName": "name",
                 "className": "col-md-6",
                 "isForDownload": false,
-                "openInNewTab": false
+                "openInNewTab": false,
+                "gridId": "customers",
+                "decimalPlace": null
               },
               {
                 "name": "control_a3161180-d41c-11ef-a597-ed11583d323b",
@@ -93,7 +95,9 @@
                 "className": "col-md-6",
                 "isForDownload": false,
                 "openInNewTab": false,
-                "ableToAddLookUpVal": true
+                "ableToAddLookUpVal": true,
+                "gridId": "customers",
+                "decimalPlace": null
               }
             ]
           }
@@ -216,6 +220,81 @@
       "readOnly": false,
       "recordCustomCode": "",
       "title": "Default"
+    },
+    "sheetGrid": {
+      "displayAsExcel": false,
+      "displayAsSheetGrid": true,
+      "displayCompact": false,
+      "displayInTab": false,
+      "displayTotalValue": false,
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}",
+      "meta": {
+        "city": {
+          "displayName": "City",
+          "order": 8
+        },
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": true,
+          "order": 3
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": true,
+          "order": 7
+        },
+        "lastEditedBy": {
+          "displayName": "Last edited by",
+          "invisible": true,
+          "order": 6
+        },
+        "layout": {
+          "displayName": "Layout",
+          "invisible": true,
+          "order": 1
+        },
+        "name": {
+          "displayName": "Name",
+          "order": 0
+        },
+        "nextEvents": {
+          "displayName": "Next Events",
+          "invisible": true,
+          "order": 5
+        },
+        "owner": {
+          "displayName": "Owner",
+          "invisible": true,
+          "order": 2
+        },
+        "state": {
+          "displayName": "State",
+          "invisible": true,
+          "order": 4
+        }
+      },
+      "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
+      "readOnly": false,
+      "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "grid",
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotTopN": 0,
+      "sheetGridTimelineColorBy": "",
+      "sheetGridTimelineDateCol": "",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "",
+      "sheetGridTimelineLabelBy": "",
+      "title": "Sheet Grid"
     }
-  }
+  },
+  "viewsOrder": [
+    "sheetGrid"
+  ]
 }

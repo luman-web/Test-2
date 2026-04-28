@@ -507,31 +507,31 @@
         "amount": {
           "displayName": "Amount",
           "invisible": false,
-          "order": 3
+          "order": 5
         },
         "createdDate": {
           "displayName": "Created Date",
           "invisible": false,
-          "order": 6
+          "order": 8
         },
         "date": {
           "displayName": "Date",
-          "order": 13
+          "order": 2
         },
         "files": {
           "displayName": "Files",
           "invisible": false,
-          "order": 5
+          "order": 7
         },
         "image": {
           "displayName": "Image",
           "invisible": false,
-          "order": 4
+          "order": 6
         },
         "lastEditDate": {
           "displayName": "Last edit date",
           "invisible": false,
-          "order": 7
+          "order": 9
         },
         "lastEditedBy": {
           "displayName": "Last edited by",
@@ -556,29 +556,29 @@
         "owner": {
           "displayName": "Owner",
           "invisible": false,
-          "order": 1
+          "order": 3
         },
         "price": {
           "displayName": "Price",
           "invisible": false,
-          "order": 11,
+          "order": 10,
           "type": "number"
         },
         "state": {
           "displayName": "State",
           "invisible": false,
-          "order": 2
+          "order": 4
         },
         "store": {
           "displayName": "Store",
           "invisible": false,
           "lookUpTable": "store",
-          "order": 12,
+          "order": 11,
           "type": "lookup"
         },
         "time": {
           "displayName": "Time",
-          "order": 14
+          "order": 1
         }
       },
       "nestedDataGrid": "",

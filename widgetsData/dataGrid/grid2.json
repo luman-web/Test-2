@@ -1,124 +1,757 @@
 {
   "displayColumn": "name",
   "downloadModelInSeparateRequest": true,
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"\",\"key\":\"time\",\"operator\":\"time\",\"value\":null,\"name\":\"Time\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null}]}",
+  "formLayouts": {
+    "-Opo03QZYtdZ4HOvqTiA": {
+      "layout": {
+        "sections": [
+          {
+            "name": "section_294371",
+            "label": "",
+            "clientKey": "section_294371",
+            "order": 0,
+            "rows": [
+              {
+                "name": "section_294371_row_740344",
+                "label": "",
+                "order": 0,
+                "controls": [
+                  {
+                    "name": "control_1e48fd92-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_1e48fd92-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Name",
+                    "type": "text",
+                    "propName": "name",
+                    "className": "col-md-6",
+                    "gridId": "grid2",
+                    "decimalPlace": null,
+                    "required": true,
+                    "description": "for layout 1"
+                  },
+                  {
+                    "name": "control_949f8cc0-0c2a-11f1-952e-a7c7b4c5ccbc",
+                    "fieldName": "control_949f8cc0-0c2a-11f1-952e-a7c7b4c5ccbc",
+                    "label": "number test",
+                    "type": "number",
+                    "propName": "numbertest",
+                    "className": "col-md-6",
+                    "numeralFormat": "",
+                    "decimalPlace": 2,
+                    "numberRightAligned": false,
+                    "isMarkdownLink": false,
+                    "gridId": "grid2",
+                    "displayName": "number test",
+                    "propertyName": "numbertest",
+                    "percentageFormat": false,
+                    "numberHighlight": [
+                      {
+                        "operator": "<",
+                        "value": "1",
+                        "color": "#FF0600",
+                        "textColor": null
+                      }
+                    ]
+                  },
+                  {
+                    "name": "control_5c0911f0-31a1-11f1-849f-f70b67e009c7",
+                    "fieldName": "control_5c0911f0-31a1-11f1-849f-f70b67e009c7",
+                    "label": "Start",
+                    "type": "datepicker",
+                    "propName": "start",
+                    "className": "col-md-6",
+                    "gridId": "grid2",
+                    "displayName": "Start",
+                    "propertyName": "start"
+                  },
+                  {
+                    "name": "control_68a78220-31a1-11f1-849f-f70b67e009c7",
+                    "fieldName": "control_68a78220-31a1-11f1-849f-f70b67e009c7",
+                    "label": "End",
+                    "type": "datepicker",
+                    "propName": "end",
+                    "className": "col-md-6",
+                    "gridId": "grid2",
+                    "displayName": "End",
+                    "propertyName": "end"
+                  },
+                  {
+                    "name": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
+                    "fieldName": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
+                    "label": "Price",
+                    "type": "number",
+                    "propName": "price",
+                    "className": "col-md-6",
+                    "decimalPlace": 2,
+                    "numeralFormat": "",
+                    "numberRightAligned": false,
+                    "gridId": "grid2",
+                    "displayName": "Price",
+                    "propertyName": "price"
+                  },
+                  {
+                    "name": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
+                    "fieldName": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
+                    "label": "Color",
+                    "type": "text",
+                    "propName": "color",
+                    "className": "col-md-6",
+                    "numeralFormat": "",
+                    "decimalPlace": 2,
+                    "numberRightAligned": false,
+                    "isMarkdownLink": false,
+                    "gridId": "grid2",
+                    "displayName": "Color",
+                    "propertyName": "color"
+                  },
+                  {
+                    "name": "control_4bc61bf0-35a0-11f1-bda1-33468afcccce",
+                    "fieldName": "control_4bc61bf0-35a0-11f1-bda1-33468afcccce",
+                    "label": "Checkbox",
+                    "type": "checkbox",
+                    "propName": "checkbox",
+                    "className": "col-md-6",
+                    "isChecked": false,
+                    "gridId": "grid2",
+                    "displayName": "Checkbox",
+                    "propertyName": "checkbox"
+                  },
+                  {
+                    "name": "control_e8090670-38f3-11f1-9cdc-0b347dc5a83b",
+                    "fieldName": "control_e8090670-38f3-11f1-9cdc-0b347dc5a83b",
+                    "label": "Cities",
+                    "type": "multi_lookup",
+                    "propName": "cities",
+                    "className": "col-md-6",
+                    "defaultValue": "",
+                    "lookUpSortDirection": null,
+                    "ableToAddLookUpVal": true,
+                    "lookupOpenInModalDisabled": false,
+                    "gridId": "grid2",
+                    "displayName": "Cities",
+                    "propertyName": "cities",
+                    "lookUpTable": "cities"
+                  }
+                ]
+              }
+            ],
+            "labelPosition": "top",
+            "isDynamic": false,
+            "minInstance": 1,
+            "maxInstance": 0,
+            "instances": [],
+            "readonly": false
+          },
+          {
+            "cleintKey": "hidden_section_1e48fd90-4dfd-11f0-a259-8fb425d82ca9",
+            "instances": [],
+            "isDynamic": false,
+            "label": "Hidden Section",
+            "vif": "false",
+            "name": "hidden_section_1e48fd90-4dfd-11f0-a259-8fb425d82ca9",
+            "order": 1,
+            "rows": [
+              {
+                "name": "hidden_section_1e48fd90-4dfd-11f0-a259-8fb425d82ca9_row_1e48fd91-4dfd-11f0-a259-8fb425d82ca9",
+                "controls": [
+                  {
+                    "name": "control_6eb055a0-0390-11f1-b42f-775dd250a3af",
+                    "fieldName": "control_6eb055a0-0390-11f1-b42f-775dd250a3af",
+                    "label": "Multiline Text",
+                    "type": "multiline_text",
+                    "propName": "multilineText",
+                    "className": "col-md-6",
+                    "isMarkdownLink": false,
+                    "gridId": "grid2",
+                    "displayName": "Multiline Text",
+                    "propertyName": "multilineText",
+                    "decimalPlace": null
+                  },
+                  {
+                    "name": "control_fc633050-be2d-11f0-bcb2-792e276106d1",
+                    "fieldName": "control_fc633050-be2d-11f0-bcb2-792e276106d1",
+                    "label": "Date",
+                    "type": "datepicker",
+                    "propName": "date",
+                    "className": "col-md-6",
+                    "gridId": "grid2",
+                    "decimalPlace": null
+                  },
+                  {
+                    "name": "control_4542f620-0d7f-11f1-a479-5fd3032f36e1",
+                    "fieldName": "control_4542f620-0d7f-11f1-a479-5fd3032f36e1",
+                    "label": "number string",
+                    "type": "text",
+                    "propName": "numberstring",
+                    "className": "col-md-6",
+                    "numeralFormat": "",
+                    "decimalPlace": 0,
+                    "numberRightAligned": false,
+                    "isMarkdownLink": true,
+                    "gridId": "grid2",
+                    "displayName": "number string",
+                    "propertyName": "numberstring",
+                    "percentageFormat": false
+                  },
+                  {
+                    "name": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+                    "fieldName": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+                    "label": "Time",
+                    "type": "timepicker",
+                    "propName": "time",
+                    "className": "col-md-6",
+                    "gridId": "grid2",
+                    "decimalPlace": null,
+                    "isNowTimeValue": true
+                  },
+                  {
+                    "name": "control_6fc66140-c93f-11f0-bf01-d786844ba0a3",
+                    "fieldName": "control_6fc66140-c93f-11f0-bf01-d786844ba0a3",
+                    "label": "Select",
+                    "type": "select",
+                    "propName": "select",
+                    "className": "col-md-6",
+                    "dataOptions": [
+                      {
+                        "id": "item1",
+                        "text": "Item 1"
+                      },
+                      {
+                        "id": "item2",
+                        "text": "Item 2"
+                      },
+                      {
+                        "id": "item3",
+                        "text": "Item 3"
+                      }
+                    ],
+                    "isMultiple": true,
+                    "isDCheckbox": false,
+                    "isDRadio": true,
+                    "gridId": "grid2",
+                    "displayName": "Select",
+                    "propertyName": "select",
+                    "decimalPlace": null
+                  },
+                  {
+                    "name": "control_1e8c6f30-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_1e8c6f30-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Layout",
+                    "type": "select",
+                    "propName": "layout",
+                    "className": "col-md-6",
+                    "dataOptions": [
+                      {
+                        "id": "",
+                        "text": ""
+                      }
+                    ],
+                    "invisible": true,
+                    "gridId": "grid2",
+                    "decimalPlace": null
+                  },
+                  {
+                    "name": "control_9d4c7130-ab63-11f0-9dd1-1b708595d94a",
+                    "fieldName": "control_9d4c7130-ab63-11f0-9dd1-1b708595d94a",
+                    "label": "City",
+                    "type": "lookup",
+                    "propName": "city",
+                    "className": "col-md-6",
+                    "ableToAddLookUpVal": true,
+                    "gridId": "grid2",
+                    "decimalPlace": null
+                  },
+                  {
+                    "name": "control_bea7b540-f77d-11f0-b492-ed8dea56d202",
+                    "fieldName": "control_bea7b540-f77d-11f0-b492-ed8dea56d202",
+                    "label": "User",
+                    "type": "user",
+                    "propName": "user",
+                    "className": "col-md-6",
+                    "isCurrentUser": true,
+                    "gridId": "grid2",
+                    "displayName": "User",
+                    "propertyName": "user",
+                    "decimalPlace": null
+                  },
+                  {
+                    "name": "control_1ecf6ba0-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_1ecf6ba0-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Owner",
+                    "type": "user",
+                    "propName": "owner",
+                    "className": "col-md-6",
+                    "invisible": true
+                  },
+                  {
+                    "name": "control_1f14b200-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_1f14b200-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Created Date",
+                    "type": "datepicker",
+                    "propName": "createdDate",
+                    "className": "col-md-6",
+                    "invisible": true
+                  },
+                  {
+                    "name": "control_1f590e00-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_1f590e00-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "State",
+                    "type": "text",
+                    "propName": "state",
+                    "className": "col-md-6",
+                    "invisible": true
+                  },
+                  {
+                    "name": "control_1f9f17b0-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_1f9f17b0-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Next Events",
+                    "type": "text",
+                    "propName": "nextEvents",
+                    "className": "col-md-6",
+                    "invisible": true
+                  },
+                  {
+                    "name": "control_2030f770-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_2030f770-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Last edited by",
+                    "type": "user",
+                    "propName": "lastEditedBy",
+                    "className": "col-md-6",
+                    "readonly": true,
+                    "invisible": true
+                  },
+                  {
+                    "name": "control_2076da10-4dfd-11f0-a259-8fb425d82ca9",
+                    "fieldName": "control_2076da10-4dfd-11f0-a259-8fb425d82ca9",
+                    "label": "Last edit date",
+                    "type": "datepicker",
+                    "propName": "lastEditDate",
+                    "className": "col-md-6",
+                    "readonly": true,
+                    "invisible": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "layout": "collapse"
+      },
+      "name": "Layout 1"
+    }
+  },
   "isReactive": true,
   "meta": {
+    "checkbox": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Checkbox",
+        "fieldName": "control_4bc61bf0-35a0-11f1-bda1-33468afcccce",
+        "gridId": "grid2",
+        "isChecked": false,
+        "label": "Checkbox",
+        "name": "control_4bc61bf0-35a0-11f1-bda1-33468afcccce",
+        "propName": "checkbox",
+        "propertyName": "checkbox",
+        "type": "checkbox"
+      },
+      "displayName": "Checkbox",
+      "invisible": false,
+      "order": 16,
+      "type": "checkbox"
+    },
+    "cities": {
+      "controlInfo": {
+        "ableToAddLookUpVal": true,
+        "className": "col-md-6",
+        "defaultValue": "",
+        "displayName": "Cities",
+        "fieldName": "control_e8090670-38f3-11f1-9cdc-0b347dc5a83b",
+        "gridId": "grid2",
+        "label": "Cities",
+        "lookUpTable": "cities",
+        "lookupOpenInModalDisabled": false,
+        "name": "control_e8090670-38f3-11f1-9cdc-0b347dc5a83b",
+        "propName": "cities",
+        "propertyName": "cities",
+        "type": "multi_lookup"
+      },
+      "displayName": "Cities",
+      "indexed": true,
+      "invisible": false,
+      "lookUpTable": "cities",
+      "order": 2,
+      "type": "multi_lookup"
+    },
     "city": {
+      "controlInfo": {
+        "ableToAddLookUpVal": true,
+        "className": "col-md-6",
+        "fieldName": "control_9d4c7130-ab63-11f0-9dd1-1b708595d94a",
+        "gridId": "grid2",
+        "label": "City",
+        "name": "control_9d4c7130-ab63-11f0-9dd1-1b708595d94a",
+        "propName": "city",
+        "type": "lookup"
+      },
       "displayName": "City",
       "indexed": true,
       "invisible": false,
       "lookUpTable": "cities",
-      "order": 8,
+      "order": 1,
       "type": "lookup"
     },
     "color": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Color",
+        "fieldName": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
+        "gridId": "grid2",
+        "isMarkdownLink": false,
+        "label": "Color",
+        "name": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "color",
+        "propertyName": "color",
+        "type": "text"
+      },
       "displayName": "Color",
-      "order": 19,
+      "invisible": false,
+      "order": 15,
       "type": "string"
     },
     "createdDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_1f14b200-4dfd-11f0-a259-8fb425d82ca9",
+        "invisible": true,
+        "label": "Created Date",
+        "name": "control_1f14b200-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "createdDate",
+        "type": "datepicker"
+      },
       "displayName": "Created Date",
       "invisible": true,
-      "order": 3,
       "type": "date"
     },
     "date": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_fc633050-be2d-11f0-bcb2-792e276106d1",
+        "gridId": "grid2",
+        "label": "Date",
+        "name": "control_fc633050-be2d-11f0-bcb2-792e276106d1",
+        "propName": "date",
+        "type": "datepicker"
+      },
       "displayName": "Date",
-      "invisible": true,
-      "order": 9,
+      "invisible": false,
+      "order": 4,
       "type": "date"
     },
     "end": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "End",
+        "fieldName": "control_68a78220-31a1-11f1-849f-f70b67e009c7",
+        "gridId": "grid2",
+        "label": "End",
+        "name": "control_68a78220-31a1-11f1-849f-f70b67e009c7",
+        "propName": "end",
+        "propertyName": "end",
+        "type": "datepicker"
+      },
       "displayName": "End",
-      "order": 17,
+      "invisible": false,
+      "order": 13,
       "type": "date"
     },
     "lastEditDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2076da10-4dfd-11f0-a259-8fb425d82ca9",
+        "invisible": true,
+        "label": "Last edit date",
+        "name": "control_2076da10-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "lastEditDate",
+        "readonly": true,
+        "type": "datepicker"
+      },
       "displayName": "Last edit date",
       "invisible": true,
-      "order": 7,
       "type": "date"
     },
     "lastEditedBy": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2030f770-4dfd-11f0-a259-8fb425d82ca9",
+        "invisible": true,
+        "label": "Last edited by",
+        "name": "control_2030f770-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "lastEditedBy",
+        "readonly": true,
+        "type": "user"
+      },
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 6,
       "type": "user"
     },
     "layout": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "dataOptions": [
+          {
+            "id": "",
+            "text": ""
+          }
+        ],
+        "fieldName": "control_1e8c6f30-4dfd-11f0-a259-8fb425d82ca9",
+        "gridId": "grid2",
+        "invisible": true,
+        "label": "Layout",
+        "name": "control_1e8c6f30-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "layout",
+        "type": "select"
+      },
       "displayName": "Layout",
       "invisible": true,
-      "order": 1,
       "type": "select"
     },
     "multilineText": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Multiline Text",
+        "fieldName": "control_6eb055a0-0390-11f1-b42f-775dd250a3af",
+        "gridId": "grid2",
+        "isMarkdownLink": false,
+        "label": "Multiline Text",
+        "name": "control_6eb055a0-0390-11f1-b42f-775dd250a3af",
+        "propName": "multilineText",
+        "propertyName": "multilineText",
+        "type": "multiline_text"
+      },
       "displayName": "Multiline Text",
-      "invisible": true,
-      "order": 13,
+      "invisible": false,
+      "order": 9,
       "type": "multiline_text"
     },
     "name": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "description": "for layout 1",
+        "fieldName": "control_1e48fd92-4dfd-11f0-a259-8fb425d82ca9",
+        "gridId": "grid2",
+        "label": "Name",
+        "name": "control_1e48fd92-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "name",
+        "required": true,
+        "type": "text"
+      },
       "displayName": "Name",
+      "invisible": false,
       "order": 0,
       "type": "string"
     },
     "nextEvents": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_1f9f17b0-4dfd-11f0-a259-8fb425d82ca9",
+        "invisible": true,
+        "label": "Next Events",
+        "name": "control_1f9f17b0-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "nextEvents",
+        "type": "text"
+      },
       "displayName": "Next Events",
-      "invisible": true,
-      "order": 5,
+      "invisible": false,
+      "order": 7,
       "type": "string"
     },
     "numberstring": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 0,
+        "displayName": "number string",
+        "fieldName": "control_4542f620-0d7f-11f1-a479-5fd3032f36e1",
+        "gridId": "grid2",
+        "isMarkdownLink": true,
+        "label": "number string",
+        "name": "control_4542f620-0d7f-11f1-a479-5fd3032f36e1",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "percentageFormat": false,
+        "propName": "numberstring",
+        "propertyName": "numberstring",
+        "type": "text"
+      },
       "displayName": "number string",
-      "invisible": true,
-      "order": 15,
+      "invisible": false,
+      "order": 11,
       "type": "string"
     },
     "numbertest": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "number test",
+        "fieldName": "control_949f8cc0-0c2a-11f1-952e-a7c7b4c5ccbc",
+        "gridId": "grid2",
+        "isMarkdownLink": false,
+        "label": "number test",
+        "name": "control_949f8cc0-0c2a-11f1-952e-a7c7b4c5ccbc",
+        "numberHighlight": [
+          {
+            "color": "#FF0600",
+            "operator": "<",
+            "value": "1"
+          }
+        ],
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "percentageFormat": false,
+        "propName": "numbertest",
+        "propertyName": "numbertest",
+        "type": "number"
+      },
       "displayName": "number test",
-      "invisible": true,
-      "order": 14,
+      "invisible": false,
+      "order": 10,
       "type": "number"
     },
     "owner": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_1ecf6ba0-4dfd-11f0-a259-8fb425d82ca9",
+        "invisible": true,
+        "label": "Owner",
+        "name": "control_1ecf6ba0-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "owner",
+        "type": "user"
+      },
       "displayName": "Owner",
-      "invisible": true,
-      "order": 2,
+      "invisible": false,
+      "order": 6,
       "type": "user"
     },
     "price": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Price",
+        "fieldName": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
+        "gridId": "grid2",
+        "label": "Price",
+        "name": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "price",
+        "propertyName": "price",
+        "type": "number"
+      },
       "displayName": "Price",
-      "order": 18,
+      "invisible": false,
+      "order": 14,
       "type": "number"
     },
     "select": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "dataOptions": [
+          {
+            "id": "item1",
+            "text": "Item 1"
+          },
+          {
+            "id": "item2",
+            "text": "Item 2"
+          },
+          {
+            "id": "item3",
+            "text": "Item 3"
+          }
+        ],
+        "displayName": "Select",
+        "fieldName": "control_6fc66140-c93f-11f0-bf01-d786844ba0a3",
+        "gridId": "grid2",
+        "isDCheckbox": false,
+        "isDRadio": true,
+        "isMultiple": true,
+        "label": "Select",
+        "name": "control_6fc66140-c93f-11f0-bf01-d786844ba0a3",
+        "propName": "select",
+        "propertyName": "select",
+        "type": "select"
+      },
       "displayName": "Select",
-      "invisible": true,
-      "order": 11,
+      "invisible": false,
+      "order": 8,
       "type": "select"
     },
     "start": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Start",
+        "fieldName": "control_5c0911f0-31a1-11f1-849f-f70b67e009c7",
+        "gridId": "grid2",
+        "label": "Start",
+        "name": "control_5c0911f0-31a1-11f1-849f-f70b67e009c7",
+        "propName": "start",
+        "propertyName": "start",
+        "type": "datepicker"
+      },
       "displayName": "Start",
-      "order": 16,
+      "invisible": false,
+      "order": 12,
       "type": "date"
     },
     "state": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_1f590e00-4dfd-11f0-a259-8fb425d82ca9",
+        "invisible": true,
+        "label": "State",
+        "name": "control_1f590e00-4dfd-11f0-a259-8fb425d82ca9",
+        "propName": "state",
+        "type": "text"
+      },
       "displayName": "State",
       "invisible": true,
-      "order": 4,
       "type": "string"
     },
     "time": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+        "gridId": "grid2",
+        "isNowTimeValue": true,
+        "label": "Time",
+        "name": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+        "propName": "time",
+        "type": "timepicker"
+      },
       "displayName": "Time",
-      "invisible": true,
-      "order": 10,
+      "invisible": false,
+      "order": 3,
       "type": "timepicker"
     },
     "user": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "User",
+        "fieldName": "control_bea7b540-f77d-11f0-b492-ed8dea56d202",
+        "gridId": "grid2",
+        "isCurrentUser": true,
+        "label": "User",
+        "name": "control_bea7b540-f77d-11f0-b492-ed8dea56d202",
+        "propName": "user",
+        "propertyName": "user",
+        "type": "user"
+      },
       "displayName": "User",
-      "invisible": true,
-      "order": 12,
+      "invisible": false,
+      "order": 5,
       "type": "user"
     }
   },
@@ -144,7 +777,8 @@
                 "className": "col-md-6",
                 "gridId": "grid2",
                 "decimalPlace": null,
-                "required": true
+                "required": true,
+                "description": ""
               },
               {
                 "name": "control_949f8cc0-0c2a-11f1-952e-a7c7b4c5ccbc",
@@ -220,6 +854,34 @@
                 "gridId": "grid2",
                 "displayName": "Color",
                 "propertyName": "color"
+              },
+              {
+                "name": "control_4ba8f700-35a0-11f1-bda1-33468afcccce",
+                "fieldName": "control_4ba8f700-35a0-11f1-bda1-33468afcccce",
+                "label": "Checkbox",
+                "type": "checkbox",
+                "propName": "checkbox",
+                "className": "col-md-6",
+                "isChecked": false,
+                "gridId": "grid2",
+                "displayName": "Checkbox",
+                "propertyName": "checkbox"
+              },
+              {
+                "name": "control_e7eaa900-38f3-11f1-9cdc-0b347dc5a83b",
+                "fieldName": "control_e7eaa900-38f3-11f1-9cdc-0b347dc5a83b",
+                "label": "Cities",
+                "type": "multi_lookup",
+                "propName": "cities",
+                "className": "col-md-6",
+                "defaultValue": "",
+                "lookUpSortDirection": null,
+                "ableToAddLookUpVal": true,
+                "lookupOpenInModalDisabled": false,
+                "gridId": "grid2",
+                "displayName": "Cities",
+                "propertyName": "cities",
+                "lookUpTable": "cities"
               }
             ]
           }
@@ -229,7 +891,7 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": [],
-        "readonly": false
+        "readonly": true
       },
       {
         "cleintKey": "hidden_section_1e48fd90-4dfd-11f0-a259-8fb425d82ca9",
@@ -426,29 +1088,22 @@
     ],
     "layout": "collapse"
   },
+  "showRowId": false,
   "showRowKey": false,
   "source": "grid2",
   "storageType": "dashboard",
   "title": "Grid 2",
   "views": {
     "default": {
-      "displayAsExcel": false,
+      "defaultLayout": "-Opo03QZYtdZ4HOvqTiA",
       "displayAsSheetGrid": true,
-      "displayCardStyle": false,
-      "displayCompact": false,
-      "displayInTab": false,
-      "displayNestedDataGridAboveRecord": false,
-      "displayRecordCustomCodeAboveRecord": false,
-      "displayTotalValue": false,
       "nestedDataGridCondition": "",
       "nestedDataGridToggleText": "",
-      "readOnly": false,
       "recordCustomCode": "",
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
-      "sheetGridGroupBy": "",
-      "sheetGridInternalView": "timeline",
-      "sheetGridIsCompact": false,
+      "sheetGridGroupBy": "city",
+      "sheetGridInternalView": "grid",
       "sheetGridPivotDataBars": false,
       "sheetGridPivotDiff": false,
       "sheetGridPivotGrandTotals": true,
@@ -457,10 +1112,19 @@
       "sheetGridPivotPctOfTotal": false,
       "sheetGridPivotPctParent": false,
       "sheetGridPivotRank": false,
+      "sheetGridPivotRows": [
+        "name"
+      ],
       "sheetGridPivotRunning": false,
       "sheetGridPivotSparklines": false,
       "sheetGridPivotSubtotals": false,
       "sheetGridPivotTopN": 0,
+      "sheetGridPivotVals": [
+        {
+          "agg": "sum",
+          "field": "price"
+        }
+      ],
       "sheetGridTimelineColorBy": "color",
       "sheetGridTimelineDateCol": "start",
       "sheetGridTimelineDurationField": "end",
@@ -469,20 +1133,25 @@
       "title": "Default"
     },
     "viewA": {
-      "displayInTab": false,
-      "displayNestedDataGridAboveRecord": false,
-      "displayRecordCustomCodeAboveRecord": false,
-      "displayTotalValue": false,
+      "displayAsSheetGrid": true,
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false}]}",
       "meta": {
+        "checkbox": {
+          "displayName": "Checkbox",
+          "order": 3
+        },
+        "cities": {
+          "displayName": "Cities",
+          "order": 9
+        },
         "city": {
           "displayName": "City",
           "invisible": false,
-          "order": 8
+          "order": 1
         },
         "color": {
           "displayName": "Color",
-          "order": 19
+          "order": 8
         },
         "createdDate": {
           "displayName": "Created Date",
@@ -496,7 +1165,7 @@
         },
         "end": {
           "displayName": "End",
-          "order": 17
+          "order": 6
         },
         "lastEditDate": {
           "displayName": "Last edit date",
@@ -530,11 +1199,12 @@
         "numberstring": {
           "displayName": "number string",
           "invisible": false,
-          "order": 15
+          "order": 4
         },
         "numbertest": {
           "displayName": "number test",
-          "order": 14
+          "order": 2,
+          "totalColumn": true
         },
         "owner": {
           "displayName": "Owner",
@@ -543,7 +1213,7 @@
         },
         "price": {
           "displayName": "Price",
-          "order": 18
+          "order": 7
         },
         "select": {
           "displayName": "Select",
@@ -552,7 +1222,7 @@
         },
         "start": {
           "displayName": "Start",
-          "order": 16
+          "order": 5
         },
         "state": {
           "displayName": "State",
@@ -570,7 +1240,25 @@
           "order": 12
         }
       },
-      "readOnly": false,
+      "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
+      "readOnly": true,
+      "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "sheetGridGroupBy": "city",
+      "sheetGridInternalView": "grid",
+      "sheetGridItemsPerPage": 10,
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotTopN": 0,
+      "sheetGridTimelineColorBy": "",
+      "sheetGridTimelineDateCol": "",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "",
+      "sheetGridTimelineLabelBy": "",
       "title": "View A"
     },
     "viewB": {
@@ -580,6 +1268,14 @@
       "displayTotalValue": false,
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"city\",\"operator\":\"in\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false}]}",
       "meta": {
+        "checkbox": {
+          "displayName": "Checkbox",
+          "order": 20
+        },
+        "cities": {
+          "displayName": "Cities",
+          "order": 21
+        },
         "city": {
           "displayName": "City",
           "invisible": false,
@@ -666,7 +1362,7 @@
         },
         "time": {
           "displayName": "Time",
-          "invisible": true,
+          "invisible": false,
           "order": 10
         },
         "user": {

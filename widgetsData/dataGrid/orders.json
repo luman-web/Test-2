@@ -1295,7 +1295,10 @@
                 "propName": "description",
                 "className": "col-md-6",
                 "isForDownload": false,
-                "openInNewTab": false
+                "openInNewTab": false,
+                "gridId": "orders",
+                "decimalPlace": null,
+                "readonly": false
               },
               {
                 "name": "control_63640600-0018-11f0-879c-ab7a01a794b7",
@@ -1809,68 +1812,62 @@
       "useFilterInBackend": false
     },
     "view2": {
-      "displayAsExcel": false,
-      "displayCardStyle": false,
-      "displayCompact": false,
-      "displayInTab": false,
-      "displayNestedDataGridAboveRecord": false,
-      "displayRecordCustomCodeAboveRecord": false,
-      "displayTotalValue": false,
+      "displayAsSheetGrid": true,
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"city\",\"operator\":\"contains\",\"value\":null,\"name\":\"City\",\"expression\":false,\"hidden\":false}]}",
       "meta": {
         "address": {
           "displayName": "Address",
-          "order": 20
+          "order": 11
         },
         "amount": {
           "displayName": "Amount",
           "invisible": false,
-          "order": 5,
+          "order": 4,
           "totalColumn": true
         },
         "cities": {
           "displayName": "Cities",
-          "order": 22
+          "order": 13
         },
         "city": {
           "displayName": "City",
           "invisible": false,
-          "order": 2
+          "order": 1
         },
         "complete": {
           "displayName": "Complete",
           "invisible": false,
-          "order": 3
+          "order": 2
         },
         "createdDate": {
           "displayName": "Created Date",
           "invisible": false,
-          "order": 6
+          "order": 5
         },
         "custom": {
           "displayName": "Custom",
           "invisible": false,
-          "order": 7
+          "order": 6
         },
         "description": {
           "displayName": "Description",
           "invisible": false,
-          "order": 1
+          "order": 14
         },
         "doc": {
           "displayName": "Doc",
           "invisible": false,
-          "order": 8
+          "order": 7
         },
         "files": {
           "displayName": "Files",
           "invisible": false,
-          "order": 9
+          "order": 8
         },
         "lastEditDate": {
           "displayName": "Last edit date",
           "invisible": false,
-          "order": 10
+          "order": 9
         },
         "lastEditedBy": {
           "displayName": "Last edited by",
@@ -1900,12 +1897,12 @@
         "population": {
           "displayName": "Population",
           "invisible": false,
-          "order": 4,
+          "order": 3,
           "totalColumn": false
         },
         "price": {
           "displayName": "Price",
-          "order": 21
+          "order": 12
         },
         "select": {
           "displayName": "Select",
@@ -1924,7 +1921,7 @@
         },
         "time": {
           "displayName": "Time",
-          "order": 19
+          "order": 10
         },
         "total": {
           "displayName": "Total",
@@ -1932,9 +1929,23 @@
           "order": 17
         }
       },
-      "nestedDataGrid": "",
-      "readOnly": false,
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
       "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "pivot",
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotTopN": 0,
+      "sheetGridShowEditPreviewButtons": true,
+      "sheetGridTimelineColorBy": "",
+      "sheetGridTimelineDateCol": "",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "",
+      "sheetGridTimelineLabelBy": "",
       "title": "View 2"
     }
   },
