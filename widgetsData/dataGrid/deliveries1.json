@@ -130,7 +130,7 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": [],
-        "readonly": true
+        "readonly": false
       },
       {
         "clientKey": "hidden_section_0d47db60-013a-11f1-ba7b-cd6d8281fb7a",

@@ -3,71 +3,599 @@
   "isReactive": true,
   "meta": {
     "city": {
+      "controlInfo": {
+        "ableToAddLookUpVal": true,
+        "className": "col-md-6",
+        "fieldName": "control_438f3a80-4630-11f0-b7b8-416f6ce04b1d",
+        "gridId": "events",
+        "label": "City",
+        "name": "control_438f3a80-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "city",
+        "type": "lookup"
+      },
       "displayName": "City",
       "indexed": true,
+      "invisible": false,
       "lookUpTable": "cities",
-      "order": 8,
+      "order": 1,
       "type": "lookup"
     },
+    "complete": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "displayName": "Complete",
+        "fieldName": "control_cbcfbe20-5d12-11f1-9acb-b328a31152c3",
+        "gridId": "events",
+        "isChecked": false,
+        "label": "Complete",
+        "name": "control_cbcfbe20-5d12-11f1-9acb-b328a31152c3",
+        "propName": "complete",
+        "propertyName": "complete",
+        "type": "checkbox"
+      },
+      "displayName": "Complete",
+      "invisible": false,
+      "order": 2,
+      "type": "checkbox"
+    },
     "createdDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2c58d880-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "Created Date",
+        "name": "control_2c58d880-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "createdDate",
+        "type": "datepicker"
+      },
       "displayName": "Created Date",
       "invisible": true,
-      "order": 3,
+      "order": 23,
       "type": "date"
     },
+    "field1": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 1",
+        "fieldName": "control_96138640-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 1",
+        "name": "control_96138640-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field1",
+        "propertyName": "field1",
+        "type": "text"
+      },
+      "displayName": "Field 1",
+      "invisible": false,
+      "order": 3,
+      "type": "string"
+    },
+    "field10": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 10",
+        "fieldName": "control_b58b18d0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 10",
+        "name": "control_b58b18d0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field10",
+        "propertyName": "field10",
+        "type": "text"
+      },
+      "displayName": "Field 10",
+      "invisible": false,
+      "order": 12,
+      "type": "string"
+    },
+    "field11": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 11",
+        "fieldName": "control_b8499c90-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 11",
+        "name": "control_b8499c90-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field11",
+        "propertyName": "field11",
+        "type": "text"
+      },
+      "displayName": "Field 11",
+      "invisible": false,
+      "order": 13,
+      "type": "string"
+    },
+    "field12": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 12",
+        "fieldName": "control_baad5620-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 12",
+        "name": "control_baad5620-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field12",
+        "propertyName": "field12",
+        "type": "text"
+      },
+      "displayName": "Field 12",
+      "invisible": false,
+      "order": 14,
+      "type": "string"
+    },
+    "field13": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 13",
+        "fieldName": "control_bde17f10-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 13",
+        "name": "control_bde17f10-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field13",
+        "propertyName": "field13",
+        "type": "text"
+      },
+      "displayName": "Field 13",
+      "invisible": false,
+      "order": 15,
+      "type": "string"
+    },
+    "field14": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 14",
+        "fieldName": "control_c0bd27c0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 14",
+        "name": "control_c0bd27c0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field14",
+        "propertyName": "field14",
+        "type": "text"
+      },
+      "displayName": "Field 14",
+      "invisible": false,
+      "order": 16,
+      "type": "string"
+    },
+    "field15": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 15",
+        "fieldName": "control_c3547470-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 15",
+        "name": "control_c3547470-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field15",
+        "propertyName": "field15",
+        "type": "text"
+      },
+      "displayName": "Field 15",
+      "invisible": false,
+      "order": 17,
+      "type": "string"
+    },
+    "field16": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 16",
+        "fieldName": "control_cfec2de0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 16",
+        "name": "control_cfec2de0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field16",
+        "propertyName": "field16",
+        "type": "text"
+      },
+      "displayName": "Field 16",
+      "invisible": false,
+      "order": 18,
+      "type": "string"
+    },
+    "field17": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 17",
+        "fieldName": "control_d8280740-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 17",
+        "name": "control_d8280740-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field17",
+        "propertyName": "field17",
+        "type": "text"
+      },
+      "displayName": "Field 17",
+      "invisible": false,
+      "order": 19,
+      "type": "string"
+    },
+    "field18": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 18",
+        "fieldName": "control_da71d030-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 18",
+        "name": "control_da71d030-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field18",
+        "propertyName": "field18",
+        "type": "text"
+      },
+      "displayName": "Field 18",
+      "invisible": false,
+      "order": 20,
+      "type": "string"
+    },
+    "field19": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 19",
+        "fieldName": "control_df84cb40-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 19",
+        "name": "control_df84cb40-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field19",
+        "propertyName": "field19",
+        "type": "text"
+      },
+      "displayName": "Field 19",
+      "invisible": false,
+      "order": 21,
+      "type": "string"
+    },
+    "field2": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 2",
+        "fieldName": "control_9932eeb0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 2",
+        "name": "control_9932eeb0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field2",
+        "propertyName": "field2",
+        "type": "text"
+      },
+      "displayName": "Field 2",
+      "invisible": false,
+      "order": 4,
+      "type": "string"
+    },
+    "field20": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 20",
+        "fieldName": "control_e4e71ed0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 20",
+        "name": "control_e4e71ed0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field20",
+        "propertyName": "field20",
+        "type": "text"
+      },
+      "displayName": "Field 20",
+      "invisible": false,
+      "order": 22,
+      "type": "string"
+    },
+    "field3": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 3",
+        "fieldName": "control_9bcef650-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 3",
+        "name": "control_9bcef650-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field3",
+        "propertyName": "field3",
+        "type": "text"
+      },
+      "displayName": "Field 3",
+      "invisible": false,
+      "order": 5,
+      "type": "string"
+    },
+    "field4": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 4",
+        "fieldName": "control_9f6c1a40-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 4",
+        "name": "control_9f6c1a40-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field4",
+        "propertyName": "field4",
+        "type": "text"
+      },
+      "displayName": "Field 4",
+      "invisible": false,
+      "order": 6,
+      "type": "string"
+    },
+    "field5": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 5",
+        "fieldName": "control_a2fc6cf0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 5",
+        "name": "control_a2fc6cf0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field5",
+        "propertyName": "field5",
+        "type": "text"
+      },
+      "displayName": "Field 5",
+      "invisible": false,
+      "order": 7,
+      "type": "string"
+    },
+    "field6": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 6",
+        "fieldName": "control_a941f490-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 6",
+        "name": "control_a941f490-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field6",
+        "propertyName": "field6",
+        "type": "text"
+      },
+      "displayName": "Field 6",
+      "invisible": false,
+      "order": 8,
+      "type": "string"
+    },
+    "field7": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 7",
+        "fieldName": "control_ad45a280-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 7",
+        "name": "control_ad45a280-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field7",
+        "propertyName": "field7",
+        "type": "text"
+      },
+      "displayName": "Field 7",
+      "invisible": false,
+      "order": 9,
+      "type": "string"
+    },
+    "field8": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 8",
+        "fieldName": "control_b0029fa0-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 8",
+        "name": "control_b0029fa0-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field8",
+        "propertyName": "field8",
+        "type": "text"
+      },
+      "displayName": "Field 8",
+      "invisible": false,
+      "order": 10,
+      "type": "string"
+    },
+    "field9": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "decimalPlace": 2,
+        "displayName": "Field 9",
+        "fieldName": "control_b3312340-432c-11f1-ba25-5ff97d55aa89",
+        "gridId": "events",
+        "isMarkdownLink": false,
+        "label": "Field 9",
+        "name": "control_b3312340-432c-11f1-ba25-5ff97d55aa89",
+        "numberRightAligned": false,
+        "numeralFormat": "",
+        "propName": "field9",
+        "propertyName": "field9",
+        "type": "text"
+      },
+      "displayName": "Field 9",
+      "invisible": false,
+      "order": 11,
+      "type": "string"
+    },
     "lastEditDate": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2d80b6b0-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "Last edit date",
+        "name": "control_2d80b6b0-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "lastEditDate",
+        "readonly": true,
+        "type": "datepicker"
+      },
       "displayName": "Last edit date",
       "invisible": true,
-      "order": 7,
+      "order": 24,
       "type": "date"
     },
     "lastEditedBy": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2d357ce0-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "Last edited by",
+        "name": "control_2d357ce0-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "lastEditedBy",
+        "readonly": true,
+        "type": "user"
+      },
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 6,
+      "order": 25,
       "type": "user"
     },
     "layout": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2bc8a670-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "Layout",
+        "name": "control_2bc8a670-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "layout",
+        "type": "select"
+      },
       "displayName": "Layout",
       "invisible": true,
-      "order": 1,
+      "order": 26,
       "type": "select"
     },
     "name": {
       "Width": "339px",
+      "controlInfo": {
+        "className": "col-md-6",
+        "description": "description 1",
+        "fieldName": "control_2b8311f0-4630-11f0-b7b8-416f6ce04b1d",
+        "gridId": "events",
+        "label": "Name",
+        "name": "control_2b8311f0-4630-11f0-b7b8-416f6ce04b1d",
+        "placeholder": "placeholder 1",
+        "propName": "name",
+        "tooltip": "",
+        "type": "text"
+      },
       "displayName": "Name",
+      "invisible": false,
       "order": 0,
       "type": "string"
     },
     "nextEvents": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2ceb0660-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "Next Events",
+        "name": "control_2ceb0660-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "nextEvents",
+        "type": "text"
+      },
       "displayName": "Next Events",
       "invisible": true,
-      "order": 5,
+      "order": 27,
       "type": "string"
     },
     "owner": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2c114830-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "Owner",
+        "name": "control_2c114830-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "owner",
+        "type": "user"
+      },
       "displayName": "Owner",
       "invisible": true,
-      "order": 2,
+      "order": 28,
       "type": "user"
     },
     "state": {
+      "controlInfo": {
+        "className": "col-md-6",
+        "fieldName": "control_2ca17a40-4630-11f0-b7b8-416f6ce04b1d",
+        "invisible": true,
+        "label": "State",
+        "name": "control_2ca17a40-4630-11f0-b7b8-416f6ce04b1d",
+        "propName": "state",
+        "type": "text"
+      },
       "displayName": "State",
       "invisible": true,
-      "order": 4,
+      "order": 29,
       "type": "string"
     }
   },
   "rowEditorFieldsForm": {
     "sections": [
       {
-        "name": "section_809585",
-        "label": "",
-        "clientKey": "section_809585",
+        "name": "section_979265",
+        "label": "Section 1",
+        "tooltip": "",
+        "clientKey": "section_979265",
         "order": 0,
         "rows": [
           {
-            "name": "section_809585_row_368456",
+            "name": "section_979265_row_411195",
             "label": "",
             "order": 0,
             "controls": [
@@ -77,7 +605,12 @@
                 "label": "Name",
                 "type": "text",
                 "propName": "name",
-                "className": "col-md-6"
+                "className": "col-md-6",
+                "gridId": "events",
+                "decimalPlace": null,
+                "tooltip": "",
+                "placeholder": "placeholder 1",
+                "description": "description 1"
               },
               {
                 "name": "control_438f3a80-4630-11f0-b7b8-416f6ce04b1d",
@@ -86,7 +619,21 @@
                 "type": "lookup",
                 "propName": "city",
                 "className": "col-md-6",
-                "ableToAddLookUpVal": true
+                "ableToAddLookUpVal": true,
+                "gridId": "events",
+                "decimalPlace": null
+              },
+              {
+                "name": "control_cbcfbe20-5d12-11f1-9acb-b328a31152c3",
+                "fieldName": "control_cbcfbe20-5d12-11f1-9acb-b328a31152c3",
+                "label": "Complete",
+                "type": "checkbox",
+                "propName": "complete",
+                "className": "col-md-6",
+                "isChecked": false,
+                "gridId": "events",
+                "displayName": "Complete",
+                "propertyName": "complete"
               }
             ]
           }
@@ -95,7 +642,355 @@
         "isDynamic": false,
         "minInstance": 1,
         "maxInstance": 0,
-        "instances": []
+        "instances": [],
+        "vif": "",
+        "collapsedByDefault": false,
+        "tab": "default"
+      },
+      {
+        "name": "section_809585",
+        "label": "Section 2",
+        "clientKey": "section_809585",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_809585_row_368456",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_96138640-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_96138640-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 1",
+                "type": "text",
+                "propName": "field1",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 1",
+                "propertyName": "field1"
+              },
+              {
+                "name": "control_9932eeb0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_9932eeb0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 2",
+                "type": "text",
+                "propName": "field2",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 2",
+                "propertyName": "field2"
+              },
+              {
+                "name": "control_9bcef650-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_9bcef650-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 3",
+                "type": "text",
+                "propName": "field3",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 3",
+                "propertyName": "field3"
+              },
+              {
+                "name": "control_9f6c1a40-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_9f6c1a40-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 4",
+                "type": "text",
+                "propName": "field4",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 4",
+                "propertyName": "field4"
+              },
+              {
+                "name": "control_a2fc6cf0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_a2fc6cf0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 5",
+                "type": "text",
+                "propName": "field5",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 5",
+                "propertyName": "field5"
+              },
+              {
+                "name": "control_a941f490-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_a941f490-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 6",
+                "type": "text",
+                "propName": "field6",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 6",
+                "propertyName": "field6"
+              },
+              {
+                "name": "control_ad45a280-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_ad45a280-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 7",
+                "type": "text",
+                "propName": "field7",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 7",
+                "propertyName": "field7"
+              },
+              {
+                "name": "control_b0029fa0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_b0029fa0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 8",
+                "type": "text",
+                "propName": "field8",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 8",
+                "propertyName": "field8"
+              },
+              {
+                "name": "control_b3312340-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_b3312340-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 9",
+                "type": "text",
+                "propName": "field9",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 9",
+                "propertyName": "field9"
+              },
+              {
+                "name": "control_b58b18d0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_b58b18d0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 10",
+                "type": "text",
+                "propName": "field10",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 10",
+                "propertyName": "field10"
+              },
+              {
+                "name": "control_b8499c90-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_b8499c90-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 11",
+                "type": "text",
+                "propName": "field11",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 11",
+                "propertyName": "field11"
+              },
+              {
+                "name": "control_baad5620-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_baad5620-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 12",
+                "type": "text",
+                "propName": "field12",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 12",
+                "propertyName": "field12"
+              },
+              {
+                "name": "control_bde17f10-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_bde17f10-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 13",
+                "type": "text",
+                "propName": "field13",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 13",
+                "propertyName": "field13"
+              },
+              {
+                "name": "control_c0bd27c0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_c0bd27c0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 14",
+                "type": "text",
+                "propName": "field14",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 14",
+                "propertyName": "field14"
+              },
+              {
+                "name": "control_c3547470-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_c3547470-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 15",
+                "type": "text",
+                "propName": "field15",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 15",
+                "propertyName": "field15"
+              },
+              {
+                "name": "control_cfec2de0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_cfec2de0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 16",
+                "type": "text",
+                "propName": "field16",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 16",
+                "propertyName": "field16"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "tab": "additionaTab"
+      },
+      {
+        "name": "section_595044",
+        "label": "Section 3",
+        "tooltip": "",
+        "clientKey": "section_595044",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_595044_row_995323",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_d8280740-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_d8280740-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 17",
+                "type": "text",
+                "propName": "field17",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 17",
+                "propertyName": "field17"
+              },
+              {
+                "name": "control_da71d030-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_da71d030-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 18",
+                "type": "text",
+                "propName": "field18",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 18",
+                "propertyName": "field18"
+              },
+              {
+                "name": "control_df84cb40-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_df84cb40-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 19",
+                "type": "text",
+                "propName": "field19",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 19",
+                "propertyName": "field19"
+              },
+              {
+                "name": "control_e4e71ed0-432c-11f1-ba25-5ff97d55aa89",
+                "fieldName": "control_e4e71ed0-432c-11f1-ba25-5ff97d55aa89",
+                "label": "Field 20",
+                "type": "text",
+                "propName": "field20",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "events",
+                "displayName": "Field 20",
+                "propertyName": "field20"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "vif": "",
+        "collapsedByDefault": false,
+        "tab": "additionaTab"
       },
       {
         "cleintKey": "hidden_section_2b82eae0-4630-11f0-b7b8-416f6ce04b1d",
@@ -180,9 +1075,206 @@
         ]
       }
     ],
-    "layout": "collapse"
+    "layout": "Tabs and Sections"
   },
   "source": "events",
   "storageType": "dashboard",
-  "title": "Events"
+  "tabs": {
+    "additionaTab": {
+      "isSectionReference": false,
+      "readOnly": false,
+      "title": "Additiona Tab"
+    },
+    "target1": {
+      "isSectionReference": true,
+      "readOnly": false,
+      "referenceSectionKey": "section_595044",
+      "title": "Target 1"
+    }
+  },
+  "tabsOrder": [
+    "default",
+    "target1",
+    "additionaTab"
+  ],
+  "title": "Events",
+  "views": {
+    "view1": {
+      "meta": {
+        "city": {
+          "displayName": "City",
+          "invisible": false,
+          "order": 8
+        },
+        "complete": {
+          "displayName": "Complete",
+          "invisible": false,
+          "order": 9
+        },
+        "createdDate": {
+          "displayName": "Created Date",
+          "invisible": true,
+          "order": 3
+        },
+        "field1": {
+          "displayName": "Field 1",
+          "invisible": false,
+          "order": 10
+        },
+        "field10": {
+          "displayName": "Field 10",
+          "invisible": false,
+          "order": 19
+        },
+        "field11": {
+          "displayName": "Field 11",
+          "invisible": false,
+          "order": 20
+        },
+        "field12": {
+          "displayName": "Field 12",
+          "invisible": false,
+          "order": 21
+        },
+        "field13": {
+          "displayName": "Field 13",
+          "invisible": false,
+          "order": 22
+        },
+        "field14": {
+          "displayName": "Field 14",
+          "invisible": false,
+          "order": 23
+        },
+        "field15": {
+          "displayName": "Field 15",
+          "invisible": false,
+          "order": 24
+        },
+        "field16": {
+          "displayName": "Field 16",
+          "invisible": false,
+          "order": 25
+        },
+        "field17": {
+          "displayName": "Field 17",
+          "invisible": false,
+          "order": 26
+        },
+        "field18": {
+          "displayName": "Field 18",
+          "invisible": false,
+          "order": 27
+        },
+        "field19": {
+          "displayName": "Field 19",
+          "invisible": false,
+          "order": 28
+        },
+        "field2": {
+          "displayName": "Field 2",
+          "invisible": false,
+          "order": 11
+        },
+        "field20": {
+          "displayName": "Field 20",
+          "invisible": false,
+          "order": 29
+        },
+        "field3": {
+          "displayName": "Field 3",
+          "invisible": false,
+          "order": 12
+        },
+        "field4": {
+          "displayName": "Field 4",
+          "invisible": false,
+          "order": 13
+        },
+        "field5": {
+          "displayName": "Field 5",
+          "invisible": false,
+          "order": 14
+        },
+        "field6": {
+          "displayName": "Field 6",
+          "invisible": false,
+          "order": 15
+        },
+        "field7": {
+          "displayName": "Field 7",
+          "invisible": false,
+          "order": 16
+        },
+        "field8": {
+          "displayName": "Field 8",
+          "invisible": false,
+          "order": 17
+        },
+        "field9": {
+          "displayName": "Field 9",
+          "invisible": false,
+          "order": 18
+        },
+        "lastEditDate": {
+          "displayName": "Last edit date",
+          "invisible": true,
+          "order": 7
+        },
+        "lastEditedBy": {
+          "displayName": "Last edited by",
+          "invisible": true,
+          "order": 6
+        },
+        "layout": {
+          "displayName": "Layout",
+          "invisible": true,
+          "order": 1
+        },
+        "name": {
+          "displayName": "Name",
+          "invisible": false,
+          "order": 0
+        },
+        "nextEvents": {
+          "displayName": "Next Events",
+          "invisible": true,
+          "order": 5
+        },
+        "owner": {
+          "displayName": "Owner",
+          "invisible": true,
+          "order": 2
+        },
+        "state": {
+          "displayName": "State",
+          "invisible": true,
+          "order": 4
+        }
+      },
+      "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
+      "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "grid",
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotTopN": 0,
+      "sheetGridShowEditPreviewButtons": false,
+      "sheetGridShowRowSelectionControls": false,
+      "sheetGridTimelineColorBy": "",
+      "sheetGridTimelineDateCol": "",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "",
+      "sheetGridTimelineLabelBy": "",
+      "title": "View 1"
+    }
+  },
+  "viewsOrder": [
+    "view1"
+  ]
 }

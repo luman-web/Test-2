@@ -1,4 +1,7 @@
 {
+  "icon": {
+    "name": "building-o"
+  },
   "order": 0,
   "title": "Cities"
 }

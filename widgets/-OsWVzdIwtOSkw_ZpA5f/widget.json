@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/storeIDs",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "storeIDs"
+  },
+  "tab": "-OsWVzaEJKJ91ncN1rIJ",
+  "type": "DataGrid"
+}

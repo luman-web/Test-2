@@ -688,7 +688,7 @@
         "name": "control_331596e0-334c-11f1-a545-5764f15517f9",
         "propName": "complete",
         "propertyName": "complete",
-        "readonly": true,
+        "readonly": false,
         "readonlyCondition": "rowData.name !== 'Shanxi'",
         "type": "checkbox"
       },
@@ -698,6 +698,7 @@
       "type": "checkbox"
     },
     "countries": {
+      "Width": "428px",
       "controlInfo": {
         "ableToAddLookUpVal": true,
         "className": "col-md-6",
@@ -714,11 +715,11 @@
       "indexed": true,
       "invisible": false,
       "lookUpTable": "countries",
-      "order": 0,
+      "order": 1,
       "type": "multi_lookup"
     },
     "country": {
-      "Width": "164px",
+      "Width": "443px",
       "controlInfo": {
         "ableToAddLookUpVal": true,
         "className": "col-md-6",
@@ -903,6 +904,7 @@
         "decimalPlace": 2,
         "expression": "rowData.myValue + 1",
         "fieldName": "control_29fefcc0-ab77-11f0-97aa-f5c9aac30363",
+        "gridId": "cities",
         "label": "myValueRef",
         "name": "control_29fefcc0-ab77-11f0-97aa-f5c9aac30363",
         "propName": "myValueRef",
@@ -914,7 +916,7 @@
       "type": "number"
     },
     "name": {
-      "Width": 180,
+      "Width": "172px",
       "controlInfo": {
         "className": "col-md-6",
         "fieldName": "control_bc6143e2-8727-11ef-a539-351fccbf4c21",
@@ -932,11 +934,10 @@
         "widthPercentages": "30"
       },
       "displayName": "Name",
-      "fieldTemplate": "<b-button variant=\"primary\" size=\"sm\">\n    Hello to city of {{ rowData.name }}\n</b-button>",
       "indexed": true,
       "invisible": false,
       "onChange": "$dgSetFilterVals(\n    'orders',\n    [\n        { key: 'name', value: rowData.name }\n    ]\n)",
-      "order": 3,
+      "order": 0,
       "type": "string"
     },
     "nextEvents": {
@@ -997,7 +998,7 @@
       "type": "user"
     },
     "populationRename": {
-      "Width": "141px",
+      "Width": "312px",
       "controlInfo": {
         "className": "col-md-6",
         "decimalPlace": 3,
@@ -1006,16 +1007,19 @@
         "isForDownload": false,
         "label": "Population",
         "name": "control_7c3ef250-a75a-11ef-b2af-153b165a3892",
+        "numberRightAligned": false,
         "numeralFormat": "",
         "openInNewTab": false,
         "propName": "populationRename",
+        "readonly": false,
         "required": true,
         "tabIndex": "2",
         "type": "number"
       },
       "displayName": "Population",
+      "fieldTemplate": "<b>field custom code: {{ rowData.name }}</b>",
       "invisible": false,
-      "order": 1,
+      "order": 2,
       "totalColumn": true,
       "type": "number"
     },
@@ -1046,7 +1050,8 @@
         "name": "control_e694b290-22d1-11f1-8b74-2178182d8b30",
         "propName": "select",
         "propertyName": "select",
-        "type": "select"
+        "type": "select",
+        "useWidthPercentages": false
       },
       "displayName": "Select",
       "invisible": true,
@@ -1069,6 +1074,7 @@
       "type": "string"
     },
     "total": {
+      "Width": "218px",
       "controlInfo": {
         "className": "col-md-6",
         "decimalPlace": 2,
@@ -1078,14 +1084,14 @@
         "label": "Total",
         "name": "control_ca19b3d0-2084-11f1-b516-e35b2bf9919c",
         "numberRightAligned": false,
-        "numeralFormat": "",
+        "numeralFormat": "0,0.000",
         "propName": "total",
         "propertyName": "total",
         "type": "number"
       },
       "displayName": "Total",
       "invisible": false,
-      "order": 2,
+      "order": 3,
       "priceFormat": true,
       "totalColumn": true,
       "totalColumnExpression": "`${format(totals.populationRename)} - ${totals.total}`",
@@ -1096,7 +1102,7 @@
     "sections": [
       {
         "name": "section_719854",
-        "label": "",
+        "label": "Tab 1",
         "clientKey": "section_719854",
         "order": 0,
         "rows": [
@@ -1153,7 +1159,9 @@
                 "tabIndex": "2",
                 "required": true,
                 "numberHighlight": [],
-                "numeralFormat": ""
+                "numeralFormat": "",
+                "readonly": false,
+                "numberRightAligned": false
               },
               {
                 "name": "control_28dd4920-1516-11f0-8761-a3b6746a7ebc",
@@ -1207,7 +1215,8 @@
                 "buttonVariant": "danger",
                 "buttonText": "Run Operation 1",
                 "attachedFunction": "myOperation",
-                "gridId": "cities"
+                "gridId": "cities",
+                "decimalPlace": null
               },
               {
                 "name": "control_bca46760-8727-11ef-a539-351fccbf4c21",
@@ -1387,35 +1396,6 @@
                 "displayName": "Total",
                 "propertyName": "total",
                 "numberHighlight": []
-              },
-              {
-                "name": "control_5395a300-287b-11f1-9249-cd607728895f",
-                "fieldName": "control_5395a300-287b-11f1-9249-cd607728895f",
-                "label": "Budget",
-                "type": "number",
-                "propName": "budget",
-                "className": "col-md-6",
-                "decimalPlace": 2,
-                "numeralFormat": "",
-                "numberRightAligned": false,
-                "gridId": "cities",
-                "displayName": "Budget",
-                "propertyName": "budget"
-              },
-              {
-                "name": "control_331596e0-334c-11f1-a545-5764f15517f9",
-                "fieldName": "control_331596e0-334c-11f1-a545-5764f15517f9",
-                "label": "Complete",
-                "type": "checkbox",
-                "propName": "complete",
-                "className": "col-md-6",
-                "isChecked": false,
-                "gridId": "cities",
-                "displayName": "Complete",
-                "propertyName": "complete",
-                "decimalPlace": null,
-                "readonly": false,
-                "readonlyCondition": "rowData.name !== 'Shanxi'"
               }
             ]
           }
@@ -1491,26 +1471,133 @@
             ]
           }
         ]
+      },
+      {
+        "name": "section_989014",
+        "label": "Tab 2",
+        "tooltip": "",
+        "clientKey": "section_989014",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_989014_row_455640",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_331596e0-334c-11f1-a545-5764f15517f9",
+                "fieldName": "control_331596e0-334c-11f1-a545-5764f15517f9",
+                "label": "Complete",
+                "type": "checkbox",
+                "propName": "complete",
+                "className": "col-md-6",
+                "isChecked": false,
+                "gridId": "cities",
+                "displayName": "Complete",
+                "propertyName": "complete",
+                "decimalPlace": null,
+                "readonly": false,
+                "readonlyCondition": "rowData.name !== 'Shanxi'"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "vif": "",
+        "collapsedByDefault": false,
+        "tab": "tab1"
+      },
+      {
+        "name": "section_714125",
+        "label": "Tab 3",
+        "tooltip": "",
+        "clientKey": "section_714125",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_714125_row_977833",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_5395a300-287b-11f1-9249-cd607728895f",
+                "fieldName": "control_5395a300-287b-11f1-9249-cd607728895f",
+                "label": "Budget",
+                "type": "number",
+                "propName": "budget",
+                "className": "col-md-6",
+                "decimalPlace": 2,
+                "numeralFormat": "",
+                "numberRightAligned": false,
+                "gridId": "cities",
+                "displayName": "Budget",
+                "propertyName": "budget",
+                "numberHighlight": []
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "vif": "",
+        "collapsedByDefault": false,
+        "tab": "tab2"
       }
     ],
-    "layout": "collapse"
+    "layout": "Tabs and Sections"
   },
   "showRowId": true,
   "showRowKey": false,
   "source": "cities",
   "sqlFilteringEvaluateJs": false,
   "storageType": "dashboard",
-  "title": "Cities",
+  "tabs": {
+    "default": {
+      "title": "Tab 1"
+    },
+    "tab1": {
+      "isSectionReference": false,
+      "readOnly": false,
+      "title": "Tab 2"
+    },
+    "tab1Ref": {
+      "isSectionReference": true,
+      "readOnly": false,
+      "referenceSectionKey": "section_719854",
+      "title": "Tab 1 Ref"
+    },
+    "tab2": {
+      "isSectionReference": false,
+      "readOnly": false,
+      "title": "Tab 3"
+    }
+  },
+  "tabsOrder": [
+    "default",
+    "tab1",
+    "tab2",
+    "tab1Ref"
+  ],
+  "title": "Related List",
   "useInGlobalSearch": true,
   "usePostgeSQLIndexing": true,
   "views": {
     "default": {
+      "displayInTab": true,
+      "displayTotalValue": true,
       "nestedDataGrid": "",
       "nestedDataGridCondition": "",
       "nestedDataGridToggleText": "",
-      "recordCustomCode": "",
+      "recordCustomCode": "<b-alert variant=\"warning\" show>test alert message here</b-alert>",
       "recordCustomCodeCondition": "",
-      "rowStyleCode": "// Return a color string\nif (rowData.$country$display === 'China') {\n    return {\n        backgroundColor: '#950',\n        color: 'white'\n    }\n}\n\nreturn {}",
+      "rowStyleCode": "return {}\n\n// Return a color string\nif (rowData.$country$display === 'China') {\n    return {\n        backgroundColor: '#950',\n        color: 'white'\n    }\n}\n\nreturn {}",
       "sheetGridGroupBy": "country",
       "sheetGridInternalView": "grid",
       "sheetGridItemsPerPage": 40,
@@ -1539,18 +1626,13 @@
       "sheetGridTimelineDurationField": "",
       "sheetGridTimelineGroupBy": "__timeline_month",
       "sheetGridTimelineLabelBy": "",
-      "title": "",
+      "title": "Cities",
       "useFilterInBackend": false
     },
     "relatedList": {
-      "displayAsExcel": false,
-      "displayAsSheetGrid": false,
-      "displayCardStyle": false,
-      "displayCompact": false,
-      "displayInTab": false,
-      "displayNestedDataGridAboveRecord": false,
-      "displayRecordCustomCodeAboveRecord": false,
-      "displayTotalValue": false,
+      "displayAsExcel": true,
+      "displayInTab": true,
+      "displayTotalValue": true,
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}",
       "meta": {
         "budget": {
@@ -1712,17 +1794,27 @@
       "nestedDataGrid": "",
       "nestedDataGridCondition": "",
       "nestedDataGridToggleText": "",
-      "readOnly": false,
       "recordCustomCode": "",
       "recordCustomCodeCondition": "",
       "rowStyleCode": "",
       "sheetGridGroupBy": "",
-      "sheetGridIsCompact": false,
+      "sheetGridInternalView": "grid",
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotTopN": 0,
+      "sheetGridTimelineColorBy": "",
+      "sheetGridTimelineDateCol": "",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "",
+      "sheetGridTimelineLabelBy": "",
       "title": "Related List"
     },
     "sheetGrid": {
       "displayAsSheetGrid": true,
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"createdDate\",\"operator\":\"date\",\"value\":null,\"name\":\"Created Date\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"country\",\"operator\":\"in\",\"value\":null,\"name\":\"Country\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"countries\",\"operator\":\"in\",\"value\":null,\"name\":\"Countries\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"\",\"key\":\"populationRename\",\"operator\":\"=\",\"value\":null,\"name\":\"Population\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null}]}",
+      "displayInTab": true,
+      "displayTotalValue": true,
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"createdDate\",\"operator\":\"date\",\"value\":null,\"name\":\"Created Date\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"country\",\"operator\":\"in\",\"value\":null,\"name\":\"Country\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"AND\",\"key\":\"countries\",\"operator\":\"in\",\"value\":null,\"name\":\"Countries\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null},{\"andOr\":\"\",\"key\":\"populationRename\",\"operator\":\">=\",\"value\":null,\"name\":\"Population\",\"expression\":false,\"hidden\":false,\"lookUpSearch\":null}]}",
       "meta": {
         "budget": {
           "Width": 97,
@@ -1740,9 +1832,10 @@
           "order": 11
         },
         "countries": {
+          "Width": 235,
           "displayName": "Countries",
           "invisible": false,
-          "order": 0
+          "order": 1
         },
         "country": {
           "Width": 120,
@@ -1779,6 +1872,7 @@
           "order": 9
         },
         "lastEditedBy": {
+          "Width": 353,
           "displayName": "Last edited by",
           "invisible": false,
           "order": 10
@@ -1826,9 +1920,10 @@
           "invisible": true
         },
         "populationRename": {
+          "Width": 256,
           "displayName": "Population",
           "invisible": false,
-          "order": 1
+          "order": 0
         },
         "select": {
           "displayName": "Select",
@@ -1839,7 +1934,7 @@
           "invisible": true
         },
         "total": {
-          "Width": 323,
+          "Width": 292,
           "displayName": "Total",
           "invisible": false,
           "order": 2,
@@ -1850,15 +1945,13 @@
       "nestedDataGrid": "",
       "nestedDataGridCondition": "",
       "nestedDataGridToggleText": "",
-      "recordCustomCode": "",
+      "recordCustomCode": "<b-alert variant=\"warning\" :show=\"true\">test alert message here</b-alert>\n<b-alert variant=\"warning\" :show=\"true\">test alert message here</b-alert>",
       "recordCustomCodeCondition": "",
-      "rowStyleCode": "// Return a color string\nif (rowData.$country$display === 'China') {\n    return {\n        backgroundColor: '#950',\n        color: 'white'\n    }\n}\n\nreturn {}",
+      "rowStyleCode": "",
       "sheetGridGroupBy": "country",
       "sheetGridInternalView": "grid",
-      "sheetGridIsCompact": false,
       "sheetGridItemsPerPage": 10,
       "sheetGridPinnedColumns": {
-        "countries": "left",
         "populationRename": "left"
       },
       "sheetGridPivotGrandTotals": true,
@@ -1876,6 +1969,11 @@
           "field": "budget"
         }
       ],
+      "sheetGridShowRowSelectionControls": true,
+      "sheetGridSort": {
+        "column": "total",
+        "direction": "asc"
+      },
       "sheetGridTimelineColorBy": "name",
       "sheetGridTimelineDateCol": "createdDate",
       "sheetGridTimelineDurationField": "",

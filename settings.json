@@ -1,6 +1,8 @@
 {
   "allowToDisableTablesInRoles": true,
   "cachingInFrontend": true,
+  "dataGridFormFieldHistoryChangesEnabled": true,
+  "dataGridFormFieldHistoryEnabled": true,
   "dgInputPriceFormatting": false,
   "dgRemoveFromPath": true,
   "enableLogsBenchmark": false,
@@ -8,6 +10,9 @@
   "globalSearchEnabled": false,
   "isContextualChatAvailable": false,
   "isDataGridUpdateFlashEnabled": false,
+  "miloCliDefaults": {
+    "planMode": false
+  },
   "modelsCachingEnabled": false,
   "parseUserRecord": true,
   "regional": {
@@ -15,6 +20,7 @@
     "date": "MM/DD/YYYY",
     "time": "MM/DD/YYYY HH:mm"
   },
+  "sendSetPasswordLinkToNewUsers": true,
   "sessionExpirationEnabled": false,
   "sessionExpirationTime": 1,
   "sessionTimeMeasure": "hours",

@@ -82,12 +82,13 @@
                     "type": "number",
                     "propName": "price",
                     "className": "col-md-6",
-                    "decimalPlace": 2,
-                    "numeralFormat": "",
+                    "decimalPlace": 3,
+                    "numeralFormat": "0,0",
                     "numberRightAligned": false,
                     "gridId": "grid2",
                     "displayName": "Price",
-                    "propertyName": "price"
+                    "propertyName": "price",
+                    "numberHighlight": []
                   },
                   {
                     "name": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
@@ -131,6 +132,17 @@
                     "displayName": "Cities",
                     "propertyName": "cities",
                     "lookUpTable": "cities"
+                  },
+                  {
+                    "name": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+                    "fieldName": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+                    "label": "Time",
+                    "type": "timepicker",
+                    "propName": "time",
+                    "className": "col-md-6",
+                    "gridId": "grid2",
+                    "decimalPlace": null,
+                    "isNowTimeValue": true
                   }
                 ]
               }
@@ -192,17 +204,6 @@
                     "displayName": "number string",
                     "propertyName": "numberstring",
                     "percentageFormat": false
-                  },
-                  {
-                    "name": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
-                    "fieldName": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
-                    "label": "Time",
-                    "type": "timepicker",
-                    "propName": "time",
-                    "className": "col-md-6",
-                    "gridId": "grid2",
-                    "decimalPlace": null,
-                    "isNowTimeValue": true
                   },
                   {
                     "name": "control_6fc66140-c93f-11f0-bf01-d786844ba0a3",
@@ -638,14 +639,14 @@
     "price": {
       "controlInfo": {
         "className": "col-md-6",
-        "decimalPlace": 2,
+        "decimalPlace": 3,
         "displayName": "Price",
         "fieldName": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
         "gridId": "grid2",
         "label": "Price",
         "name": "control_720b12a0-31a1-11f1-849f-f70b67e009c7",
         "numberRightAligned": false,
-        "numeralFormat": "",
+        "numeralFormat": "0,0",
         "propName": "price",
         "propertyName": "price",
         "type": "number"
@@ -653,6 +654,7 @@
       "displayName": "Price",
       "invisible": false,
       "order": 14,
+      "priceFormat": true,
       "type": "number"
     },
     "select": {
@@ -833,12 +835,13 @@
                 "type": "number",
                 "propName": "price",
                 "className": "col-md-6",
-                "decimalPlace": 2,
-                "numeralFormat": "",
+                "decimalPlace": 3,
+                "numeralFormat": "0,0",
                 "numberRightAligned": false,
                 "gridId": "grid2",
                 "displayName": "Price",
-                "propertyName": "price"
+                "propertyName": "price",
+                "numberHighlight": []
               },
               {
                 "name": "control_79c8e260-31a1-11f1-849f-f70b67e009c7",
@@ -882,6 +885,17 @@
                 "displayName": "Cities",
                 "propertyName": "cities",
                 "lookUpTable": "cities"
+              },
+              {
+                "name": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+                "fieldName": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
+                "label": "Time",
+                "type": "timepicker",
+                "propName": "time",
+                "className": "col-md-6",
+                "gridId": "grid2",
+                "decimalPlace": null,
+                "isNowTimeValue": true
               }
             ]
           }
@@ -943,17 +957,6 @@
                 "displayName": "number string",
                 "propertyName": "numberstring",
                 "percentageFormat": false
-              },
-              {
-                "name": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
-                "fieldName": "control_01d9cf30-be2e-11f0-bcb2-792e276106d1",
-                "label": "Time",
-                "type": "timepicker",
-                "propName": "time",
-                "className": "col-md-6",
-                "gridId": "grid2",
-                "decimalPlace": null,
-                "isNowTimeValue": true
               },
               {
                 "name": "control_6fc66140-c93f-11f0-bf01-d786844ba0a3",

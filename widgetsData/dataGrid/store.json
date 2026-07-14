@@ -1,6 +1,16 @@
 {
   "displayColumn": "name",
   "meta": {
+    "delete": {
+      "displayName": "Delete",
+      "order": 7,
+      "type": "custom"
+    },
+    "label": {
+      "displayName": "Label",
+      "order": 6,
+      "type": "string"
+    },
     "layout": {
       "displayName": "Layout",
       "invisible": true,
@@ -19,11 +29,24 @@
       "order": 2,
       "type": "string"
     },
+    "price": {
+      "displayName": "Price",
+      "order": 4,
+      "priceFormat": true,
+      "type": "number"
+    },
     "state": {
       "displayName": "State",
       "invisible": true,
       "order": 1,
       "type": "string"
+    },
+    "storeID": {
+      "displayName": "Store ID",
+      "indexed": true,
+      "lookUpTable": "storeIDs",
+      "order": 5,
+      "type": "lookup"
     }
   },
   "rowEditorFieldsForm": {
@@ -45,40 +68,67 @@
                 "label": "Name",
                 "type": "text",
                 "propName": "name",
-                "className": "col-md-4",
-                "invisible": false
-              },
-              {
-                "name": "control_5cc3a310-02b4-11f1-99ba-97952a0bb372_",
-                "fieldName": "control_5cc3a310-02b4-11f1-99ba-97952a0bb372_",
-                "label": "State",
-                "type": "text",
-                "propName": "state",
-                "className": "col-md-4",
-                "invisible": true
-              },
-              {
-                "name": "control_5cc3a311-02b4-11f1-99ba-97952a0bb372_",
-                "fieldName": "control_5cc3a311-02b4-11f1-99ba-97952a0bb372_",
-                "label": "Next Events",
-                "type": "text",
-                "propName": "nextEvents",
-                "className": "col-md-4",
-                "invisible": true
-              },
-              {
-                "name": "control_20525550-035b-11f1-91b2-7362d3095c7a",
-                "fieldName": "control_20525550-035b-11f1-91b2-7362d3095c7a",
-                "label": "Layout",
-                "type": "select",
-                "propName": "layout",
                 "className": "col-md-6",
-                "dataOptions": [],
-                "isMultiple": false,
+                "invisible": false,
+                "useWidthPercentages": false,
+                "widthPercentages": null
+              },
+              {
+                "name": "control_8275c6a0-4ac7-11f1-a3c6-cbfab7197d17",
+                "fieldName": "control_8275c6a0-4ac7-11f1-a3c6-cbfab7197d17",
+                "label": "Price",
+                "type": "number",
+                "propName": "price",
+                "className": "col-md-6",
+                "decimalPlace": 0,
+                "numeralFormat": "",
+                "numberRightAligned": false,
                 "gridId": "store",
-                "displayName": "Layout",
-                "propertyName": "layout",
-                "invisible": true
+                "displayName": "Price",
+                "propertyName": "price",
+                "numberHighlight": [],
+                "percentageFormat": false
+              },
+              {
+                "name": "control_66e77e40-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_66e77e40-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Store ID",
+                "type": "lookup",
+                "propName": "storeID",
+                "className": "col-md-6",
+                "gridId": "store",
+                "displayName": "Store ID",
+                "propertyName": "storeID",
+                "lookUpTable": "storeIDs",
+                "ableToAddLookUpVal": true
+              },
+              {
+                "name": "control_db95d5b0-4ed0-11f1-8f8a-5f3506951f4f",
+                "fieldName": "control_db95d5b0-4ed0-11f1-8f8a-5f3506951f4f",
+                "label": "Label",
+                "type": "text",
+                "propName": "label",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "store",
+                "displayName": "Label",
+                "propertyName": "label"
+              },
+              {
+                "name": "control_51669ff0-6a64-11f1-984e-ab78ee131d91",
+                "fieldName": "control_51669ff0-6a64-11f1-984e-ab78ee131d91",
+                "label": "Delete",
+                "type": "custom",
+                "propName": "delete",
+                "className": "col-md-6",
+                "customCode": "<b-button variant=\"danger\" @click=\"deleteRecordUsingFirebaseAPI(rowData.rowKey)\">Delete</b-button>",
+                "gridId": "store",
+                "displayName": "Delete",
+                "propertyName": "delete",
+                "decimalPlace": null
               }
             ]
           }
@@ -100,7 +150,50 @@
         "rows": [
           {
             "name": "hidden_section_200f0ac0-035b-11f1-91b2-7362d3095c7a_row_200f0ac1-035b-11f1-91b2-7362d3095c7a",
-            "controls": []
+            "controls": [
+              {
+                "name": "control_20525550-035b-11f1-91b2-7362d3095c7a",
+                "fieldName": "control_20525550-035b-11f1-91b2-7362d3095c7a",
+                "label": "Layout",
+                "type": "select",
+                "propName": "layout",
+                "className": "col-md-6",
+                "dataOptions": [
+                  {
+                    "id": "",
+                    "text": ""
+                  }
+                ],
+                "isMultiple": false,
+                "gridId": "store",
+                "displayName": "Layout",
+                "propertyName": "layout",
+                "invisible": true,
+                "decimalPlace": null
+              },
+              {
+                "name": "control_5cc3a310-02b4-11f1-99ba-97952a0bb372_",
+                "fieldName": "control_5cc3a310-02b4-11f1-99ba-97952a0bb372_",
+                "label": "State",
+                "type": "text",
+                "propName": "state",
+                "className": "col-md-4",
+                "invisible": true,
+                "gridId": "store",
+                "decimalPlace": null
+              },
+              {
+                "name": "control_5cc3a311-02b4-11f1-99ba-97952a0bb372_",
+                "fieldName": "control_5cc3a311-02b4-11f1-99ba-97952a0bb372_",
+                "label": "Next Events",
+                "type": "text",
+                "propName": "nextEvents",
+                "className": "col-md-4",
+                "invisible": true,
+                "gridId": "store",
+                "decimalPlace": null
+              }
+            ]
           }
         ]
       }
@@ -109,5 +202,28 @@
   },
   "source": "store",
   "storageType": "dashboard",
-  "title": "Store"
+  "title": "Store",
+  "usePostgeSQLIndexing": true,
+  "views": {
+    "default": {
+      "nestedDataGrid": "",
+      "nestedDataGridCondition": "",
+      "nestedDataGridToggleText": "",
+      "recordCustomCode": "",
+      "recordCustomCodeCondition": "",
+      "rowStyleCode": "",
+      "sheetGridGroupBy": "",
+      "sheetGridInternalView": "grid",
+      "sheetGridPivotGrandTotals": true,
+      "sheetGridPivotHeatmap": true,
+      "sheetGridPivotLayout": "tabular",
+      "sheetGridPivotTopN": 0,
+      "sheetGridTimelineColorBy": "",
+      "sheetGridTimelineDateCol": "",
+      "sheetGridTimelineDurationField": "",
+      "sheetGridTimelineGroupBy": "",
+      "sheetGridTimelineLabelBy": "",
+      "title": "Default"
+    }
+  }
 }

@@ -1,0 +1,223 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "createdDate": {
+      "displayName": "Created Date",
+      "invisible": true,
+      "order": 3,
+      "type": "date"
+    },
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "invisible": true,
+      "order": 7,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "displayName": "Last edited by",
+      "invisible": true,
+      "order": 6,
+      "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "invisible": true,
+      "order": 1,
+      "type": "select"
+    },
+    "name": {
+      "displayName": "Name",
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "invisible": true,
+      "order": 5,
+      "type": "string"
+    },
+    "owner": {
+      "displayName": "Owner",
+      "invisible": true,
+      "order": 2,
+      "type": "user"
+    },
+    "state": {
+      "displayName": "State",
+      "invisible": true,
+      "order": 4,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_300570",
+        "label": "",
+        "clientKey": "section_300570",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_300570_row_428244",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "name": "control_477e6aa0-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_477e6aa0-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Name",
+                "type": "text",
+                "propName": "name",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "storeIDs",
+                "displayName": "Name",
+                "propertyName": "name"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "clientKey": "hidden_section_477e4390-4ecf-11f1-a3f1-c31ecce33e34",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_477e4390-4ecf-11f1-a3f1-c31ecce33e34",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_477e4390-4ecf-11f1-a3f1-c31ecce33e34_row_477e4391-4ecf-11f1-a3f1-c31ecce33e34",
+            "controls": [
+              {
+                "name": "control_47c33bd0-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_47c33bd0-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Layout",
+                "type": "select",
+                "propName": "layout",
+                "className": "col-md-6",
+                "dataOptions": [],
+                "isMultiple": false,
+                "gridId": "storeIDs",
+                "displayName": "Layout",
+                "propertyName": "layout",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_48088230-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_48088230-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Owner",
+                "type": "user",
+                "propName": "owner",
+                "className": "col-md-6",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "gridId": "storeIDs",
+                "displayName": "Owner",
+                "propertyName": "owner",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_484d0540-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_484d0540-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Created Date",
+                "type": "datepicker",
+                "propName": "createdDate",
+                "className": "col-md-6",
+                "gridId": "storeIDs",
+                "displayName": "Created Date",
+                "propertyName": "createdDate",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "isTodayValueCreated": true,
+                "isTodayValue": true
+              },
+              {
+                "name": "control_48911320-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_48911320-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "State",
+                "type": "text",
+                "propName": "state",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "storeIDs",
+                "displayName": "State",
+                "propertyName": "state",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_48d54810-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_48d54810-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Next Events",
+                "type": "text",
+                "propName": "nextEvents",
+                "className": "col-md-6",
+                "numeralFormat": "",
+                "decimalPlace": 2,
+                "numberRightAligned": false,
+                "isMarkdownLink": false,
+                "gridId": "storeIDs",
+                "displayName": "Next Events",
+                "propertyName": "nextEvents",
+                "invisible": true,
+                "saveToHiddenSection": true
+              },
+              {
+                "name": "control_491a1940-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_491a1940-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Last edited by",
+                "type": "user",
+                "propName": "lastEditedBy",
+                "className": "col-md-6",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "gridId": "storeIDs",
+                "displayName": "Last edited by",
+                "propertyName": "lastEditedBy",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "readonly": true
+              },
+              {
+                "name": "control_495f1180-4ecf-11f1-a3f1-c31ecce33e34",
+                "fieldName": "control_495f1180-4ecf-11f1-a3f1-c31ecce33e34",
+                "label": "Last edit date",
+                "type": "datepicker",
+                "propName": "lastEditDate",
+                "className": "col-md-6",
+                "gridId": "storeIDs",
+                "displayName": "Last edit date",
+                "propertyName": "lastEditDate",
+                "invisible": true,
+                "saveToHiddenSection": true,
+                "isTodayValueCreated": true,
+                "isTodayValue": true,
+                "readonly": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "collapse"
+  },
+  "source": "storeIDs",
+  "storageType": "dashboard",
+  "title": "Store IDs"
+}

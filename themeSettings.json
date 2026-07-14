@@ -1,9 +1,14 @@
 {
   "cardBackgroundColor": "white",
-  "cardOutlineTheme": "boxShadow",
+  "cardOutlineTheme": "border",
   "dataGridTheme": "white",
+  "helix": {
+    "actionAccent": "cyan",
+    "leftNavStyle": "light"
+  },
   "leftNavBarTheme": "none",
   "mainBackgroundColor": "white",
   "navBarTheme": "light",
-  "navPlacement": "sidebar"
+  "navPlacement": "sidebar",
+  "uiTheme": "modern"
 }

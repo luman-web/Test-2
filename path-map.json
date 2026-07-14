@@ -44,6 +44,16 @@
     "savePath": "components/u-wallet-card/code"
   },
   {
+    "filePath": "customCode/js/my-script.js",
+    "savePath": "customCode/js/-Os6_MtRPTMOEnaag2VL/code",
+    "customCodeName": "my-script"
+  },
+  {
+    "filePath": "customCode/js/on-comment-handler.js",
+    "savePath": "customCode/js/-OvPdFX7eon40ocd01U7/code",
+    "customCodeName": "on-comment-handler"
+  },
+  {
     "filePath": "settings.json",
     "savePath": "settings"
   },
@@ -122,6 +132,14 @@
   {
     "filePath": "pages/-OkikAxsqyjndeIjm-Xt.json",
     "savePath": "tabs/-OkikAxsqyjndeIjm-Xt"
+  },
+  {
+    "filePath": "pages/-Or_DjNa2Lp0cp5356j9.json",
+    "savePath": "tabs/-Or_DjNa2Lp0cp5356j9"
+  },
+  {
+    "filePath": "pages/-OsWVzaEJKJ91ncN1rIJ.json",
+    "savePath": "tabs/-OsWVzaEJKJ91ncN1rIJ"
   },
   {
     "filePath": "themeSettings.json",
@@ -248,12 +266,24 @@
     "savePath": "widgets/-OmFsGyeHUPk5K6kZKI4/template"
   },
   {
+    "filePath": "widgets/-Or_DjQpLh1hV1T0CPAz/widget.json",
+    "savePath": "widgets/-Or_DjQpLh1hV1T0CPAz"
+  },
+  {
+    "filePath": "widgets/-OsWVzdIwtOSkw_ZpA5f/widget.json",
+    "savePath": "widgets/-OsWVzdIwtOSkw_ZpA5f"
+  },
+  {
     "filePath": "widgetsComputed/cities.json",
     "savePath": "widgetsComputed/cities"
   },
   {
     "filePath": "widgetsComputed/countries.json",
     "savePath": "widgetsComputed/countries"
+  },
+  {
+    "filePath": "widgetsComputed/deleteRecordUsingFirebaseAPI.js",
+    "savePath": "widgetsComputed/deleteRecordUsingFirebaseAPI"
   },
   {
     "filePath": "widgetsComputed/myOperation.js",
@@ -324,6 +354,11 @@
     "conversion": "dataGrid"
   },
   {
+    "filePath": "widgetsData/dataGrid/notifications.json",
+    "savePath": "widgetsData/dataGrid/notifications",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/orders.json",
     "savePath": "widgetsData/dataGrid/orders",
     "conversion": "dataGrid"
@@ -341,6 +376,11 @@
   {
     "filePath": "widgetsData/dataGrid/store.json",
     "savePath": "widgetsData/dataGrid/store",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/storeIDs.json",
+    "savePath": "widgetsData/dataGrid/storeIDs",
     "conversion": "dataGrid"
   },
   {
